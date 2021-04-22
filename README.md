@@ -16,4 +16,5 @@ Catalog Board Game adalah aplikasi yang dibuat untuk melakukan pendataan hasil p
 
 
 ## Penugasan
-![2021-04-22 (2)](https://user-images.githubusercontent.com/80021339/115614620-20d05980-a318-11eb-8c35-4f21d7ce98d8.png)
+![Penugasan2](https://user-images.githubusercontent.com/80021275/115653228-ff439200-a358-11eb-84f0-2a0cc069aea9.PNG)
+
