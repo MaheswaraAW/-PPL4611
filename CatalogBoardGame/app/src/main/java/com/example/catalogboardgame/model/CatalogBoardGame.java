@@ -1,65 +1,57 @@
 package com.example.catalogboardgame.model;
 
 public class CatalogBoardGame {
-    private String SNamaGame;
-    private String SKategori;
-    private String SGambarGame;
-    private Integer IJumlahPemain;
-    private String SDeskripsiGame;
+    private String NamaGame;
+    private String Kategori;
+    private String GambarGame;
+    private Integer JumlahPemain;
+    private String DeskripsiGame;
 
     public CatalogBoardGame(){
 
     }
 
-    public CatalogBoardGame(String SGambarGame){
-        this.SGambarGame=SGambarGame;
+    public CatalogBoardGame(String GambarGame){
+        this.GambarGame = GambarGame;
     }
 
-    public String getSGambarGame() {
-        return SGambarGame;
+    public String getGambarGame() {
+        return GambarGame;
     }
 
-    public void setSGambarGame(String SGambarGame) {
-        this.SGambarGame = SGambarGame;
+    public void setGambarGame(String gambarGame) {
+        this.GambarGame = gambarGame;
     }
 
-    public String getSNamaGame() {
-        return SNamaGame;
+    public String getNamaGame() {
+        return NamaGame;
     }
 
-    public void setSNamaGame(String SNamaGame) {
-        this.SNamaGame = SNamaGame;
+    public void setNamaGame(String namaGame) {
+        this.NamaGame = namaGame;
     }
 
-    public String getSKategori() {
-        return SKategori;
+    public String getKategori() {
+        return Kategori;
     }
 
-    public void setSKategori(String SKategori) {
-        this.SKategori = SKategori;
+    public void setKategori(String SKategori) {
+        this.Kategori = SKategori;
     }
 
-//    public Integer getIGambarGame() {
-//        return IGambarGame;
-//    }
-//
-//    public void setIGambarGame(Integer IGambarGame) {
-//        this.IGambarGame = IGambarGame;
-//    }
-
-    public Integer getIJumlahPemain() {
-        return IJumlahPemain;
+    public Integer getJumlahPemain() {
+        return JumlahPemain;
     }
 
-    public void setIJumlahPemain(Integer IJumlahPemain) {
-        this.IJumlahPemain = IJumlahPemain;
+    public void setJumlahPemain(Integer jumlahPemain) {
+        this.JumlahPemain = jumlahPemain;
     }
 
-    public String getSDeskripsiGame() {
-        return SDeskripsiGame;
+    public String getDeskripsiGame() {
+        return DeskripsiGame;
     }
 
-    public void setSDeskripsiGame(String SDeskripsiGame) {
-        this.SDeskripsiGame = SDeskripsiGame;
+    public void setDeskripsiGame(String deskripsiGame) {
+        this.DeskripsiGame = deskripsiGame;
     }
 }

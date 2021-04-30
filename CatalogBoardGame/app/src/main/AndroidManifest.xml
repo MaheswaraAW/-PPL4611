@@ -13,12 +13,27 @@
         <activity android:name=".DashboardAdmin.DashboardAdmin" />
         <activity android:name=".Sign.SignIn" />
         <activity android:name=".Sign.SignUp" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".TambahGameAdmin.tambah_game_admin">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity android:name=".DaftarGameClient.DaftarGameClientActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".BacaGameClient.BacaGameClient"></activity>
+        <activity android:name=".MainActivity">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
         </activity>
     </application>
 
