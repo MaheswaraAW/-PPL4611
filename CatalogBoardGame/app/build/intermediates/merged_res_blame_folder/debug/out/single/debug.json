@@ -100,6 +100,10 @@
         "source": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
     },
     {
+        "merged": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_leaderboard_add_history.xml.flat",
+        "source": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\drawable\\background_leaderboard_add_history.xml"
+    },
+    {
         "merged": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tambah_game_admin.xml.flat",
         "source": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\activity_tambah_game_admin.xml"
     },

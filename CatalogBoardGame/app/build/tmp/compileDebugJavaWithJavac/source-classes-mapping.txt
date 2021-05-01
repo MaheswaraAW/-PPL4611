@@ -1,13 +1,6 @@
-com/example/catalogboardgame/TambahGameAdmin/tambah_game_admin.java
- com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin
- com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$1
- com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$2
- com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$2$1
- com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$2$2
- com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$3
- com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$4
- com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$5
- com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$5$1
+com/example/catalogboardgame/DaftarGameClient/DaftarGameClientActivity.java
+ com.example.catalogboardgame.DaftarGameClient.DaftarGameClientActivity
+ com.example.catalogboardgame.DaftarGameClient.DaftarGameClientActivity$1
 com/example/catalogboardgame/Sign/SignUp.java
  com.example.catalogboardgame.Sign.SignUp
 com/example/catalogboardgame/BuildConfig.java
@@ -35,6 +28,13 @@ com/example/catalogboardgame/model/CatalogBoardGame.java
  com.example.catalogboardgame.model.CatalogBoardGame
 com/example/catalogboardgame/BacaGameClient/BacaGameClient.java
  com.example.catalogboardgame.BacaGameClient.BacaGameClient
-com/example/catalogboardgame/DaftarGameClient/DaftarGameClientActivity.java
- com.example.catalogboardgame.DaftarGameClient.DaftarGameClientActivity
- com.example.catalogboardgame.DaftarGameClient.DaftarGameClientActivity$1
+com/example/catalogboardgame/TambahGameAdmin/tambah_game_admin.java
+ com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin
+ com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$1
+ com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$2
+ com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$2$1
+ com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$2$2
+ com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$3
+ com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$4
+ com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$5
+ com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$5$1
