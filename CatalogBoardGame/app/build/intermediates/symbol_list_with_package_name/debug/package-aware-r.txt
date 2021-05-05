@@ -552,6 +552,8 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color black
+color blue
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -564,6 +566,8 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color colorAbu
+color colorAbu2
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
@@ -578,10 +582,14 @@ color common_google_signin_btn_text_light_disabled
 color common_google_signin_btn_text_light_focused
 color common_google_signin_btn_text_light_pressed
 color common_google_signin_btn_tint
+color dhss
+color dhss2
 color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
+color entry
+color entry2
 color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
@@ -622,8 +630,11 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
+color teal_200
+color teal_700
 color tooltip_background_dark
 color tooltip_background_light
+color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -837,6 +848,7 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable background_leaderboard_add_history
+drawable border
 drawable border_kategori
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -846,6 +858,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable bundar
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -885,7 +898,9 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
 id CTRL
+id Daftargameadmin
 id FUNCTION
+id Historyadmin
 id META
 id NO_DEBUG
 id SHIFT
@@ -985,6 +1000,7 @@ id cos
 id custom
 id customPanel
 id dark
+id dashb
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
@@ -1160,6 +1176,7 @@ id unchecked
 id uniform
 id up
 id useLogo
+id useradmins
 id visible
 id wide
 id withText
@@ -1208,6 +1225,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_baca_game_client
 layout activity_daftar_game_client
+layout activity_dashboard_adm
 layout activity_dashboard_admin
 layout activity_dashboard_user
 layout activity_main

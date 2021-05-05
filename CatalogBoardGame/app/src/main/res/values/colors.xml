@@ -3,4 +3,15 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="teal_200">#3BA2F1</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#0029FF</color>
+    <color name="dhss">#2197f4</color>
+    <color name="dhss2">#e22166</color>
+    <color name="colorAbu">#ebebeb</color>
+    <color name="colorAbu2">#ffffff</color>
+    <color name="entry">#2b3d8e</color>
+    <color name="entry2">#2197f4</color>
 </resources>
