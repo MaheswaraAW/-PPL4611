@@ -848,6 +848,7 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable background_leaderboard_add_history
+drawable bb
 drawable border
 drawable border_kategori
 drawable btn_checkbox_checked_mtrl
@@ -878,6 +879,9 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable fa
+drawable fb
+drawable fc
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_launcher_background
@@ -898,9 +902,7 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
 id CTRL
-id Daftargameadmin
 id FUNCTION
-id Historyadmin
 id META
 id NO_DEBUG
 id SHIFT
@@ -1000,7 +1002,6 @@ id cos
 id custom
 id customPanel
 id dark
-id dashb
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
@@ -1176,7 +1177,6 @@ id unchecked
 id uniform
 id up
 id useLogo
-id useradmins
 id visible
 id wide
 id withText
@@ -1225,9 +1225,8 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_baca_game_client
 layout activity_daftar_game_client
-layout activity_dashboard_adm
-layout activity_dashboard_admin
 layout activity_dashboard_user
+layout activity_db_admin
 layout activity_main
 layout activity_sign_in
 layout activity_sign_up

@@ -25,7 +25,13 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.catalogboardgame.user.DashboardUser" />
+        <activity android:name="com.example.catalogboardgame.DashboardAdmin.dbAdmin" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.example.catalogboardgame.Sign.SignIn" />
         <activity android:name="com.example.catalogboardgame.Sign.SignUp" />
         <activity android:name="com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin" >
@@ -54,14 +60,7 @@
             <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
             <!-- </intent-filter> -->
         </activity>
-        <activity android:name="com.example.catalogboardgame.DashboardAdmin.DashboardAdmin" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name="com.example.catalogboardgame.DashboardAdm" >
+        <activity android:name="com.example.catalogboardgame.user.DashboardUser" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
