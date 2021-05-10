@@ -1001,6 +1001,7 @@ id contentPanel
 id cos
 id custom
 id customPanel
+id daftar
 id dark
 id decelerate
 id decelerateAndComplete
@@ -1025,6 +1026,8 @@ id easeInOut
 id easeOut
 id edit_query
 id email
+id emailusaer
+id emailuser
 id end
 id expand_activities_button
 id expanded_menu
@@ -1077,6 +1080,8 @@ id line3
 id linear
 id listMode
 id list_item
+id logs
+id masuk
 id message
 id middle
 id motion_base
@@ -1094,6 +1099,8 @@ id parent
 id parentPanel
 id parentRelative
 id password
+id passwordusear
+id passworduser
 id path
 id pathRelative
 id percent
@@ -1105,15 +1112,24 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id regemailuser
+id regis
+id regnamauser
+id regpassworduser
 id reverseSawtooth
 id right
 id right_icon
 id right_side
+id s
+id sa
+id sad
+id sas
 id sawtooth
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id sd
 id search_badge
 id search_bar
 id search_button
@@ -1141,6 +1157,7 @@ id square
 id src_atop
 id src_in
 id src_over
+id ss
 id standard
 id start
 id startHorizontal
@@ -1163,6 +1180,8 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
+id textiew
 id time
 id title
 id titleDividerNoCustom
@@ -1228,6 +1247,8 @@ layout activity_daftar_game_client
 layout activity_dashboard_user
 layout activity_db_admin
 layout activity_main
+layout activity_masuk
+layout activity_sign
 layout activity_sign_in
 layout activity_sign_up
 layout activity_tambah_game_admin

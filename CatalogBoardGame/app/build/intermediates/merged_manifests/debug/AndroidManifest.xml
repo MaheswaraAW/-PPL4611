@@ -8,10 +8,11 @@
         android:minSdkVersion="19"
         android:targetSdkVersion="30" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
     <!-- <uses-sdk android:minSdkVersion="14"/> -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 
@@ -25,6 +26,27 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.catalogboardgame.Sign.Masuk" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.catalogboardgame.Sign.Sign" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.catalogboardgame.Sign.SignUp" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.example.catalogboardgame.DashboardAdmin.dbAdmin" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,8 +54,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.catalogboardgame.Sign.SignIn" />
-        <activity android:name="com.example.catalogboardgame.Sign.SignUp" />
+        <activity android:name="com.example.catalogboardgame.Sign.SignIn" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin" >
 
             <!-- <intent-filter> -->
