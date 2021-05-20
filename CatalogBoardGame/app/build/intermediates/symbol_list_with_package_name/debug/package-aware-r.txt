@@ -1110,6 +1110,10 @@ id right
 id right_icon
 id right_side
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+id s
+>>>>>>> parent of 24a7708 (a)
 id sa
 id sad
 id sas

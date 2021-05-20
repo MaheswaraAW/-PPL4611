@@ -13,41 +13,47 @@
         tools:ignore="MissingClass">
 <<<<<<< HEAD
         <activity android:name=".Sign.Masuk">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
         <activity android:name=".Sign.Sign">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".Sign.SignUp">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 =======
 >>>>>>> parent of 5fcd3f7 (log in sign up masih belum pake firebase authentification)
         <activity android:name=".DashboardAdmin.dbAdmin">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
+=======
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+>>>>>>> parent of 24a7708 (a)
         </activity>
         <activity android:name=".Sign.SignIn">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+<<<<<<< HEAD
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
 =======
@@ -55,6 +61,10 @@
             </intent-filter>
 
 >>>>>>> parent of 5fcd3f7 (log in sign up masih belum pake firebase authentification)
+=======
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+>>>>>>> parent of 24a7708 (a)
         </activity>
         <activity android:name=".Sign.SignIn" />
         <activity android:name=".Sign.SignUp" />
@@ -74,13 +84,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BacaGameClient.BacaGameClient">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".BacaGameClient.BacaGameClient" />
         <activity android:name=".MainActivity">
 
             <!-- <intent-filter> -->
@@ -91,11 +95,11 @@
             <!-- </intent-filter> -->
         </activity>
         <activity android:name=".user.DashboardUser">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 
