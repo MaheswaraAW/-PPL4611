@@ -26,19 +26,6 @@ com/example/catalogboardgame/DaftarGameClient/Model/CKategori.java
 com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientAdapter.java
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapter
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapter$DaftarGameClientViewHolder
-com/example/catalogboardgame/Sign/Masuk.java
- com.example.catalogboardgame.Sign.Masuk
- com.example.catalogboardgame.Sign.Masuk$1
- com.example.catalogboardgame.Sign.Masuk$1$1
-com/example/catalogboardgame/Sign/SignIn.java
- com.example.catalogboardgame.Sign.SignIn
- com.example.catalogboardgame.Sign.SignIn$1
-com/example/catalogboardgame/model/CatalogBoardGame.java
- com.example.catalogboardgame.model.CatalogBoardGame
-com/example/catalogboardgame/BacaGameClient/BacaGameClient.java
- com.example.catalogboardgame.BacaGameClient.BacaGameClient
-com/example/catalogboardgame/DashboardAdmin/dbAdmin.java
- com.example.catalogboardgame.DashboardAdmin.dbAdmin
 com/example/catalogboardgame/TambahGameAdmin/tambah_game_admin.java
  com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin
  com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$1
@@ -49,3 +36,16 @@ com/example/catalogboardgame/TambahGameAdmin/tambah_game_admin.java
  com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$4
  com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$5
  com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$5$1
+com/example/catalogboardgame/Sign/SignIn.java
+ com.example.catalogboardgame.Sign.SignIn
+ com.example.catalogboardgame.Sign.SignIn$1
+com/example/catalogboardgame/model/CatalogBoardGame.java
+ com.example.catalogboardgame.model.CatalogBoardGame
+com/example/catalogboardgame/BacaGameClient/BacaGameClient.java
+ com.example.catalogboardgame.BacaGameClient.BacaGameClient
+com/example/catalogboardgame/DashboardAdmin/dbAdmin.java
+ com.example.catalogboardgame.DashboardAdmin.dbAdmin
+com/example/catalogboardgame/Sign/Masuk.java
+ com.example.catalogboardgame.Sign.Masuk
+ com.example.catalogboardgame.Sign.Masuk$1
+ com.example.catalogboardgame.Sign.Masuk$1$1
