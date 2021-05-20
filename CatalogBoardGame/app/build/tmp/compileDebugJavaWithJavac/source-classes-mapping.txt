@@ -21,9 +21,12 @@ com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientAdapter.ja
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapter
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapter$DaftarGameClientViewHolder
 <<<<<<< HEAD
+<<<<<<< HEAD
 com/example/catalogboardgame/Sign/SignIn.java
  com.example.catalogboardgame.Sign.SignIn
 =======
+=======
+>>>>>>> parent of d486b05 (masih ada trouble di log in, ke direct dashboard admin terus)
 com/example/catalogboardgame/Sign/Masuk.java
  com.example.catalogboardgame.Sign.Masuk
  com.example.catalogboardgame.Sign.Masuk$1
@@ -31,12 +34,20 @@ com/example/catalogboardgame/Sign/Masuk.java
 com/example/catalogboardgame/Sign/SignIn.java
  com.example.catalogboardgame.Sign.SignIn
  com.example.catalogboardgame.Sign.SignIn$1
+<<<<<<< HEAD
+>>>>>>> parent of d486b05 (masih ada trouble di log in, ke direct dashboard admin terus)
+=======
 >>>>>>> parent of d486b05 (masih ada trouble di log in, ke direct dashboard admin terus)
 com/example/catalogboardgame/model/CatalogBoardGame.java
  com.example.catalogboardgame.model.CatalogBoardGame
 com/example/catalogboardgame/BacaGameClient/BacaGameClient.java
  com.example.catalogboardgame.BacaGameClient.BacaGameClient
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+com/example/catalogboardgame/DashboardAdmin/dbAdmin.java
+ com.example.catalogboardgame.DashboardAdmin.dbAdmin
+>>>>>>> parent of d486b05 (masih ada trouble di log in, ke direct dashboard admin terus)
 =======
 com/example/catalogboardgame/DashboardAdmin/dbAdmin.java
  com.example.catalogboardgame.DashboardAdmin.dbAdmin
@@ -52,7 +63,10 @@ com/example/catalogboardgame/TambahGameAdmin/tambah_game_admin.java
  com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$5
  com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$5$1
 <<<<<<< HEAD
+<<<<<<< HEAD
 com/example/catalogboardgame/DashboardAdmin/dbAdmin.java
  com.example.catalogboardgame.DashboardAdmin.dbAdmin
+=======
+>>>>>>> parent of d486b05 (masih ada trouble di log in, ke direct dashboard admin terus)
 =======
 >>>>>>> parent of d486b05 (masih ada trouble di log in, ke direct dashboard admin terus)
