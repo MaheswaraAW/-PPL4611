@@ -1120,7 +1120,6 @@ id reverseSawtooth
 id right
 id right_icon
 id right_side
-id s
 id sa
 id sad
 id sas
