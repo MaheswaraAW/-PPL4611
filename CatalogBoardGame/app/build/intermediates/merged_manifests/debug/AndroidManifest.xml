@@ -8,11 +8,10 @@
         android:minSdkVersion="19"
         android:targetSdkVersion="30" />
 
-    <uses-permission android:name="android.permission.INTERNET" />
-
     <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
     <!-- <uses-sdk android:minSdkVersion="14"/> -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 
@@ -26,6 +25,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+<<<<<<< HEAD
         <activity android:name="com.example.catalogboardgame.Sign.Masuk" >
 
             <!-- <intent-filter> -->
@@ -54,6 +54,8 @@
             <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
             <!-- </intent-filter> -->
         </activity>
+=======
+>>>>>>> parent of 5fcd3f7 (log in sign up masih belum pake firebase authentification)
         <activity android:name="com.example.catalogboardgame.DashboardAdmin.dbAdmin" >
 
             <!-- <intent-filter> -->
@@ -63,6 +65,7 @@
             <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
             <!-- </intent-filter> -->
         </activity>
+<<<<<<< HEAD
         <activity android:name="com.example.catalogboardgame.Sign.SignIn" >
 
             <!-- <intent-filter> -->
@@ -72,6 +75,10 @@
             <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
             <!-- </intent-filter> -->
         </activity>
+=======
+        <activity android:name="com.example.catalogboardgame.Sign.SignIn" />
+        <activity android:name="com.example.catalogboardgame.Sign.SignUp" />
+>>>>>>> parent of 5fcd3f7 (log in sign up masih belum pake firebase authentification)
         <activity android:name="com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin" >
 
             <!-- <intent-filter> -->

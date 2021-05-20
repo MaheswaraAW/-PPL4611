@@ -1,87 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bb"
-    android:orientation="vertical"
     tools:context=".Sign.SignUp">
 
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="85dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="4dp"
-        android:text="Register"
-        android:textColor="@color/white"
-        android:textSize="20dp"
-        android:textStyle="bold"
-         />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:orientation="vertical"
-        android:layout_height="wrap_content">
-    <EditText
-        android:id="@+id/regnamauser"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="184dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginEnd="60dp"
-
-        android:hint="Nama"
-        android:inputType="textPersonName"
-        android:textSize="14dp"
-         />
-
-    <EditText
-        android:id="@+id/regemailuser"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginEnd="60dp"
-        android:hint="E-Mail"
-        android:inputType="textEmailAddress"
-        android:textSize="14dp" />
-
-    <EditText
-        android:id="@+id/regpassworduser"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginTop="29dp"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:textSize="14dp" />
-    </LinearLayout>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/sa"
-        />
-    <Button
-        android:id="@+id/regis"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Register"
-         />
-
-    <Button
-        android:id="@+id/logs"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Login"
-         />
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -119,7 +119,10 @@
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
                     </GridLayout>
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 5fcd3f7 (log in sign up masih belum pake firebase authentification)
         </LinearLayout>
 
     </ScrollView>

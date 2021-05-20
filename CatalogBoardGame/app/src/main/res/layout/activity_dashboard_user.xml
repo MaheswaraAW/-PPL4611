@@ -5,9 +5,5 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".user.DashboardUser">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="sadsadasd"
-            tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
