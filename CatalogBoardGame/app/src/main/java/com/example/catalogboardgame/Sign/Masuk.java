@@ -68,23 +68,23 @@ public class Masuk extends AppCompatActivity {
                                     if(Akn.getManag().equals("1")){
                                         Toast.makeText(Masuk.this, "1", Toast.LENGTH_LONG).show();
 
-                                        Intent a=new Intent(Masuk.this, dbAdmin.class);
-                                        startActivity(a);
+//                                        Intent intent=new Intent(Masuk.this, dbAdmin.class);
+//                                        startActivity(intent);
                                     }
-                                    else if (Akn.getManag().equals("0")){
-                                        Intent intents=new Intent(Masuk.this, DashboardUser.class);
-                                        startActivity(intents);
+                                    else if (Akn.getManag().equals(input3)){
+//                                        Intent intents=new Intent(Masuk.this, DashboardUser.class);
+//                                        startActivity(intents);
                                         Toast.makeText(Masuk.this, "2", Toast.LENGTH_LONG).show();
 
                                     }
 
                                 }else
                                 {
-                                    Toast.makeText(Masuk.this, "Password salah", Toast.LENGTH_LONG).show();
+                                    Toast.makeText(Masuk.this, "Password is wrong", Toast.LENGTH_LONG).show();
                                 }
                             }
                         }else {
-                            Toast.makeText(Masuk.this, "Masukkan Username", Toast.LENGTH_LONG).show();
+                            Toast.makeText(Masuk.this, "User unk", Toast.LENGTH_LONG).show();
 
                         }
                     }
