@@ -1,60 +1,53 @@
-com/example/catalogboardgame/DaftarGameClient/DaftarGameClientActivity.java
- com.example.catalogboardgame.DaftarGameClient.DaftarGameClientActivity
- com.example.catalogboardgame.DaftarGameClient.DaftarGameClientActivity$1
-com/example/catalogboardgame/Sign/SignUp.java
- com.example.catalogboardgame.Sign.SignUp
 com/example/catalogboardgame/BuildConfig.java
  com.example.catalogboardgame.BuildConfig
+com/example/catalogboardgame/DashboardAdmin/DashAdmin.java
+ com.example.catalogboardgame.DashboardAdmin.DashAdmin
+com/example/catalogboardgame/model/akn.java
+ com.example.catalogboardgame.model.akn
+com/example/catalogboardgame/Export.java
+ com.example.catalogboardgame.Export
+com/example/catalogboardgame/TambahGameAdmin/TbhGame.java
+ com.example.catalogboardgame.TambahGameAdmin.TbhGame
+ com.example.catalogboardgame.TambahGameAdmin.TbhGame$1
+ com.example.catalogboardgame.TambahGameAdmin.TbhGame$2
+ com.example.catalogboardgame.TambahGameAdmin.TbhGame$2$1
+ com.example.catalogboardgame.TambahGameAdmin.TbhGame$2$2
+ com.example.catalogboardgame.TambahGameAdmin.TbhGame$3
+ com.example.catalogboardgame.TambahGameAdmin.TbhGame$4
+ com.example.catalogboardgame.TambahGameAdmin.TbhGame$5
+ com.example.catalogboardgame.TambahGameAdmin.TbhGame$5$1
+com/example/catalogboardgame/BacaGameAdmin.java
+ com.example.catalogboardgame.BacaGameAdmin
 com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientGambarGameRecyclerAdapter.java
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdapter
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdapter$1
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdapter$DaftarGameClientGambarGameViewHolder
+com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientAdapters.java
+ com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapters
+ com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapters$DaftarGameClientViewHolder
 com/example/catalogboardgame/model/Akun.java
  com.example.catalogboardgame.model.Akun
-com/example/catalogboardgame/MainActivity.java
- com.example.catalogboardgame.MainActivity
-com/example/catalogboardgame/user/DashboardUser.java
- com.example.catalogboardgame.user.DashboardUser
-com/example/catalogboardgame/DaftarGameClient/Model/CKategori.java
- com.example.catalogboardgame.DaftarGameClient.Model.CKategori
-com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientAdapter.java
- com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapter
- com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapter$DaftarGameClientViewHolder
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-com/example/catalogboardgame/Sign/SignIn.java
- com.example.catalogboardgame.Sign.SignIn
-=======
-=======
->>>>>>> parent of d486b05 (masih ada trouble di log in, ke direct dashboard admin terus)
-com/example/catalogboardgame/Sign/Masuk.java
- com.example.catalogboardgame.Sign.Masuk
- com.example.catalogboardgame.Sign.Masuk$1
- com.example.catalogboardgame.Sign.Masuk$1$1
-com/example/catalogboardgame/Sign/SignIn.java
- com.example.catalogboardgame.Sign.SignIn
- com.example.catalogboardgame.Sign.SignIn$1
-<<<<<<< HEAD
->>>>>>> parent of d486b05 (masih ada trouble di log in, ke direct dashboard admin terus)
-=======
->>>>>>> parent of d486b05 (masih ada trouble di log in, ke direct dashboard admin terus)
 com/example/catalogboardgame/model/CatalogBoardGame.java
  com.example.catalogboardgame.model.CatalogBoardGame
+com/example/catalogboardgame/Sign/Daftar.java
+ com.example.catalogboardgame.Sign.Daftar
+ com.example.catalogboardgame.Sign.Daftar$1
+ com.example.catalogboardgame.Sign.Daftar$2
+com/example/catalogboardgame/DaftarGameClient/DaftarGameCLientActiviti.java
+ com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActiviti
+ com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActiviti$1
+com/example/catalogboardgame/DaftarGameClient/DaftarGameCLientActivitiAdm.java
+ com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActivitiAdm
+ com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActivitiAdm$1
 com/example/catalogboardgame/BacaGameClient/BacaGameClient.java
  com.example.catalogboardgame.BacaGameClient.BacaGameClient
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 com/example/catalogboardgame/DashboardAdmin/dbAdmin.java
  com.example.catalogboardgame.DashboardAdmin.dbAdmin
->>>>>>> parent of d486b05 (masih ada trouble di log in, ke direct dashboard admin terus)
-=======
-com/example/catalogboardgame/DashboardAdmin/dbAdmin.java
- com.example.catalogboardgame.DashboardAdmin.dbAdmin
->>>>>>> parent of d486b05 (masih ada trouble di log in, ke direct dashboard admin terus)
-=======
->>>>>>> parent of 24a7708 (a)
+com/example/catalogboardgame/Sign/Login.java
+ com.example.catalogboardgame.Sign.Login
+ com.example.catalogboardgame.Sign.Login$1
+ com.example.catalogboardgame.Sign.Login$1$1
+ com.example.catalogboardgame.Sign.Login$2
 com/example/catalogboardgame/TambahGameAdmin/tambah_game_admin.java
  com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin
  com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$1
@@ -65,27 +58,36 @@ com/example/catalogboardgame/TambahGameAdmin/tambah_game_admin.java
  com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$4
  com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$5
  com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin$5$1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-com/example/catalogboardgame/DashboardAdmin/dbAdmin.java
- com.example.catalogboardgame.DashboardAdmin.dbAdmin
-=======
->>>>>>> parent of d486b05 (masih ada trouble di log in, ke direct dashboard admin terus)
-=======
->>>>>>> parent of d486b05 (masih ada trouble di log in, ke direct dashboard admin terus)
-=======
-com/example/catalogboardgame/Sign/SignIn.java
- com.example.catalogboardgame.Sign.SignIn
- com.example.catalogboardgame.Sign.SignIn$1
-com/example/catalogboardgame/model/CatalogBoardGame.java
- com.example.catalogboardgame.model.CatalogBoardGame
-com/example/catalogboardgame/BacaGameClient/BacaGameClient.java
- com.example.catalogboardgame.BacaGameClient.BacaGameClient
-com/example/catalogboardgame/DashboardAdmin/dbAdmin.java
- com.example.catalogboardgame.DashboardAdmin.dbAdmin
-com/example/catalogboardgame/Sign/Masuk.java
- com.example.catalogboardgame.Sign.Masuk
- com.example.catalogboardgame.Sign.Masuk$1
- com.example.catalogboardgame.Sign.Masuk$1$1
->>>>>>> parent of 24a7708 (a)
+com/example/catalogboardgame/DaftarGameClient/DaftarGameClientActivity.java
+ com.example.catalogboardgame.DaftarGameClient.DaftarGameClientActivity
+ com.example.catalogboardgame.DaftarGameClient.DaftarGameClientActivity$1
+com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientGambarGameRecyclerAdaptersAdm.java
+ com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdaptersAdm
+ com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdaptersAdm$1
+ com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdaptersAdm$DaftarGameClientGambarGameViewHolder
+com/example/catalogboardgame/BacaGameClient/BacaGameAdm.java
+ com.example.catalogboardgame.BacaGameClient.BacaGameAdm
+ com.example.catalogboardgame.BacaGameClient.BacaGameAdm$1
+com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientGambarGameRecyclerAdapters.java
+ com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdapters
+ com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdapters$1
+ com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdapters$DaftarGameClientGambarGameViewHolder
+com/example/catalogboardgame/LeaderboardUser.java
+ com.example.catalogboardgame.LeaderboardUser
+com/example/catalogboardgame/MainActivity.java
+ com.example.catalogboardgame.MainActivity
+com/example/catalogboardgame/user/DashboardUser.java
+ com.example.catalogboardgame.user.DashboardUser
+com/example/catalogboardgame/BacaGameClient/BacaGameClients.java
+ com.example.catalogboardgame.BacaGameClient.BacaGameClients
+ com.example.catalogboardgame.BacaGameClient.BacaGameClients$1
+com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientAdaptersAdm.java
+ com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdaptersAdm
+ com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdaptersAdm$DaftarGameClientViewHolder
+com/example/catalogboardgame/DaftarGameClient/Model/CKategori.java
+ com.example.catalogboardgame.DaftarGameClient.Model.CKategori
+com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientAdapter.java
+ com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapter
+ com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapter$DaftarGameClientViewHolder
+com/example/catalogboardgame/user/DashUser.java
+ com.example.catalogboardgame.user.DashUser

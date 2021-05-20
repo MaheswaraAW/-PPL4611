@@ -15,6 +15,8 @@ public class dbAdmin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_db_admin);
+
+
     }
 
     public void DAFTARGAME(View view) {

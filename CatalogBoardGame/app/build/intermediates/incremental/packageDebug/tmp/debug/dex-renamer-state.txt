@@ -1,33 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-#Thu May 20 09:54:28 ICT 2021
-=======
-#Fri May 07 12:57:59 ICT 2021
->>>>>>> parent of d486b05 (masih ada trouble di log in, ke direct dashboard admin terus)
-=======
-#Fri May 07 12:57:59 ICT 2021
->>>>>>> parent of d486b05 (masih ada trouble di log in, ke direct dashboard admin terus)
-=======
-#Fri May 07 12:57:59 ICT 2021
->>>>>>> parent of d486b05 (masih ada trouble di log in, ke direct dashboard admin terus)
-=======
-#Thu May 06 13:49:08 ICT 2021
->>>>>>> parent of 5fcd3f7 (log in sign up masih belum pake firebase authentification)
-=======
-#Fri May 07 12:57:59 ICT 2021
->>>>>>> parent of d486b05 (masih ada trouble di log in, ke direct dashboard admin terus)
-=======
-#Fri May 07 12:57:59 ICT 2021
->>>>>>> parent of d486b05 (masih ada trouble di log in, ke direct dashboard admin terus)
-=======
-#Thu May 20 09:36:27 ICT 2021
->>>>>>> parent of 24a7708 (a)
-base.0=C\:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Thu May 20 14:25:17 ICT 2021
+base.0=C\:\\Users\\Lenovo\\Downloads\\CatalogBoardGame\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex

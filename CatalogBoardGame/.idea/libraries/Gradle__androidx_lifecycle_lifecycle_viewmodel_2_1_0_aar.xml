@@ -1,19 +1,23 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/8cf26fd0d5f767ad6dfe1019ab25b952/lifecycle-viewmodel-2.1.0/res" />
-      <root url="file://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/99c4cdb5442697c7ec1b8940e01ad59d/lifecycle-viewmodel-2.1.0/res" />
-      <root url="file://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/1bd255163cb7b2cba8db97f932af7c8c/lifecycle-viewmodel-2.1.0/res" />
+      <root url="file://$PROJECT_DIR$/../SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/8cf26fd0d5f767ad6dfe1019ab25b952/lifecycle-viewmodel-2.1.0/res" />
+      <root url="file://$PROJECT_DIR$/../SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/99c4cdb5442697c7ec1b8940e01ad59d/lifecycle-viewmodel-2.1.0/res" />
+      <root url="file://$PROJECT_DIR$/../SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/1bd255163cb7b2cba8db97f932af7c8c/lifecycle-viewmodel-2.1.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/99c4cdb5442697c7ec1b8940e01ad59d/lifecycle-viewmodel-2.1.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af74bd3e08f2c69a186c33b37158b9d9/lifecycle-viewmodel-2.1.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af74bd3e08f2c69a186c33b37158b9d9/lifecycle-viewmodel-2.1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af74bd3e08f2c69a186c33b37158b9d9/lifecycle-viewmodel-2.1.0/res" />
+      <root url="jar://$PROJECT_DIR$/../SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/af74bd3e08f2c69a186c33b37158b9d9/lifecycle-viewmodel-2.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/af74bd3e08f2c69a186c33b37158b9d9/lifecycle-viewmodel-2.1.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/af74bd3e08f2c69a186c33b37158b9d9/lifecycle-viewmodel-2.1.0/res" />
       <root url="jar://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/af74bd3e08f2c69a186c33b37158b9d9/lifecycle-viewmodel-2.1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/af74bd3e08f2c69a186c33b37158b9d9/lifecycle-viewmodel-2.1.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/af74bd3e08f2c69a186c33b37158b9d9/lifecycle-viewmodel-2.1.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../SteamAhead-master/.gradle/gradle-6.8.3/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel/2.1.0/bfd86b9887c2343516f82bed91acbab34a45841d/lifecycle-viewmodel-2.1.0-sources.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel/2.1.0/bfd86b9887c2343516f82bed91acbab34a45841d/lifecycle-viewmodel-2.1.0-sources.jar!/" />
     </SOURCES>
   </library>

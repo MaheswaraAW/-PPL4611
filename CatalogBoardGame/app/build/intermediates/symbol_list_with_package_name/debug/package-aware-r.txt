@@ -1001,6 +1001,7 @@ id contentPanel
 id cos
 id custom
 id customPanel
+id daftar
 id dark
 id decelerate
 id decelerateAndComplete
@@ -1025,6 +1026,7 @@ id easeInOut
 id easeOut
 id edit_query
 id email
+id emailuser
 id end
 id expand_activities_button
 id expanded_menu
@@ -1047,6 +1049,7 @@ id icon_only
 id idBAddHistory
 id idBLeaderboard
 id idBTambahGame
+id idDelGame
 id idETDeskripsiGame
 id idETJumlahPemain
 id idETNamaGame
@@ -1077,6 +1080,7 @@ id line3
 id linear
 id listMode
 id list_item
+id masuk
 id message
 id middle
 id motion_base
@@ -1094,6 +1098,7 @@ id parent
 id parentPanel
 id parentRelative
 id password
+id passworduser
 id path
 id pathRelative
 id percent
@@ -1105,25 +1110,20 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id regemailuser
+id regnamauser
+id regpassworduser
 id reverseSawtooth
 id right
 id right_icon
 id right_side
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 id s
->>>>>>> parent of 24a7708 (a)
-id sa
-id sad
-id sas
-=======
->>>>>>> parent of 5fcd3f7 (log in sign up masih belum pake firebase authentification)
 id sawtooth
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id sd
 id search_badge
 id search_bar
 id search_button
@@ -1151,6 +1151,7 @@ id square
 id src_atop
 id src_in
 id src_over
+id ss
 id standard
 id start
 id startHorizontal
@@ -1173,6 +1174,8 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
+id textiew
 id time
 id title
 id titleDividerNoCustom
@@ -1233,14 +1236,24 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_baca_game_adm
+layout activity_baca_game_admin
 layout activity_baca_game_client
+layout activity_baca_game_clients
+layout activity_daftar
+layout activity_daftar_game_c_lient_activiti
+layout activity_daftar_game_c_lient_activiti_adm
 layout activity_daftar_game_client
+layout activity_dash_admin
+layout activity_dash_user
 layout activity_dashboard_user
 layout activity_db_admin
+layout activity_export
+layout activity_leaderboard_user
+layout activity_login
 layout activity_main
-layout activity_sign_in
-layout activity_sign_up
 layout activity_tambah_game_admin
+layout activity_tbh_game
 layout custom_dialog
 layout lihat_game_client_recycler_row
 layout lihat_game_client_recycler_row_gambar_game
