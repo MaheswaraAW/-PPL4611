@@ -32,7 +32,7 @@ public class Login extends AppCompatActivity {
     String ad="1";
     FirebaseAuth auth;
     FirebaseDatabase firebaseDatabase;
-
+//ingat untuk di build -> rebuild
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,7 +62,7 @@ public class Login extends AppCompatActivity {
                                 akn Akn= user.getValue(akn.class);
                                 if (Akn.getPassword().equals(input2)){
                                     if(Akn.getManag().equals("1")){
-                                        Toast.makeText(Login.this, "1", Toast.LENGTH_LONG).show();
+                                        Toast.makeText(Login.this, "User", Toast.LENGTH_LONG).show();
 
                                         Intent intent=new Intent(Login.this, DashUser.class);
                                         startActivity(intent);
@@ -70,7 +70,7 @@ public class Login extends AppCompatActivity {
                                     else if (Akn.getManag().equals(input3)){
                                         Intent intents=new Intent(Login.this, DashAdmin.class);
                                         startActivity(intents);
-                                        Toast.makeText(Login.this, "2", Toast.LENGTH_LONG).show();
+                                        Toast.makeText(Login.this, "Admin", Toast.LENGTH_LONG).show();
 
                                     }
 
