@@ -103,16 +103,16 @@
             android:layout_marginBottom="5dp"
             android:textSize="16sp" />
 
-        <Button
-            android:id="@+id/fp"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:background="#FBFDFF"
-            android:layout_gravity="right"
-            android:text="Forgot Password?"
-            android:textSize="15sp"/>
+<!--        <Button-->
+<!--            android:id="@+id/fp"-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginBottom="5dp"-->
+<!--            android:background="#FBFDFF"-->
+<!--            android:layout_gravity="right"-->
+<!--            android:text="Forgot Password?"-->
+<!--            android:textSize="15sp"/>-->
 
         <Button
             android:id="@+id/ss"

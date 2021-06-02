@@ -26,4 +26,17 @@ public class DashUser extends AppCompatActivity {
 
     public void Historyuser(View view) {
     }
+    public void onBackPressed() {
+        Intent startMain = new Intent(Intent.ACTION_MAIN);
+        startMain.addCategory(Intent.CATEGORY_HOME);
+        startMain.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(startMain);
+        //klik back nanti ke home
+    }
+
+    public void LogOut(View view) {
+        Intent intent=new Intent(DashUser.this, Login.class);
+        startActivity(intent);
+
+    }
 }
