@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:2:1-110:12
-INJECTED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:2:1-110:12
-INJECTED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:2:1-110:12
-INJECTED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:2:1-110:12
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:2:1-134:12
+INJECTED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:2:1-134:12
+INJECTED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:2:1-134:12
+INJECTED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:2:1-134:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\006b46906b2f770011761845d9282045\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\24e5efdfd8930eb25cd3372e79849155\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\e7700bf3fcf4236768ca476b82b72080\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -14,16 +14,14 @@ MERGED from [com.google.firebase:firebase-storage:19.2.2] C:\Users\Lenovo\Downlo
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6f8a1c65b62d3d41d59ae57c34d2003d\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-analytics:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\d37c32e77beb89fdf8a32f1027074642\jetified-firebase-analytics-18.0.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\349a868b6d649a7e5d5454c9c240a007\jetified-glide-4.11.0\AndroidManifest.xml:2:1-12:12
-MERGED from [com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4ffa197dfdf4bdbf00a84b3aeb275a0f\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:17:1-36:12
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\11cfac957c2aaac33a539a97075c2a35\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\e7656dc500e26d5985fed9d364afdc23\jetified-firebase-installations-16.3.5\AndroidManifest.xml:2:1-24:12
-MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:15:1-49:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\795c777fa42a2b7dd69e6943f1778c9f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\9343bafb14981f23529b908b282099d2\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\9c2058a0aff1793f55def61ad5773c06\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\fc22c4c49607a407a8d259c1369a03a1\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\eecee34b17242397bb82e69bb17e15e1\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4ffa197dfdf4bdbf00a84b3aeb275a0f\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\11cfac957c2aaac33a539a97075c2a35\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\e7656dc500e26d5985fed9d364afdc23\jetified-firebase-installations-16.3.5\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:15:1-49:12
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.1] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\be7be8a7ae1923b33c1899163e54ff80\jetified-firebase-installations-interop-16.0.1\AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4bd86395ec803b061ad27b192511121b\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:17:1-46:12
@@ -37,6 +35,7 @@ MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users
 MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4b67a4f928447aed16f5ade9c01097e0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\10200895828a97f345b2c6d8b62c92e0\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\7f4c42c1c3c6ebd681e475a59f065589\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\795c777fa42a2b7dd69e6943f1778c9f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\98e4eac5dbabdc03dc9a3208d4ac5a12\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\d344556663e01f06659c4b7ee7cd264e\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\25cb7c192da1fb4a904ba99b31661bf3\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -50,12 +49,13 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Len
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\cebdbf0203f70fcdd27366005c819665\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6217ae39eb11b529fe17c9fec473abce\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\227b0a1796476d93b382253a71582657\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.3.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\8f4d682c0342e0ab9cc18f208bf5b22b\core-1.3.2\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core:1.5.0-alpha04] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\7d6b550ac34aaf8dea6f5daebcdc7b5c\core-1.5.0-alpha04\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\9343bafb14981f23529b908b282099d2\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\232f4a453ff4ee4dc4d17aca3feda22c\jetified-firebase-components-16.1.0\AndroidManifest.xml:15:1-23:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6b32956afaad24220866b8f2c6159488\jetified-gifdecoder-4.11.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\75f3393893bf12c7bc2a647ac44fc043\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\f814974419152abc412d9d41345c2be3\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\a577a4f2d9e6384dbceeb5e0ea30a993\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\f814974419152abc412d9d41345c2be3\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\593fd7784a3adf6978e158c9ea2ee8a9\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\222d2d3818c539e35ee4f60deabbc412\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\5e02444273c6a07c53ce8cd033ff27e1\print-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -65,22 +65,22 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Lenovo\Downloads\Ste
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6cbcfb2ce82b6124d3e0157ed6461498\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\f7e4217367496a423c08b58cd7a649f8\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\a16ef9f377ada6515a2739603d983dff\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:2:1-110:12
-INJECTED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:2:1-110:12
-INJECTED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:2:1-110:12
+INJECTED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:2:1-134:12
+INJECTED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:2:1-134:12
+INJECTED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:2:1-134:12
 	package
 		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:4:5-43
 		INJECTED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:2:1-110:12
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:2:1-134:12
 		INJECTED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:2:1-110:12
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:2:1-134:12
 		INJECTED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:2:11-69
@@ -105,7 +105,7 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.2] C:
 	android:name
 		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:8:5-108:19
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:8:5-132:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\006b46906b2f770011761845d9282045\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\006b46906b2f770011761845d9282045\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\24e5efdfd8930eb25cd3372e79849155\material-1.0.0\AndroidManifest.xml:22:5-20
@@ -120,6 +120,10 @@ MERGED from [com.google.firebase:firebase-analytics:18.0.2] C:\Users\Lenovo\Down
 MERGED from [com.google.firebase:firebase-analytics:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\d37c32e77beb89fdf8a32f1027074642\jetified-firebase-analytics-18.0.2\AndroidManifest.xml:7:5-20
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\349a868b6d649a7e5d5454c9c240a007\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\349a868b6d649a7e5d5454c9c240a007\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\fc22c4c49607a407a8d259c1369a03a1\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\fc22c4c49607a407a8d259c1369a03a1\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4ffa197dfdf4bdbf00a84b3aeb275a0f\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4ffa197dfdf4bdbf00a84b3aeb275a0f\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\11cfac957c2aaac33a539a97075c2a35\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
@@ -128,10 +132,6 @@ MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\Lenovo\
 MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\e7656dc500e26d5985fed9d364afdc23\jetified-firebase-installations-16.3.5\AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:25:5-47:19
 MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:25:5-47:19
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\fc22c4c49607a407a8d259c1369a03a1\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\fc22c4c49607a407a8d259c1369a03a1\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4bd86395ec803b061ad27b192511121b\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4bd86395ec803b061ad27b192511121b\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:28:5-44:19
@@ -150,14 +150,14 @@ MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\66682a3c8c8ca5b76ba2716a40a56f91\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4b67a4f928447aed16f5ade9c01097e0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4b67a4f928447aed16f5ade9c01097e0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.3.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\8f4d682c0342e0ab9cc18f208bf5b22b\core-1.3.2\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.3.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\8f4d682c0342e0ab9cc18f208bf5b22b\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0-alpha04] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\7d6b550ac34aaf8dea6f5daebcdc7b5c\core-1.5.0-alpha04\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0-alpha04] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\7d6b550ac34aaf8dea6f5daebcdc7b5c\core-1.5.0-alpha04\AndroidManifest.xml:24:5-89
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6b32956afaad24220866b8f2c6159488\jetified-gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6b32956afaad24220866b8f2c6159488\jetified-gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\a577a4f2d9e6384dbceeb5e0ea30a993\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\a577a4f2d9e6384dbceeb5e0ea30a993\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.3.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\8f4d682c0342e0ab9cc18f208bf5b22b\core-1.3.2\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.5.0-alpha04] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\7d6b550ac34aaf8dea6f5daebcdc7b5c\core-1.5.0-alpha04\AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
@@ -172,84 +172,96 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Le
 		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
 		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:14:9-40
-activity#com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActivitiAdm
-ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:16:9-91
+activity#com.example.catalogboardgame.DashboardAdmin.TampilUser
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:16:9-23:20
 	android:name
-		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:16:19-79
-activity#com.example.catalogboardgame.BacaGameClient.BacaGameAdm
-ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:17:9-64
-	android:name
-		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:17:19-61
-activity#com.example.catalogboardgame.LeaderboardUser
-ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:18:9-53
-	android:name
-		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:18:19-50
-activity#com.example.catalogboardgame.LeaderboardUser.LeaderboardAdm
-ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:19:9-68
-	android:name
-		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:19:19-65
-activity#com.example.catalogboardgame.BacaGameAdmin
-ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:20:9-51
-	android:name
-		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:20:19-48
-activity#com.example.catalogboardgame.Export
-ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:21:9-44
-	android:name
-		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:21:19-41
-activity#com.example.catalogboardgame.user.DashUser
-ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:22:9-51
-	android:name
-		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:22:19-48
-activity#com.example.catalogboardgame.TambahGameAdmin.TbhGame
-ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:23:9-31:20
-	android:name
-		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:23:19-58
-activity#com.example.catalogboardgame.Sign.Login
-ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:32:9-38:20
-	android:name
-		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:32:19-45
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:16:19-60
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:33:13-37:29
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:34:17-69
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:34:25-66
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:36:17-77
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:36:27-74
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:20:27-74
+activity#com.example.catalogboardgame.firebaseauth.RgisterAuth
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:24:9-30:20
+	android:name
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:24:19-59
+activity#com.example.catalogboardgame.firebaseauth.LoginAuth
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:31:9-37:20
+	android:name
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:31:19-57
+activity#com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActivitiAdm
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:38:9-82
+	android:name
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:38:19-79
+activity#com.example.catalogboardgame.BacaGameClient.BacaGameAdm
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:39:9-64
+	android:name
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:39:19-61
+activity#com.example.catalogboardgame.LeaderboardUser
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:40:9-53
+	android:name
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:40:19-50
+activity#com.example.catalogboardgame.LeaderboardUser.LeaderboardAdm
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:41:9-68
+	android:name
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:41:19-65
+activity#com.example.catalogboardgame.BacaGameAdmin
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:42:9-51
+	android:name
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:42:19-48
+activity#com.example.catalogboardgame.Export
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:43:9-44
+	android:name
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:43:19-41
+activity#com.example.catalogboardgame.user.DashUser
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:44:9-51
+	android:name
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:44:19-48
+activity#com.example.catalogboardgame.TambahGameAdmin.TbhGame
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:45:9-53:20
+	android:name
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:45:19-58
+activity#com.example.catalogboardgame.Sign.Login
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:54:9-62:20
+	android:name
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:54:19-45
 activity#com.example.catalogboardgame.Sign.Daftar
-ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:39:9-49
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:63:9-49
 	android:name
-		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:39:19-46
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:63:19-46
 activity#com.example.catalogboardgame.DashboardAdmin.DashAdmin
-ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:40:9-62
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:64:9-62
 	android:name
-		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:40:19-59
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:64:19-59
 activity#com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActiviti
-ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:41:9-49:20
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:65:9-73:20
 	android:name
-		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:41:19-76
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:65:19-76
 activity#com.example.catalogboardgame.BacaGameClient.BacaGameClients
-ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:50:9-68
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:74:9-68
 	android:name
-		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:50:19-65
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:74:19-65
 activity#com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin
-ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:80:9-88:20
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:104:9-112:20
 	android:name
-		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:80:19-68
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:104:19-68
 activity#com.example.catalogboardgame.DaftarGameClient.DaftarGameClientActivity
-ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:89:9-97:20
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:113:9-121:20
 	android:name
-		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:89:19-76
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:113:19-76
 activity#com.example.catalogboardgame.BacaGameClient.BacaGameClient
-ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:98:9-67
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:122:9-67
 	android:name
-		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:98:19-64
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:122:19-64
 activity#com.example.catalogboardgame.MainActivity
-ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:99:9-107:20
+ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:123:9-131:20
 	android:name
-		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:99:19-47
+		ADDED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:123:19-47
 uses-sdk
 INJECTED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml
@@ -274,18 +286,6 @@ MERGED from [com.google.firebase:firebase-analytics:18.0.2] C:\Users\Lenovo\Down
 MERGED from [com.google.firebase:firebase-analytics:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\d37c32e77beb89fdf8a32f1027074642\jetified-firebase-analytics-18.0.2\AndroidManifest.xml:5:5-44
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\349a868b6d649a7e5d5454c9c240a007\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\349a868b6d649a7e5d5454c9c240a007\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4ffa197dfdf4bdbf00a84b3aeb275a0f\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4ffa197dfdf4bdbf00a84b3aeb275a0f\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\11cfac957c2aaac33a539a97075c2a35\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\11cfac957c2aaac33a539a97075c2a35\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\e7656dc500e26d5985fed9d364afdc23\jetified-firebase-installations-16.3.5\AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\e7656dc500e26d5985fed9d364afdc23\jetified-firebase-installations-16.3.5\AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\795c777fa42a2b7dd69e6943f1778c9f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\795c777fa42a2b7dd69e6943f1778c9f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\9343bafb14981f23529b908b282099d2\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\9343bafb14981f23529b908b282099d2\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\9c2058a0aff1793f55def61ad5773c06\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\9c2058a0aff1793f55def61ad5773c06\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\fc22c4c49607a407a8d259c1369a03a1\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
@@ -294,6 +294,14 @@ MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\L
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\eecee34b17242397bb82e69bb17e15e1\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4ffa197dfdf4bdbf00a84b3aeb275a0f\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4ffa197dfdf4bdbf00a84b3aeb275a0f\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\11cfac957c2aaac33a539a97075c2a35\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\11cfac957c2aaac33a539a97075c2a35\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\e7656dc500e26d5985fed9d364afdc23\jetified-firebase-installations-16.3.5\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\e7656dc500e26d5985fed9d364afdc23\jetified-firebase-installations-16.3.5\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.1] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\be7be8a7ae1923b33c1899163e54ff80\jetified-firebase-installations-interop-16.0.1\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.1] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\be7be8a7ae1923b33c1899163e54ff80\jetified-firebase-installations-interop-16.0.1\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4bd86395ec803b061ad27b192511121b\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
@@ -320,6 +328,8 @@ MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Lenovo\Downloads\SteamAh
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\10200895828a97f345b2c6d8b62c92e0\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\7f4c42c1c3c6ebd681e475a59f065589\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\7f4c42c1c3c6ebd681e475a59f065589\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\795c777fa42a2b7dd69e6943f1778c9f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\795c777fa42a2b7dd69e6943f1778c9f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\98e4eac5dbabdc03dc9a3208d4ac5a12\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\98e4eac5dbabdc03dc9a3208d4ac5a12\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\d344556663e01f06659c4b7ee7cd264e\viewpager-1.0.0\AndroidManifest.xml:20:5-44
@@ -346,18 +356,20 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Leno
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6217ae39eb11b529fe17c9fec473abce\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\227b0a1796476d93b382253a71582657\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\227b0a1796476d93b382253a71582657\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.3.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\8f4d682c0342e0ab9cc18f208bf5b22b\core-1.3.2\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\8f4d682c0342e0ab9cc18f208bf5b22b\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0-alpha04] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\7d6b550ac34aaf8dea6f5daebcdc7b5c\core-1.5.0-alpha04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0-alpha04] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\7d6b550ac34aaf8dea6f5daebcdc7b5c\core-1.5.0-alpha04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\9343bafb14981f23529b908b282099d2\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\9343bafb14981f23529b908b282099d2\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\232f4a453ff4ee4dc4d17aca3feda22c\jetified-firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\232f4a453ff4ee4dc4d17aca3feda22c\jetified-firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6b32956afaad24220866b8f2c6159488\jetified-gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6b32956afaad24220866b8f2c6159488\jetified-gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\75f3393893bf12c7bc2a647ac44fc043\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\75f3393893bf12c7bc2a647ac44fc043\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\f814974419152abc412d9d41345c2be3\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\f814974419152abc412d9d41345c2be3\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\a577a4f2d9e6384dbceeb5e0ea30a993\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\a577a4f2d9e6384dbceeb5e0ea30a993\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\f814974419152abc412d9d41345c2be3\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\f814974419152abc412d9d41345c2be3\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\593fd7784a3adf6978e158c9ea2ee8a9\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\593fd7784a3adf6978e158c9ea2ee8a9\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\222d2d3818c539e35ee4f60deabbc412\documentfile-1.0.0\AndroidManifest.xml:20:5-44
@@ -504,6 +516,14 @@ ADDED from [com.google.firebase:firebase-storage:19.2.2] C:\Users\Lenovo\Downloa
 		ADDED from [com.google.firebase:firebase-storage:19.2.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\2463fd9af60315f94ca6b2e1beadb579\jetified-firebase-storage-19.2.2\AndroidManifest.xml:35:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-storage:19.2.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\2463fd9af60315f94ca6b2e1beadb579\jetified-firebase-storage-19.2.2\AndroidManifest.xml:34:17-107
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4ffa197dfdf4bdbf00a84b3aeb275a0f\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:25:5-68
@@ -544,14 +564,6 @@ ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Download
 		ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
 uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
 ADDED from [com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:26:5-110
 MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6685b80d3ed147f07f3d6f110a28e376\jetified-play-services-measurement-impl-18.0.2\AndroidManifest.xml:26:5-110

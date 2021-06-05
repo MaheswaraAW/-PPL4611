@@ -13,7 +13,29 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="MissingClass">
-        <activity android:name=".DaftarGameClient.DaftarGameCLientActivitiAdm"></activity>
+        <activity android:name=".DashboardAdmin.TampilUser">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".firebaseauth.RgisterAuth">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity android:name=".firebaseauth.LoginAuth">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DaftarGameClient.DaftarGameCLientActivitiAdm" />
         <activity android:name=".BacaGameClient.BacaGameAdm" />
         <activity android:name=".LeaderboardUser" />
         <activity android:name=".LeaderboardUser.LeaderboardAdm" />
@@ -30,11 +52,13 @@
             <!-- </intent-filter> -->
         </activity>
         <activity android:name=".Sign.Login">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity android:name=".Sign.Daftar" />
         <activity android:name=".DashboardAdmin.DashAdmin" />

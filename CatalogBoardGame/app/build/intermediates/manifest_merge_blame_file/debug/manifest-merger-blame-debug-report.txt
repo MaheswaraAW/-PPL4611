@@ -27,11 +27,11 @@
 17-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:26:22-107
 18
 19    <application
-19-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:8:5-108:19
+19-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:8:5-132:19
 20        android:allowBackup="true"
 20-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:9:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.3.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\8f4d682c0342e0ab9cc18f208bf5b22b\core-1.3.2\AndroidManifest.xml:24:18-86
+21-->[androidx.core:core:1.5.0-alpha04] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\7d6b550ac34aaf8dea6f5daebcdc7b5c\core-1.5.0-alpha04\AndroidManifest.xml:24:18-86
 22        android:debuggable="true"
 23        android:icon="@mipmap/ic_launcher"
 23-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:10:9-43
@@ -44,30 +44,23 @@
 27        android:testOnly="true"
 28        android:theme="@style/AppTheme" >
 28-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:14:9-40
-29        <activity android:name="com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActivitiAdm" />
-29-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:16:9-91
-29-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:16:19-79
-30        <activity android:name="com.example.catalogboardgame.BacaGameClient.BacaGameAdm" />
-30-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:17:9-64
-30-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:17:19-61
-31        <activity android:name="com.example.catalogboardgame.LeaderboardUser" />
-31-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:18:9-53
-31-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:18:19-50
-32        <activity android:name="com.example.catalogboardgame.LeaderboardUser.LeaderboardAdm" />
-32-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:19:9-68
-32-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:19:19-65
-33        <activity android:name="com.example.catalogboardgame.BacaGameAdmin" />
-33-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:20:9-51
-33-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:20:19-48
-34        <activity android:name="com.example.catalogboardgame.Export" />
-34-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:21:9-44
-34-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:21:19-41
-35        <activity android:name="com.example.catalogboardgame.user.DashUser" />
-35-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:22:9-51
-35-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:22:19-48
-36        <activity android:name="com.example.catalogboardgame.TambahGameAdmin.TbhGame" >
-36-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:23:9-31:20
-36-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:23:19-58
+29        <activity android:name="com.example.catalogboardgame.DashboardAdmin.TampilUser" >
+29-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:16:9-23:20
+29-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:16:19-60
+30            <intent-filter>
+30-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:17:13-21:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:18:17-69
+31-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:18:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:20:17-77
+33-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:20:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity android:name="com.example.catalogboardgame.firebaseauth.RgisterAuth" >
+36-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:24:9-30:20
+36-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:24:19-59
 37
 38            <!-- <intent-filter> -->
 39            <!-- <action android:name="android.intent.action.MAIN" /> -->
@@ -76,304 +69,347 @@
 42            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
 43            <!-- </intent-filter> -->
 44        </activity>
-45        <activity android:name="com.example.catalogboardgame.Sign.Login" >
-45-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:32:9-38:20
-45-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:32:19-45
+45        <activity android:name="com.example.catalogboardgame.firebaseauth.LoginAuth" >
+45-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:31:9-37:20
+45-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:31:19-57
 46            <intent-filter>
-46-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:33:13-37:29
+46-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:17:13-21:29
 47                <action android:name="android.intent.action.MAIN" />
-47-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:34:17-69
-47-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:34:25-66
+47-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:18:17-69
+47-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:18:25-66
 48
 49                <category android:name="android.intent.category.LAUNCHER" />
-49-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:36:17-77
-49-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:36:27-74
+49-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:20:17-77
+49-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:20:27-74
 50            </intent-filter>
 51        </activity>
-52        <activity android:name="com.example.catalogboardgame.Sign.Daftar" />
-52-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:39:9-49
-52-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:39:19-46
-53        <activity android:name="com.example.catalogboardgame.DashboardAdmin.DashAdmin" />
-53-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:40:9-62
-53-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:40:19-59
-54        <activity android:name="com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActiviti" >
-54-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:41:9-49:20
-54-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:41:19-76
-55
-56            <!-- <intent-filter> -->
-57            <!-- <action android:name="android.intent.action.MAIN" /> -->
-58
-59
-60            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-61            <!-- </intent-filter> -->
-62        </activity>
-63        <activity android:name="com.example.catalogboardgame.BacaGameClient.BacaGameClients" /> <!-- <activity android:name=".Sign.Masuk"> -->
-63-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:50:9-68
-63-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:50:19-65
-64        <!-- <intent-filter> -->
-65        <!-- <action android:name="android.intent.action.MAIN" /> -->
-66        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-67        <!-- </intent-filter> -->
-68        <!-- </activity> -->
-69        <!-- <activity android:name=".Sign.Sign"> -->
-70        <!-- <intent-filter> -->
-71        <!-- <action android:name="android.intent.action.MAIN" /> -->
-72        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-73        <!-- </intent-filter> -->
-74        <!-- </activity> -->
-75        <!-- <activity android:name=".Sign.SignUp"> -->
-76        <!-- <intent-filter> -->
-77        <!-- <action android:name="android.intent.action.MAIN" /> -->
-78        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-79        <!-- </intent-filter> -->
-80        <!-- </activity> -->
-81        <!-- <activity android:name=".DashboardAdmin.dbAdmin"> -->
-82        <!-- <intent-filter> -->
-83        <!-- <action android:name="android.intent.action.MAIN" /> -->
-84        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-85        <!-- </intent-filter> -->
-86        <!-- </activity> -->
-87        <!-- <activity android:name=".Sign.SignIn"> -->
-88        <!-- <intent-filter> -->
-89        <!-- <action android:name="android.intent.action.MAIN" /> -->
-90        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-91        <!-- </intent-filter> -->
-92        <!-- </activity> -->
-93        <activity android:name="com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin" >
-93-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:80:9-88:20
-93-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:80:19-68
-94
-95            <!-- <intent-filter> -->
-96            <!-- <action android:name="android.intent.action.MAIN" /> -->
-97
-98
-99            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-100            <!-- </intent-filter> -->
-101        </activity>
-102        <activity android:name="com.example.catalogboardgame.DaftarGameClient.DaftarGameClientActivity" >
-102-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:89:9-97:20
-102-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:89:19-76
-103
-104            <!-- <intent-filter> -->
-105            <!-- <action android:name="android.intent.action.MAIN" /> -->
-106
-107
-108            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-109            <!-- </intent-filter> -->
-110        </activity>
-111        <activity android:name="com.example.catalogboardgame.BacaGameClient.BacaGameClient" />
-111-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:98:9-67
-111-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:98:19-64
-112        <activity android:name="com.example.catalogboardgame.MainActivity" >
-112-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:99:9-107:20
-112-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:99:19-47
-113
-114            <!-- <intent-filter> -->
-115            <!-- <action android:name="android.intent.action.MAIN" /> -->
-116
-117
-118            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-119            <!-- </intent-filter> -->
-120        </activity>
-121
-122        <service
-122-->[com.google.firebase:firebase-database:19.7.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\24ac034c76dfb1b3647cba84ddb1672b\jetified-firebase-database-19.7.0\AndroidManifest.xml:29:9-35:19
-123            android:name="com.google.firebase.components.ComponentDiscoveryService"
-123-->[com.google.firebase:firebase-database:19.7.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\24ac034c76dfb1b3647cba84ddb1672b\jetified-firebase-database-19.7.0\AndroidManifest.xml:30:13-84
-124            android:directBootAware="true"
-124-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
-125            android:exported="false" >
-125-->[com.google.firebase:firebase-database:19.7.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\24ac034c76dfb1b3647cba84ddb1672b\jetified-firebase-database-19.7.0\AndroidManifest.xml:31:13-37
-126            <meta-data
-126-->[com.google.firebase:firebase-database:19.7.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\24ac034c76dfb1b3647cba84ddb1672b\jetified-firebase-database-19.7.0\AndroidManifest.xml:32:13-34:85
-127                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-127-->[com.google.firebase:firebase-database:19.7.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\24ac034c76dfb1b3647cba84ddb1672b\jetified-firebase-database-19.7.0\AndroidManifest.xml:33:17-109
-128                android:value="com.google.firebase.components.ComponentRegistrar" />
-128-->[com.google.firebase:firebase-database:19.7.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\24ac034c76dfb1b3647cba84ddb1672b\jetified-firebase-database-19.7.0\AndroidManifest.xml:34:17-82
-129            <meta-data
-129-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:77:13-79:85
-130                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-130-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:78:17-109
-131                android:value="com.google.firebase.components.ComponentRegistrar" />
-131-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:79:17-82
-132            <meta-data
-132-->[com.google.firebase:firebase-storage:19.2.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\2463fd9af60315f94ca6b2e1beadb579\jetified-firebase-storage-19.2.2\AndroidManifest.xml:33:13-35:85
-133                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-133-->[com.google.firebase:firebase-storage:19.2.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\2463fd9af60315f94ca6b2e1beadb579\jetified-firebase-storage-19.2.2\AndroidManifest.xml:34:17-107
-134                android:value="com.google.firebase.components.ComponentRegistrar" />
-134-->[com.google.firebase:firebase-storage:19.2.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\2463fd9af60315f94ca6b2e1beadb579\jetified-firebase-storage-19.2.2\AndroidManifest.xml:35:17-82
-135            <meta-data
-135-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4ffa197dfdf4bdbf00a84b3aeb275a0f\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:30:13-32:85
-136                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-136-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4ffa197dfdf4bdbf00a84b3aeb275a0f\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:31:17-139
-137                android:value="com.google.firebase.components.ComponentRegistrar" />
-137-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4ffa197dfdf4bdbf00a84b3aeb275a0f\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:32:17-82
-138            <meta-data
-138-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\e7656dc500e26d5985fed9d364afdc23\jetified-firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
-139                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-139-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\e7656dc500e26d5985fed9d364afdc23\jetified-firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
-140                android:value="com.google.firebase.components.ComponentRegistrar" />
-140-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\e7656dc500e26d5985fed9d364afdc23\jetified-firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
-141            <!--
-142                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
-143                clients to use it as well, by defining this registrar in their own core/common library.
-144            -->
-145            <meta-data
-145-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
-146                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
-146-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
-147                android:value="com.google.firebase.components.ComponentRegistrar" />
-147-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
-148        </service>
-149
-150        <activity
-150-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:27:9-44:20
-151            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-151-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:28:13-80
-152            android:excludeFromRecents="true"
-152-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:29:13-46
-153            android:exported="true"
-153-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:30:13-36
-154            android:launchMode="singleTask"
-154-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:31:13-44
-155            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-155-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:32:13-72
-156            <intent-filter>
-156-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:33:13-43:29
-157                <action android:name="android.intent.action.VIEW" />
-157-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:17-69
-157-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:25-66
-158
-159                <category android:name="android.intent.category.DEFAULT" />
-159-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:17-76
-159-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:27-73
-160                <category android:name="android.intent.category.BROWSABLE" />
-160-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:17-78
-160-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:27-75
-161
-162                <data
-162-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:39:17-42:51
-163                    android:host="firebase.auth"
-163-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:40:21-49
-164                    android:path="/"
-164-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:41:21-37
-165                    android:scheme="genericidp" />
-165-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:42:21-48
-166            </intent-filter>
-167        </activity>
-168        <activity
-168-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:45:9-62:20
-169            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-169-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:46:13-79
-170            android:excludeFromRecents="true"
-170-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:47:13-46
-171            android:exported="true"
-171-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:48:13-36
-172            android:launchMode="singleTask"
-172-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:49:13-44
-173            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-173-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:50:13-72
-174            <intent-filter>
-174-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:51:13-61:29
-175                <action android:name="android.intent.action.VIEW" />
-175-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:17-69
-175-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:25-66
-176
-177                <category android:name="android.intent.category.DEFAULT" />
-177-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:17-76
-177-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:27-73
-178                <category android:name="android.intent.category.BROWSABLE" />
-178-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:17-78
-178-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:27-75
-179
-180                <data
-180-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:39:17-42:51
-181                    android:host="firebase.auth"
-181-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:40:21-49
-182                    android:path="/"
-182-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:41:21-37
-183                    android:scheme="recaptcha" />
-183-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:42:21-48
-184            </intent-filter>
-185        </activity>
+52        <activity android:name="com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActivitiAdm" />
+52-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:38:9-82
+52-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:38:19-79
+53        <activity android:name="com.example.catalogboardgame.BacaGameClient.BacaGameAdm" />
+53-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:39:9-64
+53-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:39:19-61
+54        <activity android:name="com.example.catalogboardgame.LeaderboardUser" />
+54-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:40:9-53
+54-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:40:19-50
+55        <activity android:name="com.example.catalogboardgame.LeaderboardUser.LeaderboardAdm" />
+55-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:41:9-68
+55-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:41:19-65
+56        <activity android:name="com.example.catalogboardgame.BacaGameAdmin" />
+56-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:42:9-51
+56-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:42:19-48
+57        <activity android:name="com.example.catalogboardgame.Export" />
+57-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:43:9-44
+57-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:43:19-41
+58        <activity android:name="com.example.catalogboardgame.user.DashUser" />
+58-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:44:9-51
+58-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:44:19-48
+59        <activity android:name="com.example.catalogboardgame.TambahGameAdmin.TbhGame" >
+59-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:45:9-53:20
+59-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:45:19-58
+60
+61            <!-- <intent-filter> -->
+62            <!-- <action android:name="android.intent.action.MAIN" /> -->
+63
+64
+65            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+66            <!-- </intent-filter> -->
+67        </activity>
+68        <activity android:name="com.example.catalogboardgame.Sign.Login" >
+68-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:54:9-62:20
+68-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:54:19-45
+69
+70            <!-- <intent-filter> -->
+71            <!-- <action android:name="android.intent.action.MAIN" /> -->
+72
+73
+74            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+75            <!-- </intent-filter> -->
+76        </activity>
+77        <activity android:name="com.example.catalogboardgame.Sign.Daftar" />
+77-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:63:9-49
+77-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:63:19-46
+78        <activity android:name="com.example.catalogboardgame.DashboardAdmin.DashAdmin" />
+78-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:64:9-62
+78-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:64:19-59
+79        <activity android:name="com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActiviti" >
+79-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:65:9-73:20
+79-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:65:19-76
+80
+81            <!-- <intent-filter> -->
+82            <!-- <action android:name="android.intent.action.MAIN" /> -->
+83
+84
+85            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+86            <!-- </intent-filter> -->
+87        </activity>
+88        <activity android:name="com.example.catalogboardgame.BacaGameClient.BacaGameClients" /> <!-- <activity android:name=".Sign.Masuk"> -->
+88-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:74:9-68
+88-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:74:19-65
+89        <!-- <intent-filter> -->
+90        <!-- <action android:name="android.intent.action.MAIN" /> -->
+91        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+92        <!-- </intent-filter> -->
+93        <!-- </activity> -->
+94        <!-- <activity android:name=".Sign.Sign"> -->
+95        <!-- <intent-filter> -->
+96        <!-- <action android:name="android.intent.action.MAIN" /> -->
+97        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+98        <!-- </intent-filter> -->
+99        <!-- </activity> -->
+100        <!-- <activity android:name=".Sign.SignUp"> -->
+101        <!-- <intent-filter> -->
+102        <!-- <action android:name="android.intent.action.MAIN" /> -->
+103        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+104        <!-- </intent-filter> -->
+105        <!-- </activity> -->
+106        <!-- <activity android:name=".DashboardAdmin.dbAdmin"> -->
+107        <!-- <intent-filter> -->
+108        <!-- <action android:name="android.intent.action.MAIN" /> -->
+109        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+110        <!-- </intent-filter> -->
+111        <!-- </activity> -->
+112        <!-- <activity android:name=".Sign.SignIn"> -->
+113        <!-- <intent-filter> -->
+114        <!-- <action android:name="android.intent.action.MAIN" /> -->
+115        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+116        <!-- </intent-filter> -->
+117        <!-- </activity> -->
+118        <activity android:name="com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin" >
+118-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:104:9-112:20
+118-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:104:19-68
+119
+120            <!-- <intent-filter> -->
+121            <!-- <action android:name="android.intent.action.MAIN" /> -->
+122
+123
+124            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+125            <!-- </intent-filter> -->
+126        </activity>
+127        <activity android:name="com.example.catalogboardgame.DaftarGameClient.DaftarGameClientActivity" >
+127-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:113:9-121:20
+127-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:113:19-76
+128
+129            <!-- <intent-filter> -->
+130            <!-- <action android:name="android.intent.action.MAIN" /> -->
+131
+132
+133            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+134            <!-- </intent-filter> -->
+135        </activity>
+136        <activity android:name="com.example.catalogboardgame.BacaGameClient.BacaGameClient" />
+136-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:122:9-67
+136-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:122:19-64
+137        <activity android:name="com.example.catalogboardgame.MainActivity" >
+137-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:123:9-131:20
+137-->C:\Users\Lenovo\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:123:19-47
+138
+139            <!-- <intent-filter> -->
+140            <!-- <action android:name="android.intent.action.MAIN" /> -->
+141
+142
+143            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+144            <!-- </intent-filter> -->
+145        </activity>
+146
+147        <service
+147-->[com.google.firebase:firebase-database:19.7.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\24ac034c76dfb1b3647cba84ddb1672b\jetified-firebase-database-19.7.0\AndroidManifest.xml:29:9-35:19
+148            android:name="com.google.firebase.components.ComponentDiscoveryService"
+148-->[com.google.firebase:firebase-database:19.7.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\24ac034c76dfb1b3647cba84ddb1672b\jetified-firebase-database-19.7.0\AndroidManifest.xml:30:13-84
+149            android:directBootAware="true"
+149-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+150            android:exported="false" >
+150-->[com.google.firebase:firebase-database:19.7.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\24ac034c76dfb1b3647cba84ddb1672b\jetified-firebase-database-19.7.0\AndroidManifest.xml:31:13-37
+151            <meta-data
+151-->[com.google.firebase:firebase-database:19.7.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\24ac034c76dfb1b3647cba84ddb1672b\jetified-firebase-database-19.7.0\AndroidManifest.xml:32:13-34:85
+152                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+152-->[com.google.firebase:firebase-database:19.7.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\24ac034c76dfb1b3647cba84ddb1672b\jetified-firebase-database-19.7.0\AndroidManifest.xml:33:17-109
+153                android:value="com.google.firebase.components.ComponentRegistrar" />
+153-->[com.google.firebase:firebase-database:19.7.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\24ac034c76dfb1b3647cba84ddb1672b\jetified-firebase-database-19.7.0\AndroidManifest.xml:34:17-82
+154            <meta-data
+154-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:77:13-79:85
+155                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+155-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:78:17-109
+156                android:value="com.google.firebase.components.ComponentRegistrar" />
+156-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:79:17-82
+157            <meta-data
+157-->[com.google.firebase:firebase-storage:19.2.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\2463fd9af60315f94ca6b2e1beadb579\jetified-firebase-storage-19.2.2\AndroidManifest.xml:33:13-35:85
+158                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+158-->[com.google.firebase:firebase-storage:19.2.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\2463fd9af60315f94ca6b2e1beadb579\jetified-firebase-storage-19.2.2\AndroidManifest.xml:34:17-107
+159                android:value="com.google.firebase.components.ComponentRegistrar" />
+159-->[com.google.firebase:firebase-storage:19.2.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\2463fd9af60315f94ca6b2e1beadb579\jetified-firebase-storage-19.2.2\AndroidManifest.xml:35:17-82
+160            <meta-data
+160-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4ffa197dfdf4bdbf00a84b3aeb275a0f\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:30:13-32:85
+161                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+161-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4ffa197dfdf4bdbf00a84b3aeb275a0f\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:31:17-139
+162                android:value="com.google.firebase.components.ComponentRegistrar" />
+162-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4ffa197dfdf4bdbf00a84b3aeb275a0f\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:32:17-82
+163            <meta-data
+163-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\e7656dc500e26d5985fed9d364afdc23\jetified-firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+164                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+164-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\e7656dc500e26d5985fed9d364afdc23\jetified-firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\e7656dc500e26d5985fed9d364afdc23\jetified-firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+166            <!--
+167                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+168                clients to use it as well, by defining this registrar in their own core/common library.
+169            -->
+170            <meta-data
+170-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+171                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+171-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+173        </service>
+174
+175        <activity
+175-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:27:9-44:20
+176            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+176-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:28:13-80
+177            android:excludeFromRecents="true"
+177-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:29:13-46
+178            android:exported="true"
+178-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:30:13-36
+179            android:launchMode="singleTask"
+179-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:31:13-44
+180            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+180-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:32:13-72
+181            <intent-filter>
+181-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:33:13-43:29
+182                <action android:name="android.intent.action.VIEW" />
+182-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:17-69
+182-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:25-66
+183
+184                <category android:name="android.intent.category.DEFAULT" />
+184-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:17-76
+184-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:27-73
+185                <category android:name="android.intent.category.BROWSABLE" />
+185-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:17-78
+185-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:27-75
 186
-187        <service
-187-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:64:9-73:19
-188            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-188-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:65:13-101
-189            android:enabled="true"
-189-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:66:13-35
-190            android:exported="false" >
-190-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:67:13-37
-191            <intent-filter>
-191-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:68:13-72:29
-192                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-192-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:69:17-89
-192-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:69:25-86
-193
-194                <category android:name="android.intent.category.DEFAULT" />
-194-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:17-76
-194-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:27-73
-195            </intent-filter>
-196        </service>
-197
-198        <provider
-198-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
-199            android:name="com.google.firebase.provider.FirebaseInitProvider"
-199-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
-200            android:authorities="com.example.catalogboardgame.firebaseinitprovider"
-200-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
-201            android:directBootAware="true"
-201-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
-202            android:exported="false"
-202-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
-203            android:initOrder="100" />
-203-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+187                <data
+187-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:39:17-42:51
+188                    android:host="firebase.auth"
+188-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:40:21-49
+189                    android:path="/"
+189-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:41:21-37
+190                    android:scheme="genericidp" />
+190-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:42:21-48
+191            </intent-filter>
+192        </activity>
+193        <activity
+193-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:45:9-62:20
+194            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+194-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:46:13-79
+195            android:excludeFromRecents="true"
+195-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:47:13-46
+196            android:exported="true"
+196-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:48:13-36
+197            android:launchMode="singleTask"
+197-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:49:13-44
+198            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+198-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:50:13-72
+199            <intent-filter>
+199-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:51:13-61:29
+200                <action android:name="android.intent.action.VIEW" />
+200-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:17-69
+200-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:25-66
+201
+202                <category android:name="android.intent.category.DEFAULT" />
+202-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:17-76
+202-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:27-73
+203                <category android:name="android.intent.category.BROWSABLE" />
+203-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:17-78
+203-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:27-75
 204
-205        <activity
-205-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-206            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-206-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-207            android:exported="false"
-207-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-208            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-208-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-209
-210        <receiver
-210-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:29:9-33:20
-211            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-211-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:30:13-85
-212            android:enabled="true"
-212-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:31:13-35
-213            android:exported="false" >
-213-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:32:13-37
-214        </receiver>
-215
-216        <service
-216-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:35:9-38:40
-217            android:name="com.google.android.gms.measurement.AppMeasurementService"
-217-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:36:13-84
-218            android:enabled="true"
-218-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:37:13-35
-219            android:exported="false" />
-219-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:38:13-37
-220        <service
-220-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:39:9-43:72
-221            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-221-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:40:13-87
-222            android:enabled="true"
-222-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:41:13-35
-223            android:exported="false"
-223-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:42:13-37
-224            android:permission="android.permission.BIND_JOB_SERVICE" />
-224-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:43:13-69
-225
-226        <meta-data
-226-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4b67a4f928447aed16f5ade9c01097e0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
-227            android:name="com.google.android.gms.version"
-227-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4b67a4f928447aed16f5ade9c01097e0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
-228            android:value="@integer/google_play_services_version" />
-228-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4b67a4f928447aed16f5ade9c01097e0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
-229    </application>
-230
-231</manifest>
+205                <data
+205-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:39:17-42:51
+206                    android:host="firebase.auth"
+206-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:40:21-49
+207                    android:path="/"
+207-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:41:21-37
+208                    android:scheme="recaptcha" />
+208-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:42:21-48
+209            </intent-filter>
+210        </activity>
+211
+212        <service
+212-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:64:9-73:19
+213            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+213-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:65:13-101
+214            android:enabled="true"
+214-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:66:13-35
+215            android:exported="false" >
+215-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:67:13-37
+216            <intent-filter>
+216-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:68:13-72:29
+217                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+217-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:69:17-89
+217-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:69:25-86
+218
+219                <category android:name="android.intent.category.DEFAULT" />
+219-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:17-76
+219-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\805d61b750045d07d6274e241761f908\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:27-73
+220            </intent-filter>
+221        </service>
+222
+223        <activity
+223-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+224            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+224-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+225            android:exported="false"
+225-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+226            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+226-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\0efd6e16c430e6784fadd19e6d5d8f7d\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+227
+228        <provider
+228-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+229            android:name="com.google.firebase.provider.FirebaseInitProvider"
+229-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+230            android:authorities="com.example.catalogboardgame.firebaseinitprovider"
+230-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+231            android:directBootAware="true"
+231-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+232            android:exported="false"
+232-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+233            android:initOrder="100" />
+233-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+234
+235        <receiver
+235-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:29:9-33:20
+236            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+236-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:30:13-85
+237            android:enabled="true"
+237-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:31:13-35
+238            android:exported="false" >
+238-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:32:13-37
+239        </receiver>
+240
+241        <service
+241-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:35:9-38:40
+242            android:name="com.google.android.gms.measurement.AppMeasurementService"
+242-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:36:13-84
+243            android:enabled="true"
+243-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:37:13-35
+244            android:exported="false" />
+244-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:38:13-37
+245        <service
+245-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:39:9-43:72
+246            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+246-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:40:13-87
+247            android:enabled="true"
+247-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:41:13-35
+248            android:exported="false"
+248-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:42:13-37
+249            android:permission="android.permission.BIND_JOB_SERVICE" />
+249-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:43:13-69
+250
+251        <meta-data
+251-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4b67a4f928447aed16f5ade9c01097e0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+252            android:name="com.google.android.gms.version"
+252-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4b67a4f928447aed16f5ade9c01097e0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+253            android:value="@integer/google_play_services_version" />
+253-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Lenovo\Downloads\SteamAhead-master\.gradle\gradle-6.8.3\caches\transforms-2\files-2.1\4b67a4f928447aed16f5ade9c01097e0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+254    </application>
+255
+256</manifest>

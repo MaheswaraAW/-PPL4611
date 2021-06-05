@@ -1265,6 +1265,7 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id UID
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1342,6 +1343,7 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btmAdd
 id buttonPanel
 id cache_measures
 id center
@@ -1363,6 +1365,7 @@ id cos
 id custom
 id customPanel
 id daftar
+id daftars
 id dark
 id decelerate
 id decelerateAndComplete
@@ -1393,6 +1396,7 @@ id easeOut
 id edit_query
 id email
 id emailuser
+id emailusers
 id end
 id enterAlways
 id enterAlwaysCollapsed
@@ -1457,8 +1461,11 @@ id line3
 id linear
 id listMode
 id list_item
+id listdatas
+id loginss
 id masked
 id masuk
+id masuks
 id message
 id middle
 id mini
@@ -1466,6 +1473,7 @@ id motion_base
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+id nama1
 id navigation_header_container
 id never
 id none
@@ -1484,6 +1492,7 @@ id parentRelative
 id parent_matrix
 id password
 id passworduser
+id passwordusers
 id path
 id pathRelative
 id percent
@@ -1497,8 +1506,11 @@ id radio
 id ratio
 id rectangles
 id regemailuser
+id regemailusers
 id regnamauser
+id regnamausers
 id regpassworduser
+id regpasswordusers
 id reverseSawtooth
 id right
 id right_icon
@@ -1533,6 +1545,7 @@ id showHome
 id showTitle
 id signin
 id signup
+id signupss
 id sin
 id smallLabel
 id snackbar_action
@@ -1565,6 +1578,7 @@ id tag_accessibility_clickable_spans
 id tag_accessibility_heading
 id tag_accessibility_pane_title
 id tag_screen_reader_focusable
+id tag_state_description
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
@@ -1598,6 +1612,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user1
 id view_offset_helper
 id visible
 id wide
@@ -1674,8 +1689,11 @@ layout activity_db_admin
 layout activity_export
 layout activity_leaderboard_user
 layout activity_login
+layout activity_login_auth
 layout activity_main
+layout activity_rgister_auth
 layout activity_tambah_game_admin
+layout activity_tampil_user
 layout activity_tbh_game
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -1694,6 +1712,7 @@ layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout lihat_game_client_recycler_row
 layout lihat_game_client_recycler_row_gambar_game
+layout listuser
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action

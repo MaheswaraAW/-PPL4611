@@ -8,12 +8,16 @@
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_head1.png"
     },
     {
+        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_rgister_auth.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\activity_rgister_auth.xml"
     },
     {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_db_admin.xml.flat",
@@ -50,6 +54,10 @@
     {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tampil_user.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\activity_tampil_user.xml"
     },
     {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -98,6 +106,10 @@
     {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_lihat_game_client_recycler_row_gambar_game.xml.flat",
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\lihat_game_client_recycler_row_gambar_game.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login_auth.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\activity_login_auth.xml"
     },
     {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_daftar_game_c_lient_activiti_adm.xml.flat",
@@ -190,6 +202,10 @@
     {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_head1.png.flat",
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_head1.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_listuser.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\listuser.xml"
     },
     {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
