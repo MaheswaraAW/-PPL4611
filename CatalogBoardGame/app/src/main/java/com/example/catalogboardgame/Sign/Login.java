@@ -54,11 +54,15 @@ public class Login extends AppCompatActivity {
                 final String input2=password.getText().toString();
                 final String input3="0";
                 Query query= databaseReference.orderByChild("email").equalTo(input1);
+                Log.d("TAG", "onSuccess: "+query);
+
                 query.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         if (snapshot.exists())
                         {
+                            Log.d("TAG", "onSuccess: "+snapshot.exists());
+
                             for (DataSnapshot user: snapshot.getChildren()){
                                 akn Akn= user.getValue(akn.class);
                                 if (Akn.getPassword().equals(input2)){

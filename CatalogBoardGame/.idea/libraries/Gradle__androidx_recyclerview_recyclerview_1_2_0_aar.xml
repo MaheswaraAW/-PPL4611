@@ -2,15 +2,15 @@
   <library name="Gradle: androidx.recyclerview:recyclerview:1.2.0@aar">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2f9a4c2f11653d7aab205ac361450999/recyclerview-1.2.0/annotations.zip!/" />
-      <root url="jar://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/2f9a4c2f11653d7aab205ac361450999/recyclerview-1.2.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/6528c50633818f87e459aa03471a8a1b/recyclerview-1.2.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2f9a4c2f11653d7aab205ac361450999/recyclerview-1.2.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2f9a4c2f11653d7aab205ac361450999/recyclerview-1.2.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2f9a4c2f11653d7aab205ac361450999/recyclerview-1.2.0/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/2f9a4c2f11653d7aab205ac361450999/recyclerview-1.2.0/res" />
-      <root url="file://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/2f9a4c2f11653d7aab205ac361450999/recyclerview-1.2.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/2f9a4c2f11653d7aab205ac361450999/recyclerview-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/6528c50633818f87e459aa03471a8a1b/recyclerview-1.2.0/res" />
+      <root url="file://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/6528c50633818f87e459aa03471a8a1b/recyclerview-1.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/6528c50633818f87e459aa03471a8a1b/recyclerview-1.2.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

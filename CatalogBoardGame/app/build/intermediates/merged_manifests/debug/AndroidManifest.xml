@@ -26,6 +26,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.catalogboardgame.firebaseauth.LogAuth2" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.catalogboardgame.MainActivity2" />
         <activity android:name="com.example.catalogboardgame.DashboardAdmin.TampilUser" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -57,22 +65,18 @@
         <activity android:name="com.example.catalogboardgame.Export" />
         <activity android:name="com.example.catalogboardgame.user.DashUser" />
         <activity android:name="com.example.catalogboardgame.TambahGameAdmin.TbhGame" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name="com.example.catalogboardgame.Sign.Login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name="com.example.catalogboardgame.Sign.Daftar" />
         <activity android:name="com.example.catalogboardgame.DashboardAdmin.DashAdmin" />

@@ -8,8 +8,9 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6137949eb04c0baf7bc42e782c634fb9/jetified-firebase-common-19.5.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6137949eb04c0baf7bc42e782c634fb9/jetified-firebase-common-19.5.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/6137949eb04c0baf7bc42e782c634fb9/jetified-firebase-common-19.5.0/res" />
-      <root url="jar://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/6137949eb04c0baf7bc42e782c634fb9/jetified-firebase-common-19.5.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/6137949eb04c0baf7bc42e782c634fb9/jetified-firebase-common-19.5.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/b0f77374b47d9fa138517341107f6b5b/jetified-firebase-common-19.5.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/b0f77374b47d9fa138517341107f6b5b/jetified-firebase-common-19.5.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/b0f77374b47d9fa138517341107f6b5b/jetified-firebase-common-19.5.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/modules-2/files-2.1/com.google.firebase/firebase-common/19.5.0/74c6d45bd7a7f96f91a986795e875bafc361902b/firebase-common-19.5.0-javadoc.jar!/" />

@@ -60,7 +60,7 @@ public class TampilUser extends AppCompatActivity {
             @Override
             public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
                 Log.d(TAG, "onChildChanged:" + snapshot.getKey());
-                String hasil=snapshot.getValue(Akunfirebase.class).toPrint();
+                String hasil=snapshot.getValue(Akunfirebase.class).toPrinta();
                 arrayTampil.add(hasil);
 //                Mahasiswa mahasiswa=snapshot.getValue(Mahasiswa.class);
 //                String nim=mahasiswa.nim;

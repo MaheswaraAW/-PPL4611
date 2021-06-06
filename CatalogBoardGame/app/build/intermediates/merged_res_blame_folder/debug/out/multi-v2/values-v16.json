@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Lenovo\\Downloads\\SteamAhead-master\\.gradle\\gradle-6.8.3\\caches\\transforms-2\\files-2.1\\7d6b550ac34aaf8dea6f5daebcdc7b5c\\core-1.5.0-alpha04\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Lenovo\\Downloads\\SteamAhead-master\\.gradle\\gradle-6.8.3\\caches\\transforms-2\\files-2.1\\de0b3a0435fc5b915125d8ea093153bf\\core-1.5.0-alpha04\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Lenovo\\Downloads\\SteamAhead-master\\.gradle\\gradle-6.8.3\\caches\\transforms-2\\files-2.1\\e7700bf3fcf4236768ca476b82b72080\\appcompat-1.2.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Lenovo\\Downloads\\SteamAhead-master\\.gradle\\gradle-6.8.3\\caches\\transforms-2\\files-2.1\\87f025731c89e33781f3a611692e4828\\appcompat-1.2.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,75 +1,78 @@
 package com.example.catalogboardgame.firebaseauth;
 
 public class Akunfirebase {
-    public String toPrint()
+    public String toPrinta()
     {
-        return this.nama+ " "+email+" "+UID;
+        return this.namaa+ " "+emaila+" "+UIDa;
     }
-    public String getNama() {
-        return nama;
-    }
-
-    public void setNama(String nama) {
-        this.nama = nama;
+    public String getNamaa() {
+        return namaa;
     }
 
-    public String getEmail() {
-        return email;
+    public void setNamaa(String namaa) {
+        this.namaa = namaa;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public String getEmaila() {
+        return emaila;
     }
 
-    public String getPassword() {
-        return password;
+    public void setEmaila(String emaila) {
+        this.emaila = emaila;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public String getPassworda() {
+        return passworda;
     }
 
-    public String getManag() {
-        return manag;
+    public void setPassworda(String passworda) {
+        this.passworda = passworda;
     }
 
-    public void setManag(String manag) {
-        this.manag = manag;
+    public String getManaga() {
+        return managa;
     }
 
-    public String getUID() {
-        return UID;
+    public void setManaga(String managa) {
+        this.managa = managa;
     }
 
-    public void setUID(String UID) {
-        this.UID = UID;
+    public String getUIDa() {
+        return UIDa;
     }
 
-    public String getID() {
-        return ID;
+    public void setUIDa(String UIDa) {
+        this.UIDa = UIDa;
     }
 
-    public void setID(String ID) {
-        this.ID = ID;
+    public String getIDa() {
+        return IDa;
     }
 
-    public Akunfirebase(String nama, String email, String password, String manag, String UID, String ID) {
-        this.nama = nama;
-        this.email = email;
-        this.password = password;
-        this.manag = manag;
-        this.UID = UID;
-        this.ID = ID;
+    public void setIDa(String IDa) {
+        this.IDa = IDa;
+    }
+
+    public Akunfirebase(String namaa, String emaila, String passworda, String managa, String UIDa, String IDa) {
+        this.namaa = namaa;
+        this.emaila = emaila;
+        this.passworda = passworda;
+        this.managa = managa;
+        this.UIDa = UIDa;
+        this.IDa = IDa;
     }
     public Akunfirebase(){
 
     }
+    public  String sas(){
+        return this.managa;
+    }
 
 
-    private String nama;
-    private String email;
-    private String password;
-    private String manag;
-    private String UID;
-    private String ID;
+    private String namaa;
+    private String emaila;
+    private String passworda;
+    private String managa;
+    private String UIDa;
+    private String IDa;
 }

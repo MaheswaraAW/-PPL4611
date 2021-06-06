@@ -1396,7 +1396,8 @@ id easeOut
 id edit_query
 id email
 id emailuser
-id emailusers
+id emailuserss
+id emailuserx
 id end
 id enterAlways
 id enterAlwaysCollapsed
@@ -1462,7 +1463,8 @@ id linear
 id listMode
 id list_item
 id listdatas
-id loginss
+id loginsss
+id loginx
 id masked
 id masuk
 id masuks
@@ -1492,7 +1494,8 @@ id parentRelative
 id parent_matrix
 id password
 id passworduser
-id passwordusers
+id passworduserss
+id passworduserx
 id path
 id pathRelative
 id percent
@@ -1545,7 +1548,8 @@ id showHome
 id showTitle
 id signin
 id signup
-id signupss
+id signupsss
+id signupx
 id sin
 id smallLabel
 id snackbar_action
@@ -1688,9 +1692,11 @@ layout activity_dashboard_user
 layout activity_db_admin
 layout activity_export
 layout activity_leaderboard_user
+layout activity_log_auth2
 layout activity_login
 layout activity_login_auth
 layout activity_main
+layout activity_main2
 layout activity_rgister_auth
 layout activity_tambah_game_admin
 layout activity_tampil_user
