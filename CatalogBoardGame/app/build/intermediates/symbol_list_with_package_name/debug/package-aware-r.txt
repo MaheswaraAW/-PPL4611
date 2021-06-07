@@ -878,6 +878,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color teal_200
 color teal_700
+color text2
 color tooltip_background_dark
 color tooltip_background_light
 color white
@@ -1200,6 +1201,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable bundar
+drawable button_black
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1231,6 +1233,7 @@ drawable fc
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_baseline_arrow_back_24
+drawable ic_bg_splash
 drawable ic_head1
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1698,6 +1701,7 @@ layout activity_login_auth
 layout activity_main
 layout activity_main2
 layout activity_rgister_auth
+layout activity_splash_screen
 layout activity_tambah_game_admin
 layout activity_tampil_user
 layout activity_tbh_game

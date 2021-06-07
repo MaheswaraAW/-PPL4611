@@ -1,18 +1,16 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.fragment:fragment:1.1.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10200895828a97f345b2c6d8b62c92e0/fragment-1.1.0/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/../SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/10200895828a97f345b2c6d8b62c92e0/fragment-1.1.0/annotations.zip!/" />
       <root url="jar://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/a7c1511cdcb4b9a780475a069b86ba33/fragment-1.1.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a7c1511cdcb4b9a780475a069b86ba33/fragment-1.1.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/12c076570219bdc2a11e9d0df335391a/fragment-1.1.0/res" />
       <root url="file://$PROJECT_DIR$/../SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/81865ba4f993cbf99ee43324f1cf6b36/fragment-1.1.0/res" />
       <root url="file://$PROJECT_DIR$/../SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/adbfbc15f543b2c8b90f071b8dfc77cc/fragment-1.1.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/81865ba4f993cbf99ee43324f1cf6b36/fragment-1.1.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10200895828a97f345b2c6d8b62c92e0/fragment-1.1.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10200895828a97f345b2c6d8b62c92e0/fragment-1.1.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10200895828a97f345b2c6d8b62c92e0/fragment-1.1.0/jars/classes.jar!/" />
       <root url="jar://$PROJECT_DIR$/../SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/10200895828a97f345b2c6d8b62c92e0/fragment-1.1.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/10200895828a97f345b2c6d8b62c92e0/fragment-1.1.0/res" />
       <root url="file://$PROJECT_DIR$/../SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/10200895828a97f345b2c6d8b62c92e0/fragment-1.1.0/AndroidManifest.xml" />
@@ -20,11 +18,15 @@
       <root url="jar://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/a7c1511cdcb4b9a780475a069b86ba33/fragment-1.1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/a7c1511cdcb4b9a780475a069b86ba33/fragment-1.1.0/res" />
       <root url="file://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/a7c1511cdcb4b9a780475a069b86ba33/fragment-1.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a7c1511cdcb4b9a780475a069b86ba33/fragment-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a7c1511cdcb4b9a780475a069b86ba33/fragment-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a7c1511cdcb4b9a780475a069b86ba33/fragment-1.1.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../SteamAhead-master/.gradle/gradle-6.8.3/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0/b9ebb04df2cb0cad4419af3c658690bc82aa5706/fragment-1.1.0-sources.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0/b9ebb04df2cb0cad4419af3c658690bc82aa5706/fragment-1.1.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0/b9ebb04df2cb0cad4419af3c658690bc82aa5706/fragment-1.1.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/bb"
+    android:backgroundTint="@color/white"
     tools:context=".firebaseauth.LogAuth2">
 
     <androidx.appcompat.widget.Toolbar
-        android:background="#2944B3"
+        android:background="@color/colorPrimaryDark"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -72,7 +72,7 @@
             android:layout_height="wrap_content"
             android:text="Log in to board game"
             android:textSize="25sp"
-            android:textColor="#5B5B5B"/>
+            android:textColor="@color/text2"/>
     </LinearLayout>
 
     <LinearLayout
@@ -83,25 +83,54 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="5dp">
 
-        <EditText
-            android:id="@+id/emailuserx"
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="E-Mails"
-            android:inputType="textEmailAddress"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:textSize="16sp" />
+            android:hint="E-Mail"
+            android:layout_marginBottom="5dp">
 
-        <EditText
-            android:id="@+id/passworduserx"
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/emailuserx"
+                android:inputType="textEmailAddress"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Passwords"
-            android:inputType="textPassword"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:textSize="16sp" />
+            android:hint="Password"
+            app:passwordToggleEnabled="true"
+            android:layout_marginBottom="5dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/passworduserx"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+<!--        <EditText-->
+<!--            android:id="@+id/emailuserx"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="E-Mails"-->
+<!--            android:inputType="textEmailAddress"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginBottom="5dp"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/passworduserx"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="Passwords"-->
+<!--            android:inputType="textPassword"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginBottom="5dp"-->
+<!--            android:textSize="16sp" />-->
 
         <!--        <Button-->
         <!--            android:id="@+id/fp"-->
@@ -120,20 +149,33 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="5dp"
-            android:background="#000"
-            android:textColor="#fff"
+            android:background="@drawable/button_black"
+            android:textColor="@color/white"
             android:text="Login"
             android:textSize="16sp"/>
 
         <Button
             android:id="@+id/signupx"
+            android:text="SIGN UP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:background="#FBFDFF"
-            android:text="Sign Up"
-            android:textSize="16sp"/>
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            style="@style/Widget.MaterialComponents.Button.TextButton" />
+
+<!--        <Button-->
+<!--            android:id="@+id/signupx"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginBottom="5dp"-->
+<!--            android:background="#FBFDFF"-->
+<!--            android:text="Sign Up"-->
+<!--            android:textSize="16sp"/>-->
 
     </LinearLayout>
 

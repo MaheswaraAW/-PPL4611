@@ -5,10 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:backgroundTint="@color/white"
     tools:context=".firebaseauth.RgisterAuth">
 
     <androidx.appcompat.widget.Toolbar
-        android:background="#2944B3"
+        android:background="@color/colorPrimaryDark"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -71,7 +72,7 @@
             android:layout_height="wrap_content"
             android:text="Create your account"
             android:textSize="25sp"
-            android:textColor="#5B5B5B"/>
+            android:textColor="@color/text2"/>
     </LinearLayout>
 
     <LinearLayout
@@ -82,35 +83,78 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="5dp">
 
-        <EditText
-            android:id="@+id/regnamausers"
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Nama"
-            android:inputType="textPersonName"
-            android:textSize="16sp"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"/>
+            android:layout_marginBottom="5dp">
 
-        <EditText
-            android:id="@+id/regemailusers"
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/regnamausers"
+                android:inputType="textPersonName"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="E-Mail"
-            android:inputType="textEmailAddress"
-            android:textSize="16sp"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"/>
+            android:layout_marginBottom="5dp">
 
-        <EditText
-            android:id="@+id/regpasswordusers"
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/regemailusers"
+                android:inputType="textEmailAddress"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
-            android:inputType="textPassword"
-            android:textSize="16sp"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"/>
+            app:passwordToggleEnabled="true"
+            android:layout_marginBottom="5dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/regpasswordusers"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+<!--        <EditText-->
+<!--            android:id="@+id/regnamausers"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="Nama"-->
+<!--            android:inputType="textPersonName"-->
+<!--            android:textSize="16sp"-->
+<!--            android:layout_marginBottom="5dp"-->
+<!--            android:layout_marginTop="5dp"/>-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/regemailusers"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="E-Mail"-->
+<!--            android:inputType="textEmailAddress"-->
+<!--            android:textSize="16sp"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginBottom="5dp"/>-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/regpasswordusers"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="Password"-->
+<!--            android:inputType="textPassword"-->
+<!--            android:textSize="16sp"-->
+<!--            android:layout_marginBottom="5dp"-->
+<!--            android:layout_marginTop="5dp"/>-->
 
         <Button
             android:id="@+id/daftars"
@@ -118,20 +162,33 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="5dp"
-            android:background="#000"
-            android:textColor="#fff"
+            android:background="@drawable/button_black"
+            android:textColor="@color/white"
             android:text="Sign In"
             android:textSize="16sp"/>
 
         <Button
             android:id="@+id/masuks"
+            android:text="ALREADY HAVE AN ACCOUNT LOGIN"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:background="#FBFDFF"
-            android:text="Already have an account login"
-            android:textSize="16sp"/>
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            style="@style/Widget.MaterialComponents.Button.TextButton" />
+
+<!--        <Button-->
+<!--            android:id="@+id/masuks"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginBottom="5dp"-->
+<!--            android:background="#FBFDFF"-->
+<!--            android:text="Already have an account login"-->
+<!--            android:textSize="16sp"/>-->
 
     </LinearLayout>
 
