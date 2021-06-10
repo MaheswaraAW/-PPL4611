@@ -11,8 +11,11 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdapters;
+import com.example.catalogboardgame.LeaderboardClient.LeaderboardClient;
 import com.example.catalogboardgame.LeaderboardUser;
 import com.example.catalogboardgame.R;
+import com.example.catalogboardgame.TambahHistoryClient.TambahHistoryClient;
 import com.example.catalogboardgame.model.CatalogBoardGame;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -21,13 +24,15 @@ public class BacaGameClients extends AppCompatActivity {
     DatabaseReference databaseReference;
     CatalogBoardGame catalogBoardGame;
     TextView TVNamaGame, TVJumlahPemain, TVDeskripsiGame, TVKategori;
-    ImageView IVGambarGame;
+    ImageView IVGambarGame, IVKembali;
     Button BLeaderboard, BAddHistory;
 
     String SNamaGame;
     String SKategori;
     String SDeskripsiGame;
     Integer IJumlahPemain;
+
+    String SGambarGame;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +48,7 @@ public class BacaGameClients extends AppCompatActivity {
         TVDeskripsiGame = findViewById(R.id.idTVDeskripsiGame);
         TVKategori = findViewById(R.id.idTVKategori);
         IVGambarGame = findViewById(R.id.idIVGambarGame);
+        IVKembali = findViewById(R.id.idIVKembali);
 
         BLeaderboard = findViewById(R.id.idBLeaderboard);
         BAddHistory = findViewById(R.id.idBAddHistory);
@@ -53,18 +59,41 @@ public class BacaGameClients extends AppCompatActivity {
         SKategori = intent.getStringExtra("Kategori");
         SDeskripsiGame = intent.getStringExtra("DeskripsiGame");
 
+        Intent intenta = new Intent(BacaGameClients.this, LeaderboardClient.class);
+        intenta.putExtra("NamaGame", SNamaGame);
+//        startActivity(intenta);
+
         Glide.with(this).load(intent.getStringExtra("GambarGame")).diskCacheStrategy(DiskCacheStrategy.RESOURCE).into(IVGambarGame);
         TVNamaGame.setText(SNamaGame);
         TVJumlahPemain.setText(Integer.toString(IJumlahPemain));
         TVKategori.setText(SKategori);
         TVDeskripsiGame.setText(SDeskripsiGame);
 
+        IVKembali.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+
         BLeaderboard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intenta = new Intent(BacaGameClients.this, LeaderboardUser.class);
+                Intent intenta = new Intent(BacaGameClients.this, LeaderboardClient.class);
                 startActivity(intenta);
+            }
+        });
 
+        BAddHistory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intenta = new Intent(BacaGameClients.this, TambahHistoryClient.class);
+                intenta.putExtra("GambarGame", SGambarGame);
+                intenta.putExtra("NamaGame", SNamaGame);
+                intenta.putExtra("JumlahPemain", IJumlahPemain);
+                intenta.putExtra("Kategori", SKategori);
+                intenta.putExtra("DeskripsiGame", SDeskripsiGame);
+                startActivity(intenta);
             }
         });
     }
