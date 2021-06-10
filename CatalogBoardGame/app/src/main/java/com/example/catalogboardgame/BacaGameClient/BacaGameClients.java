@@ -59,10 +59,6 @@ public class BacaGameClients extends AppCompatActivity {
         SKategori = intent.getStringExtra("Kategori");
         SDeskripsiGame = intent.getStringExtra("DeskripsiGame");
 
-        Intent intenta = new Intent(BacaGameClients.this, LeaderboardClient.class);
-        intenta.putExtra("NamaGame", SNamaGame);
-//        startActivity(intenta);
-
         Glide.with(this).load(intent.getStringExtra("GambarGame")).diskCacheStrategy(DiskCacheStrategy.RESOURCE).into(IVGambarGame);
         TVNamaGame.setText(SNamaGame);
         TVJumlahPemain.setText(Integer.toString(IJumlahPemain));
@@ -80,6 +76,7 @@ public class BacaGameClients extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intenta = new Intent(BacaGameClients.this, LeaderboardClient.class);
+                intenta.putExtra("NamaGame", SNamaGame);
                 startActivity(intenta);
             }
         });

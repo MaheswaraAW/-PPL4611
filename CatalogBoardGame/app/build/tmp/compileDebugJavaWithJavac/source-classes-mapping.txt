@@ -22,11 +22,36 @@ com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientGambarGame
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdapter
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdapter$1
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdapter$DaftarGameClientGambarGameViewHolder
+com/example/catalogboardgame/TambahHistoryClient/TambahHistoryClient.java
+ com.example.catalogboardgame.TambahHistoryClient.TambahHistoryClient
+ com.example.catalogboardgame.TambahHistoryClient.TambahHistoryClient$1
+ com.example.catalogboardgame.TambahHistoryClient.TambahHistoryClient$2
+ com.example.catalogboardgame.TambahHistoryClient.TambahHistoryClient$3
+ com.example.catalogboardgame.TambahHistoryClient.TambahHistoryClient$3$1
+ com.example.catalogboardgame.TambahHistoryClient.TambahHistoryClient$3$1$1
+ com.example.catalogboardgame.TambahHistoryClient.TambahHistoryClient$3$2
+ com.example.catalogboardgame.TambahHistoryClient.TambahHistoryClient$4
+ com.example.catalogboardgame.TambahHistoryClient.TambahHistoryClient$5
+ com.example.catalogboardgame.TambahHistoryClient.TambahHistoryClient$6
+ com.example.catalogboardgame.TambahHistoryClient.TambahHistoryClient$6$1
+ com.example.catalogboardgame.TambahHistoryClient.TambahHistoryClient$7
 com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientAdapters.java
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapters
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapters$DaftarGameClientViewHolder
 com/example/catalogboardgame/model/Akun.java
  com.example.catalogboardgame.model.Akun
+com/example/catalogboardgame/LeaderboardClient/LeaderboardClient.java
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardClient
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$1
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$2
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$3
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$3$1
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$4
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$4$1
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$5
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$5$1
+com/example/catalogboardgame/model/History.java
+ com.example.catalogboardgame.model.History
 com/example/catalogboardgame/model/CatalogBoardGame.java
  com.example.catalogboardgame.model.CatalogBoardGame
 com/example/catalogboardgame/Sign/Daftar.java
@@ -78,6 +103,9 @@ com/example/catalogboardgame/MainActivity2.java
  com.example.catalogboardgame.MainActivity2
 com/example/catalogboardgame/firebaseauth/LogAuth2.java
  com.example.catalogboardgame.firebaseauth.LogAuth2
+com/example/catalogboardgame/LeaderboardClient/Adapter/LeaderboardClientAdapter.java
+ com.example.catalogboardgame.LeaderboardClient.Adapter.LeaderboardClientAdapter
+ com.example.catalogboardgame.LeaderboardClient.Adapter.LeaderboardClientAdapter$LeaderboardClientViewHolder
 com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientGambarGameRecyclerAdapters.java
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdapters
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdapters$1
@@ -105,6 +133,8 @@ com/example/catalogboardgame/user/DashboardUser.java
 com/example/catalogboardgame/BacaGameClient/BacaGameClients.java
  com.example.catalogboardgame.BacaGameClient.BacaGameClients
  com.example.catalogboardgame.BacaGameClient.BacaGameClients$1
+ com.example.catalogboardgame.BacaGameClient.BacaGameClients$2
+ com.example.catalogboardgame.BacaGameClient.BacaGameClients$3
 com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientAdaptersAdm.java
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdaptersAdm
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdaptersAdm$DaftarGameClientViewHolder
@@ -118,5 +148,7 @@ com/example/catalogboardgame/DaftarGameClient/Model/CKategori.java
 com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientAdapter.java
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapter
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapter$DaftarGameClientViewHolder
+com/example/catalogboardgame/KonfirmasiHistory/KonfirmasiHistory.java
+ com.example.catalogboardgame.KonfirmasiHistory.KonfirmasiHistory
 com/example/catalogboardgame/user/DashUser.java
  com.example.catalogboardgame.user.DashUser

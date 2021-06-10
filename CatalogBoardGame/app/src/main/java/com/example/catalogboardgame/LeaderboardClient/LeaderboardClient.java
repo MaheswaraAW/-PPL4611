@@ -50,7 +50,7 @@ public class LeaderboardClient extends AppCompatActivity {
 
     ArrayList<String> ALTanggal = new ArrayList<String>();
     ArrayList<Integer> ALDay = new ArrayList<Integer>();
-//    ArrayList<Integer> ALMonth = new ArrayList<Integer>();
+    //    ArrayList<Integer> ALMonth = new ArrayList<Integer>();
     ArrayList<String> ALNamaD = new ArrayList<String>();
     ArrayList<String> ALSNama = new ArrayList<String>();
     ArrayList<String> ALNamaM = new ArrayList<String>();
