@@ -59,13 +59,13 @@ public class RgisterAuth extends AppCompatActivity {
                             checkField(password);
                             FirebaseUser user= firebaseAuth.getCurrentUser();
 
-                            akunfirebase.setNamaa(name.getText().toString());
-                            akunfirebase.setEmaila(email.getText().toString());
-                            akunfirebase.setPassworda(password.getText().toString());
-                            akunfirebase.setManaga(manag);
+                            akunfirebase.setNama(name.getText().toString());
+                            akunfirebase.setEmail(email.getText().toString());
+                            akunfirebase.setPassword(password.getText().toString());
+                            akunfirebase.setManag(manag);
                             String ID=databaseReference.push().getKey();
-                            akunfirebase.setIDa(ID);
-                            akunfirebase.setUIDa(user.getUid());
+                            akunfirebase.setID(ID);
+                            akunfirebase.setUID(user.getUid());
 
                             Toast.makeText(RgisterAuth.this,"Akun berhasil dibuat",Toast.LENGTH_SHORT).show();
 

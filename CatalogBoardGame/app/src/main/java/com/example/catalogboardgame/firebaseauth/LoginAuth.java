@@ -42,6 +42,7 @@ public class LoginAuth extends AppCompatActivity {
 
     ArrayAdapter arrayAdapter;
     ArrayList<String> arrayTampil=new ArrayList<String>();
+    ArrayList<String> arrayTampil1=new ArrayList<String>();
 
     String UId,nM;
 //    ArrayList<String> arrayEdit=new ArrayList<>();
@@ -98,6 +99,8 @@ public class LoginAuth extends AppCompatActivity {
                                             String sa;
                                             arrayTampil.add((String) snapshot.child("manag").getValue());
 
+                                            arrayTampil1.add((String) snapshot.child("managa").getValue());
+
 
                                             Log.d("TAG", "onDataChange: "+manag);
                                             Log.d("TAG", "onDataChange: "+arrayTampil);
@@ -115,7 +118,36 @@ public class LoginAuth extends AppCompatActivity {
                                             Log.d("TAG", "onDataChange: "+l);
 
 
+
+
                                             if (l.equals("1"))
+                                            {
+                                                Toast.makeText(LoginAuth.this, "User", Toast.LENGTH_LONG).show();
+
+                                                Intent intent = new Intent(LoginAuth.this, DashUser.class);
+                                                startActivity(intent);
+                                                finish();
+
+                                            }
+                                            else if (l.equals("0")){
+                                                Toast.makeText(LoginAuth.this, "ADM", Toast.LENGTH_LONG).show();
+
+                                                Intent intents = new Intent(LoginAuth.this, DashAdmin.class);
+                                                startActivity(intents);
+                                                finish();
+
+                                            }
+
+                                            StringBuffer stringBuildera=new StringBuffer();
+
+                                            for (String m: arrayTampil1)
+                                            {
+                                                stringBuildera.append(m);
+                                                stringBuildera.append("");
+                                            }
+                                            String j=stringBuildera.toString();
+
+                                            if (j.equals("1"))
                                             {
                                                 Toast.makeText(LoginAuth.this, "User", Toast.LENGTH_LONG).show();
 
@@ -123,7 +155,7 @@ public class LoginAuth extends AppCompatActivity {
                                                 startActivity(intent);
 
                                             }
-                                            else if (l.equals("0")){
+                                            else if (j.equals("0")){
                                                 Toast.makeText(LoginAuth.this, "ADM", Toast.LENGTH_LONG).show();
 
                                                 Intent intents = new Intent(LoginAuth.this, DashAdmin.class);

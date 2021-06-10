@@ -1,12 +1,11 @@
 package com.example.catalogboardgame;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.example.catalogboardgame.Sign.Login;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.catalogboardgame.firebaseauth.LoginAuth;
 
 public class SplashScreen extends AppCompatActivity {

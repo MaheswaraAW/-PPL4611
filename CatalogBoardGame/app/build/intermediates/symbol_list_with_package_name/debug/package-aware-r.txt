@@ -1488,6 +1488,7 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id open
 id outline
 id packed
 id parallax
