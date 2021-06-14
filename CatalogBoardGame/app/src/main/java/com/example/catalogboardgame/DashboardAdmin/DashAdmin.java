@@ -8,6 +8,7 @@ import android.view.View;
 
 import com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActiviti;
 import com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActivitiAdm;
+import com.example.catalogboardgame.KonfirmasiHistory.KonfirmasiHistory;
 import com.example.catalogboardgame.R;
 import com.example.catalogboardgame.TambahGameAdmin.TbhGame;
 import com.example.catalogboardgame.firebaseauth.LoginAuth;
@@ -29,6 +30,8 @@ public class DashAdmin extends AppCompatActivity {
     }
 
     public void Historyadmin(View view) {
+        Intent intent=new Intent(DashAdmin.this, KonfirmasiHistory.class);
+        startActivity(intent);
     }
 
     public void TambahGame(View view) {

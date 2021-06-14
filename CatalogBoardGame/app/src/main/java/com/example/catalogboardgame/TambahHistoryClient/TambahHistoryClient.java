@@ -12,6 +12,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.webkit.MimeTypeMap;
 import android.widget.Button;
@@ -147,28 +148,69 @@ public class TambahHistoryClient extends AppCompatActivity {
                                         Toast.makeText(TambahHistoryClient.this, "Nama Ada:"+Name+"ALKEY:"+ALKey, Toast.LENGTH_SHORT).show();
                                     }
                                 }
-                                Toast.makeText(TambahHistoryClient.this, "ALKEY"+ALKey, Toast.LENGTH_SHORT).show();
+//                                Toast.makeText(TambahHistoryClient.this, "ALKEY"+ALKey, Toast.LENGTH_SHORT).show();
                                 if(ALKey.isEmpty()){
-                                    Toast.makeText(TambahHistoryClient.this, "Nama baru"+"ALKey:"+ALKey, Toast.LENGTH_SHORT).show();
-                                    history.setNamaGame(SNamaGame);
-                                    history.setName(ETNamaPemain.getText().toString());
-                                    history.setWin(Integer.parseInt(ETMenang.getText().toString()));
-                                    history.setLose(Integer.parseInt(ETKalah.getText().toString()));
-                                    history.setTanggal(TVTanggal.getText().toString());
-                                    IWin =  Integer.parseInt(ETMenang.getText().toString());
-                                    ILose = Integer.parseInt(ETKalah.getText().toString());
-                                    HitungPoint(IWin, ILose);
-                                    history.setDay(Integer.parseInt(SDay));
-                                    history.setMonth(Integer.parseInt(SMonth));
-                                    history.setYear(Integer.parseInt(SYear));
-                                    history.setMinDay(Integer.parseInt(SMinDay));
-                                    history.setMinMonth(Integer.parseInt(SMinMonth));
-                                    history.setMinYear(Integer.parseInt(SMinYear));
-                                    databaseReference.child("History").child(SKeyHistory).setValue(history);
-                                    finish();
-                                    Intent intenta = new Intent(TambahHistoryClient.this, LeaderboardClient.class);
-                                    intenta.putExtra("NamaGame", SNamaGame);
-                                    startActivity(intenta);
+//                                    Toast.makeText(TambahHistoryClient.this, "Nama baru"+"ALKey:"+ALKey, Toast.LENGTH_SHORT).show();
+//                                    if(ETNamaPemain.getText().toString().isEmpty()&&ETMenang.getText().toString().isEmpty()&&ETKalah.getText().toString().isEmpty()&&TVTanggal.getText().toString().isEmpty()==true){
+                                    if(TextUtils.isEmpty(ETNamaPemain.getText().toString())){
+                                        ETNamaPemain.setError("Masukkan Data");
+                                    }
+                                    if(TextUtils.isEmpty(ETMenang.getText().toString())){
+                                        ETMenang.setError("Masukkan Data");
+                                    }
+                                    if(TextUtils.isEmpty(ETKalah.getText().toString())){
+                                        ETKalah.setError("Masukkan Data");
+                                    }
+                                    if(TVTanggal.getText().toString().isEmpty()){
+//                                        TVTanggal.setError("Masukkan Data");
+                                        Toast.makeText(TambahHistoryClient.this, "Masukkan Tanggal", Toast.LENGTH_LONG).show();
+                                    }
+//                                    if(IVGambarGame.getDrawable()==null){
+                                    if(UGambarGame==null){
+                                        Toast.makeText(TambahHistoryClient.this, "Masukkan Gambar", Toast.LENGTH_LONG).show();
+                                    }
+
+                                    if(ETNamaPemain.getText().toString().isEmpty()==false && ETMenang.getText().toString().isEmpty() == false && ETKalah.getText().toString().isEmpty() == false && TVTanggal.getText().toString().isEmpty() == false && UGambarGame!=null){
+                                        history.setNamaGame(SNamaGame);
+                                        history.setName(ETNamaPemain.getText().toString());
+                                        history.setWin(Integer.parseInt(ETMenang.getText().toString()));
+                                        history.setLose(Integer.parseInt(ETKalah.getText().toString()));
+                                        history.setTanggal(TVTanggal.getText().toString());
+                                        IWin =  Integer.parseInt(ETMenang.getText().toString());
+                                        ILose = Integer.parseInt(ETKalah.getText().toString());
+                                        HitungPoint(IWin, ILose);
+                                        history.setDay(Integer.parseInt(SDay));
+                                        history.setMonth(Integer.parseInt(SMonth));
+                                        history.setYear(Integer.parseInt(SYear));
+                                        history.setMinDay(Integer.parseInt(SMinDay));
+                                        history.setMinMonth(Integer.parseInt(SMinMonth));
+                                        history.setMinYear(Integer.parseInt(SMinYear));
+                                        databaseReference.child("History").child(SKeyHistory).setValue(history);
+                                        finish();
+                                        Intent intenta = new Intent(TambahHistoryClient.this, LeaderboardClient.class);
+                                        intenta.putExtra("NamaGame", SNamaGame);
+                                        startActivity(intenta);
+                                    }
+//                                    history.setNamaGame(SNamaGame);
+//                                    history.setName(ETNamaPemain.getText().toString());
+//                                    history.setWin(Integer.parseInt(ETMenang.getText().toString()));
+//                                    history.setLose(Integer.parseInt(ETKalah.getText().toString()));
+//                                    history.setTanggal(TVTanggal.getText().toString());
+//                                    IWin =  Integer.parseInt(ETMenang.getText().toString());
+//                                    ILose = Integer.parseInt(ETKalah.getText().toString());
+//                                    HitungPoint(IWin, ILose);
+//                                    history.setDay(Integer.parseInt(SDay));
+//                                    history.setMonth(Integer.parseInt(SMonth));
+//                                    history.setYear(Integer.parseInt(SYear));
+//                                    history.setMinDay(Integer.parseInt(SMinDay));
+//                                    history.setMinMonth(Integer.parseInt(SMinMonth));
+//                                    history.setMinYear(Integer.parseInt(SMinYear));
+//                                    databaseReference.child("History").child(SKeyHistory).setValue(history);
+//                                    if(ETNamaPemain.getText().toString().isEmpty()&&ETMenang.getText().toString().isEmpty()&&ETKalah.getText().toString().isEmpty()&&TVTanggal.getText().toString().isEmpty()==true){
+
+//                                    Intent intenta = new Intent(TambahHistoryClient.this, LeaderboardClient.class);
+//                                    intenta.putExtra("NamaGame", SNamaGame);
+//                                    startActivity(intenta);
                                 }
 
                                 else if(ALKey!=null){

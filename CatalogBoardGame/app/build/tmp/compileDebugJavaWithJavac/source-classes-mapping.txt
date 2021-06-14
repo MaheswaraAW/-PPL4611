@@ -1,11 +1,14 @@
 com/example/catalogboardgame/BuildConfig.java
  com.example.catalogboardgame.BuildConfig
-com/example/catalogboardgame/DashboardAdmin/DashAdmin.java
- com.example.catalogboardgame.DashboardAdmin.DashAdmin
+com/example/catalogboardgame/user/DashUser.java
+ com.example.catalogboardgame.user.DashUser
 com/example/catalogboardgame/model/akn.java
  com.example.catalogboardgame.model.akn
 com/example/catalogboardgame/Export.java
  com.example.catalogboardgame.Export
+com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientAdapter.java
+ com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapter
+ com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapter$DaftarGameClientViewHolder
 com/example/catalogboardgame/TambahGameAdmin/TbhGame.java
  com.example.catalogboardgame.TambahGameAdmin.TbhGame
  com.example.catalogboardgame.TambahGameAdmin.TbhGame$1
@@ -145,10 +148,16 @@ com/example/catalogboardgame/DashboardAdmin/TampilUser.java
  com.example.catalogboardgame.DashboardAdmin.TampilUser$3
 com/example/catalogboardgame/DaftarGameClient/Model/CKategori.java
  com.example.catalogboardgame.DaftarGameClient.Model.CKategori
-com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientAdapter.java
- com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapter
- com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapter$DaftarGameClientViewHolder
+com/example/catalogboardgame/DashboardAdmin/DashAdmin.java
+ com.example.catalogboardgame.DashboardAdmin.DashAdmin
+com/example/catalogboardgame/KonfirmasiHistory/Adapter/KonfirmasiHistoryAdapter.java
+ com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter
+ com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$1
+ com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$1$1
+ com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$1$1$1
+ com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$1$2
+ com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$KonfirmasiHistoryViewHolder
 com/example/catalogboardgame/KonfirmasiHistory/KonfirmasiHistory.java
  com.example.catalogboardgame.KonfirmasiHistory.KonfirmasiHistory
-com/example/catalogboardgame/user/DashUser.java
- com.example.catalogboardgame.user.DashUser
+ com.example.catalogboardgame.KonfirmasiHistory.KonfirmasiHistory$1
+ com.example.catalogboardgame.KonfirmasiHistory.KonfirmasiHistory$2

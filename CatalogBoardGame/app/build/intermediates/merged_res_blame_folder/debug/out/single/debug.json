@@ -84,12 +84,12 @@
         "source": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tambah_history_client.xml.flat",
-        "source": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\activity_tambah_history_client.xml"
-    },
-    {
         "merged": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_daftar.xml.flat",
         "source": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\activity_daftar.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tambah_history_client.xml.flat",
+        "source": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\activity_tambah_history_client.xml"
     },
     {
         "merged": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_kembali.png.flat",
@@ -156,24 +156,24 @@
         "source": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\drawable\\borderabu.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_baca_game_adm.xml.flat",
-        "source": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\activity_baca_game_adm.xml"
-    },
-    {
         "merged": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_daftar_game_c_lient_activiti.xml.flat",
         "source": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\activity_daftar_game_c_lient_activiti.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_baca_game_adm.xml.flat",
+        "source": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\activity_baca_game_adm.xml"
     },
     {
         "merged": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_recyclerview_leaderboard_client.xml.flat",
         "source": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\recyclerview_leaderboard_client.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_bg_splash.xml.flat",
-        "source": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_bg_splash.xml"
-    },
-    {
         "merged": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_leaderboard_add_history.xml.flat",
         "source": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\drawable\\background_leaderboard_add_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_bg_splash.xml.flat",
+        "source": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_bg_splash.xml"
     },
     {
         "merged": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_delete.png.flat",
