@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\HP\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\87f025731c89e33781f3a611692e4828\\appcompat-1.2.0\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\Lenovo\\Downloads\\SteamAhead-master\\.gradle\\gradle-6.8.3\\caches\\transforms-2\\files-2.1\\87f025731c89e33781f3a611692e4828\\appcompat-1.2.0\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

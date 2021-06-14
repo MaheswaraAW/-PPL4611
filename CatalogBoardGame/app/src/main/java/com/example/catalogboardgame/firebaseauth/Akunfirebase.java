@@ -5,9 +5,6 @@ public class Akunfirebase {
     {
         return this.nama+ " "+email;
     }
-    public String getNamaa() {
-        return nama;
-    }
 
 
     public Akunfirebase(){

@@ -1264,6 +1264,7 @@ drawable notify_panel_notification_icon_bg
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
+id Access
 id CTRL
 id FUNCTION
 id META
@@ -1273,6 +1274,7 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id Tampilkanuser
 id UID
 id accelerate
 id accessibility_action_clickable_span
@@ -1379,6 +1381,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id deletes
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -1403,6 +1406,7 @@ id easeInOut
 id easeOut
 id edit_query
 id email
+id emails
 id emailuser
 id emailuserss
 id emailuserx
@@ -1412,6 +1416,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id exportuser
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1503,6 +1508,7 @@ id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
 id nama1
+id namas
 id navigation_header_container
 id never
 id none
@@ -1732,6 +1738,7 @@ layout activity_splash_screen
 layout activity_tambah_game_admin
 layout activity_tambah_history_client
 layout activity_tampil_user
+layout activity_tampil_user_recycler
 layout activity_tbh_game
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -1761,6 +1768,7 @@ layout notification_template_part_chronometer
 layout notification_template_part_time
 layout recyclerview_konfirmasi_history
 layout recyclerview_leaderboard_client
+layout recyclerview_tampil_usr
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

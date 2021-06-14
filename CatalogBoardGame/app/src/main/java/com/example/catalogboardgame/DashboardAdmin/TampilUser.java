@@ -33,7 +33,9 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -50,6 +52,7 @@ public class TampilUser extends AppCompatActivity {
     ArrayList<String> arrayTampil2=new ArrayList<>();
     ArrayList<String> arrayEdit=new ArrayList<>();
     ArrayList<String> arrayHapus=new ArrayList<>();
+    String tgl;
 
     DatabaseReference dreference;
 
@@ -62,6 +65,9 @@ public class TampilUser extends AppCompatActivity {
         listView =findViewById(R.id.listdatas);
         add=findViewById(R.id.btmAdd);
         buka=findViewById(R.id.open);
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd G 'at' HH.mm.ss");
+        tgl=sdf.format(new Date()).toString();
+
         dreference= FirebaseDatabase.getInstance().getReference().child("Akuns");
         arrayAdapter=new ArrayAdapter<String>(this,R.layout.support_simple_spinner_dropdown_item,arrayTampil);
         listView.setAdapter(arrayAdapter);
@@ -154,7 +160,7 @@ public class TampilUser extends AppCompatActivity {
                 }
                 String asa = as.toString();
                 String ca=da+asa;
-                generateNoteOnSD(TampilUser.this,"/APAaja.csv",ca);
+                generateNoteOnSD(TampilUser.this,"/"+" "+tgl+".csv",ca);
 
 
             }
@@ -187,7 +193,7 @@ public class TampilUser extends AppCompatActivity {
         try {
             String path=context.getFilesDir().getAbsolutePath();
             String pth= "/storage/emulated/0/CatalogBoardGame";
-            File root = new File(pth + "/Notes");
+            File root = new File(pth + "/Daftar USER");
             root.mkdir();
             //awalnya file rooth pake path
             Log.d(TAG, "generateNoteOnSD: "+root);

@@ -46,4 +46,8 @@ public class DashAdmin extends AppCompatActivity {
 //        startActivity(intent);
             finish();
     }
+
+    public void ListUser(View view) {
+        startActivity(new Intent(getApplicationContext(),TampilUser.class));
+    }
 }
