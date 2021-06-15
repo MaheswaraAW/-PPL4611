@@ -74,6 +74,7 @@ public class TampilUserRecycler extends AppCompatActivity {
                         manag="User";
                     String datas= ""+nama+","+""+email+","+""+manag;
                     data.add(datas);
+                    Log.d("TAG", "onDataChange: "+data);
 
 
                     akunfirebases.add(akunfirebase);

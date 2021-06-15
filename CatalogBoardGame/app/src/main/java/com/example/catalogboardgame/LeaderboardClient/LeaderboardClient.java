@@ -50,15 +50,15 @@ public class LeaderboardClient extends AppCompatActivity {
 
     ArrayList<String> ALTanggal = new ArrayList<String>();
     ArrayList<Integer> ALDay = new ArrayList<Integer>();
-    //    ArrayList<Integer> ALMonth = new ArrayList<Integer>();
     ArrayList<String> ALNamaD = new ArrayList<String>();
     ArrayList<String> ALSNama = new ArrayList<String>();
     ArrayList<String> ALNamaM = new ArrayList<String>();
-//    ArrayList<String> ALNamaGame = new ArrayList<String>();
+    ArrayList<String> datas = new ArrayList<String>();
 
     History history= new History();
 
     String SNamaGame;
+    String nama,win,lose,mont,year;
 
 
     @Override
@@ -77,7 +77,6 @@ public class LeaderboardClient extends AppCompatActivity {
         SNamaGame = intent.getStringExtra("NamaGame");
         TVNamaGame.setText(SNamaGame);
 
-//        Toast.makeText(this, "hari:"+SHariIni(), Toast.LENGTH_SHORT).show();
 
         IVKembali.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -94,30 +93,14 @@ public class LeaderboardClient extends AppCompatActivity {
                 for(DataSnapshot dataSnapshot : snapshot.getChildren()){
                     History history = dataSnapshot.getValue(History.class);
                     String Tanggal = dataSnapshot.child("tanggal").getValue(String.class);
-//                    Integer Day = dataSnapshot.child("day").getValue(Integer.class);
                     String NamaGame = dataSnapshot.child("namaGame").getValue(String.class);
 
-//                    Toast.makeText(LeaderboardClient.this, "Nama:"+Nama, Toast.LENGTH_SHORT).show();
-//                    if(Tanggal.equals(SHariIni())){
+
                     if(Tanggal.equals(SHariIni())&&NamaGame.equals(SNamaGame)){
-//                        ALIDay.add(Day);
-//                        ALNama.add(Nama);
-//                        Collections.sort(ALIDay);//ascending value array
-//                        Collections.reverse(ALIDay);
-//                        Collections.sort(ALNama);
-//                        ALTanggal.add(Tanggal);
-//                        ALNamaGame.add(NamaGame);
                         ALHistory.add(history);
                     }
-//                    Toast.makeText(LeaderboardClient.this, "sort:"+ALIDay, Toast.LENGTH_SHORT).show();
                 }
 
-//                Collections.sort(ALIDay);//ascending value array
-//                Collections.reverse(ALIDay);//descending array bukan value array
-//                Toast.makeText(LeaderboardClient.this, "sort:"+ALNama, Toast.LENGTH_SHORT).show();
-//                Toast.makeText(LeaderboardClient.this, "sort:"+ALIDay, Toast.LENGTH_SHORT).show();
-//                leaderboardClientAdapter = new LeaderboardClientAdapter(context, ALHistory);
-//                leaderboardClientAdapter = new LeaderboardClientAdapter(context, ALHistory, ALIDay);
                 leaderboardClientAdapter = new LeaderboardClientAdapter(context, ALHistory);
                 RVLeaderboardClient.setAdapter(leaderboardClientAdapter);
 
@@ -142,6 +125,7 @@ public class LeaderboardClient extends AppCompatActivity {
                             History history = dataSnapshot.getValue(History.class);
                             String Tanggal = dataSnapshot.child("tanggal").getValue(String.class);
                             String NamaGame = dataSnapshot.child("namaGame").getValue(String.class);
+
 
                             if(Tanggal.equals(SHariIni())&&NamaGame.equals(SNamaGame)){
                                 ALHistory.add(history);
@@ -180,7 +164,6 @@ public class LeaderboardClient extends AppCompatActivity {
                             String Bulan = Tanggal.substring(3, 5);
                             String Bulanini = SHariIni().substring(3, 5);
                             String NamaGame = dataSnapshot.child("namaGame").getValue(String.class);
-//                            Toast.makeText(LeaderboardClient.this, "tanggal:"+Tanggal+"Bulan:"+Bulan+"Bulan ini:"+Bulanini, Toast.LENGTH_SHORT).show();
                             if(Bulan.equals(Bulanini)&&NamaGame.equals(SNamaGame)){
                                 ALHistory.add(history);
                                 ALDay.add(day);
@@ -196,10 +179,7 @@ public class LeaderboardClient extends AppCompatActivity {
 //                                ALNamaBulan.add(nama);
 //                            }
                         }
-//                        Toast.makeText(LeaderboardClient.this, "ALSNama:"+ALSNama+"ALNamaD:"+ALNamaD, Toast.LENGTH_SHORT).show();
 
-//                        leaderboardClientAdapter = new LeaderboardClientAdapter(context, ALHistory);
-//                        leaderboardClientAdapter = new LeaderboardClientAdapter(context, ALHistory, ALDay, ALSNama);
                         leaderboardClientAdapter = new LeaderboardClientAdapter(context, ALHistory, ALSNama);
                         RVLeaderboardClient.setAdapter(leaderboardClientAdapter);
 
@@ -226,24 +206,20 @@ public class LeaderboardClient extends AppCompatActivity {
                         ALNamaD.clear();
                         ALSNama.clear();
                         ALNamaM.clear();
-//                        ALMonth.clear();
                         for(DataSnapshot dataSnapshot : snapshot.getChildren()){
                             History history = dataSnapshot.getValue(History.class);
                             String Tanggal = dataSnapshot.child("tanggal").getValue(String.class);
                             Integer day = dataSnapshot.child("day").getValue(Integer.class);
-//                            Integer month = dataSnapshot.child("month").getValue(Integer.class);
                             String nama = dataSnapshot.child("name").getValue(String.class);
                             String Tahun = Tanggal.substring(6);
                             String Bulan = Tanggal.substring(3, 5);
                             String Tahunini = SHariIni().substring(6);
                             String Bulanini = SHariIni().substring(3, 5);
                             String NamaGame = dataSnapshot.child("namaGame").getValue(String.class);
-//                            Toast.makeText(LeaderboardClient.this, "tanggal:"+Tanggal+"Tahun:"+Tahun+"Tahun ini:"+Tahunini, Toast.LENGTH_SHORT).show();
 
                             if(Tahun.equals(Tahunini)&&NamaGame.equals(SNamaGame)){
                                 ALHistory.add(history);
                                 ALDay.add(day);
-//                                ALMonth.add(month);
                                 ALSNama.add(nama);
                             }
                             if(Bulan.equals(Bulanini)&&NamaGame.equals(SNamaGame)){
@@ -256,9 +232,6 @@ public class LeaderboardClient extends AppCompatActivity {
                             ALNamaM.removeAll(ALNamaD);
 
                         }
-//                        Toast.makeText(LeaderboardClient.this, "ALSNama"+ALSNama+"ALNamaD:"+ALNamaD+"ALNamaM:"+ALNamaM, Toast.LENGTH_SHORT).show();
-//                        leaderboardClientAdapter = new LeaderboardClientAdapter(context, ALHistory);
-//                        leaderboardClientAdapter = new LeaderboardClientAdapter(context, ALHistory, ALDay, ALSNama, ALNamaD);
                         leaderboardClientAdapter = new LeaderboardClientAdapter(context, ALHistory, ALSNama, ALNamaD, ALNamaM);
                         RVLeaderboardClient.setAdapter(leaderboardClientAdapter);
 

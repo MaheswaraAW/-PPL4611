@@ -28,6 +28,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin" />
         <activity android:name="com.example.catalogboardgame.DashboardAdmin.TampilUserRecycler" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -114,7 +115,13 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.catalogboardgame.Sign.Daftar" />
-        <activity android:name="com.example.catalogboardgame.DashboardAdmin.DashAdmin" />
+        <activity android:name="com.example.catalogboardgame.DashboardAdmin.DashAdmin" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActiviti" >
 
             <!-- <intent-filter> -->

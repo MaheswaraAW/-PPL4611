@@ -1416,6 +1416,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id exporrts
 id exportuser
 id fill
 id fill_horizontal
@@ -1726,6 +1727,7 @@ layout activity_dashboard_user
 layout activity_db_admin
 layout activity_export
 layout activity_konfirmasi_history
+layout activity_leaderboard_admin
 layout activity_leaderboard_client
 layout activity_leaderboard_user
 layout activity_log_auth2

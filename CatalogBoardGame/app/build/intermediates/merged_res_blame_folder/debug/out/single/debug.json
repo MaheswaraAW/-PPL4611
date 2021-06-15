@@ -316,6 +316,10 @@
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_bg_splash.png"
     },
     {
+        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_leaderboard_admin.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\activity_leaderboard_admin.xml"
+    },
+    {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_head1.png.flat",
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_head1.png"
     },

@@ -57,6 +57,17 @@ com/example/catalogboardgame/LeaderboardClient/LeaderboardClient.java
  com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$4$1
  com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$5
  com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$5$1
+com/example/catalogboardgame/LeaderboardClient/LeaderboardAdmin.java
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$1
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$2
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$3
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$3$1
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$4
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$4$1
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$5
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$5$1
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$6
 com/example/catalogboardgame/model/History.java
  com.example.catalogboardgame.model.History
 com/example/catalogboardgame/model/CatalogBoardGame.java
@@ -97,6 +108,8 @@ com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientGambarGame
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdaptersAdm
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdaptersAdm$1
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdaptersAdm$DaftarGameClientGambarGameViewHolder
+com/example/catalogboardgame/LeaderboardClient/Adapter/LeaderboardAdminAdapter.java
+ com.example.catalogboardgame.LeaderboardClient.Adapter.LeaderboardAdminAdapter
 com/example/catalogboardgame/BacaGameClient/BacaGameAdm.java
  com.example.catalogboardgame.BacaGameClient.BacaGameAdm
  com.example.catalogboardgame.BacaGameClient.BacaGameAdm$1
@@ -166,9 +179,9 @@ com/example/catalogboardgame/KonfirmasiHistory/KonfirmasiHistory.java
  com.example.catalogboardgame.KonfirmasiHistory.KonfirmasiHistory
  com.example.catalogboardgame.KonfirmasiHistory.KonfirmasiHistory$1
  com.example.catalogboardgame.KonfirmasiHistory.KonfirmasiHistory$2
-com/example/catalogboardgame/user/DashUser.java
- com.example.catalogboardgame.user.DashUser
 com/example/catalogboardgame/DashboardAdmin/TampilUserRecycler.java
  com.example.catalogboardgame.DashboardAdmin.TampilUserRecycler
  com.example.catalogboardgame.DashboardAdmin.TampilUserRecycler$1
  com.example.catalogboardgame.DashboardAdmin.TampilUserRecycler$2
+com/example/catalogboardgame/user/DashUser.java
+ com.example.catalogboardgame.user.DashUser

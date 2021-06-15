@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:alignmentMode="alignMargins"
             android:backgroundTint="@color/white"
-            android:columnCount="2"
+            android:columnCount="3"
             android:columnOrderPreserved="false"
             android:rowCount="3">
             <!--            ada Bug di cardview klo ditaruh di dalam package-->
@@ -48,14 +48,13 @@
 
             <androidx.cardview.widget.CardView
                 xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:layout_marginStart="60dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+
                 android:elevation="6dp"
                 app:cardCornerRadius="12dp">
 
@@ -82,16 +81,24 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
+            <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="0.2"
+                android:elevation="6dp"
+                app:cardCornerRadius="12dp">
+
+            </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 xmlns:card_view="http://schemas.android.com/apk/res-auto"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="60dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+
                 android:elevation="6dp"
                 app:cardCornerRadius="12dp">
 
@@ -118,15 +125,14 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 xmlns:card_view="http://schemas.android.com/apk/res-auto"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:layout_marginStart="60dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+
                 android:elevation="6dp"
                 app:cardCornerRadius="12dp">
 
@@ -153,15 +159,24 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="0.2"
+                android:elevation="6dp"
+
+                app:cardCornerRadius="12dp">
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 xmlns:card_view="http://schemas.android.com/apk/res-auto"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="60dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+
                 android:elevation="6dp"
                 app:cardCornerRadius="12dp">
 
@@ -190,14 +205,13 @@
 
             <androidx.cardview.widget.CardView
                 xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:layout_marginStart="60dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="20dp"
                 android:layout_marginBottom="10dp"
+
                 android:elevation="6dp"
                 app:cardCornerRadius="12dp">
 
@@ -222,6 +236,14 @@
                         android:text="Daftar User"
                         android:textColor="@color/black"/>
                 </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="0.2"
+                android:elevation="6dp"
+                app:cardCornerRadius="12dp">
             </androidx.cardview.widget.CardView>
 
 

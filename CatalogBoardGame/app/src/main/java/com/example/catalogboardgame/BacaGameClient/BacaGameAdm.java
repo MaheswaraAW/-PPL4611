@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.example.catalogboardgame.Export;
+import com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin;
 import com.example.catalogboardgame.LeaderboardUser;
 import com.example.catalogboardgame.R;
 import com.example.catalogboardgame.model.CatalogBoardGame;
@@ -63,7 +64,8 @@ public class BacaGameAdm extends AppCompatActivity {
         BLeaderboard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intenta = new Intent(BacaGameAdm.this, Export.class);
+                Intent intenta = new Intent(BacaGameAdm.this, LeaderboardAdmin.class);
+                intenta.putExtra("NamaGame", SNamaGame);
                 startActivity(intenta);
 
             }

@@ -17,8 +17,12 @@ import com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryA
 import com.example.catalogboardgame.R;
 import com.example.catalogboardgame.firebaseauth.Akunfirebase;
 import com.example.catalogboardgame.model.History;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.EmailAuthCredential;
+import com.google.firebase.auth.EmailAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -53,10 +57,13 @@ public class recyclertampiladapter extends RecyclerView.Adapter<recyclertampilad
 
     @Override
     public void onBindViewHolder(@NonNull final recyclertampilViewHolder holder, int position) {
+
         holder.namas.setText(akunfirebases.get(position).getNama());
         holder.emails.setText(akunfirebases.get(position).getEmail());
         holder.access.setText(akunfirebases.get(position).getManag());
 
+        final String mail=akunfirebases.get(position).getEmail();
+        final String password=akunfirebases.get(position).getPassword();
         final String id=akunfirebases.get(position).getUID();
         holder.Delete.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -69,10 +76,9 @@ public class recyclertampiladapter extends RecyclerView.Adapter<recyclertampilad
                     public void onClick(DialogInterface dialog, int which) {
 //                        Toast.makeText(context, "2:"+gambargamep, Toast.LENGTH_SHORT).show();
                         final DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("Akuns");
-                        final FirebaseUser user=FirebaseAuth.getInstance().getCurrentUser();
-                        String use=user.getEmail();
-                        Log.d("TAG", "onClick: "+use);
-
+                        final FirebaseAuth firebaseAuth=FirebaseAuth.getInstance();
+//                        final FirebaseUser user=firebaseAuth.getUid();
+                        final AuthCredential credential= EmailAuthProvider.getCredential(mail,password);
                         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                             @Override
                             public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -81,8 +87,11 @@ public class recyclertampiladapter extends RecyclerView.Adapter<recyclertampilad
                                     Akunfirebase akuns = dataSnapshot.getValue(Akunfirebase.class);
                                     String idakuns=dataSnapshot.getKey();
                                     if (id.equals(idakuns)) {
+//                                        databaseReference.child(FirebaseAuth.getInstance().getCurrentUser().getUid()).removeValue();
+//                                        Log.d("TAG", "onDataChange: "+databaseReference);
 
                                         dataSnapshot.getRef().removeValue();
+
 
                                     }
 
