@@ -1192,6 +1192,7 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable background_leaderboard_add_history
 drawable bb
+drawable bg_tampilgambar
 drawable border
 drawable border_kategori
 drawable borderabu
@@ -1205,6 +1206,7 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable bundar
 drawable button_black
+drawable button_stroke
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
