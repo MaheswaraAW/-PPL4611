@@ -5,12 +5,97 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/bb"
+    android:backgroundTint="@color/white"
     tools:context=".LeaderboardClient.LeaderboardAdmin">
 
 
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/idIVKembali"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+
+                android:src="@drawable/ic_baseline_arrow_back_24"/>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
 
     <LinearLayout
+        android:padding="20dp"
+        android:background="@drawable/ic_head1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="90dp"
+                android:layout_height="90dp"/>
+
+            <LinearLayout
+                android:padding="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Board Game"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#F2E3E3"
+                    android:textSize="30dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leaderboard"
+            android:textSize="25sp"
+            android:textColor="@color/text2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/idTVNamaGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </LinearLayout>
+
+<!--    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -26,33 +111,18 @@
             android:layout_height="match_parent"
             android:layout_weight="7"></View>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"></LinearLayout>
+        android:layout_weight="2"></LinearLayout>-->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="6"
         android:orientation="vertical">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="Leaderboard"
-            android:textStyle="bold"
-            android:textSize="20dp"
-            android:layout_margin="10dp"></TextView>
-        <TextView
-            android:id="@+id/idTVNamaGame"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="NamaGame"
-            android:textStyle="bold"
-            android:textSize="20dp"
-            android:textColor="@color/black"
-            android:layout_margin="10dp"></TextView>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -60,6 +130,7 @@
             android:orientation="horizontal"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -67,8 +138,9 @@
                 android:text="No"
                 android:gravity="center"
                 android:textStyle="bold"
-                android:textSize="10dp"
-                android:textColor="@color/black"></TextView>
+                android:textSize="14sp"
+                android:textColor="@color/black"/>
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -76,8 +148,9 @@
                 android:text="Name"
                 android:gravity="center"
                 android:textStyle="bold"
-                android:textSize="10dp"
-                android:textColor="@color/black"></TextView>
+                android:textSize="14sp"
+                android:textColor="@color/black"/>
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -85,8 +158,9 @@
                 android:text="Win"
                 android:gravity="center"
                 android:textStyle="bold"
-                android:textSize="10dp"
-                android:textColor="@color/blue"></TextView>
+                android:textSize="14sp"
+                android:textColor="@color/blue"/>
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -94,62 +168,72 @@
                 android:text="Lose"
                 android:gravity="center"
                 android:textStyle="bold"
-                android:textSize="10dp"
-                android:textColor="@color/merah"></TextView>
+                android:textSize="14sp"
+                android:textColor="@color/merah"/>
+
             <Button
                 android:id="@+id/idBDay"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Day"
-                android:textSize="10dp"
-                android:background="@color/white"></Button>
+                android:textSize="14sp"
+                android:background="@color/white"/>
+
             <Button
                 android:id="@+id/idBMonth"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Month"
-                android:textSize="10dp"
-                android:background="@color/white"></Button>
+                android:textSize="14sp"
+                android:background="@color/white"/>
+
             <Button
                 android:id="@+id/idBYear"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Year"
-                android:textSize="10dp"
+                android:textSize="14sp"
                 android:layout_marginRight="5dp"
-                android:background="@color/white"></Button>
+                android:background="@color/white"/>
+
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="6"
             android:orientation="vertical"
-            android:layout_margin="5dp">
+            android:padding="4dp">
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/idRVLeaderboardClient"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                tools:listitem="@layout/recyclerview_leaderboard_client"></androidx.recyclerview.widget.RecyclerView>
+                tools:listitem="@layout/recyclerview_leaderboard_client"/>
             <!--            <ListView-->
             <!--                android:layout_width="match_parent"-->
             <!--                android:layout_height="0dp"-->
             <!--                android:layout_weight="6"></ListView>-->
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center">
+            android:gravity="center"
+            android:padding="20dp">
 
             <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="EXPORT"
-            android:id="@+id/exporrts"/>
+                android:id="@+id/exporrts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EXPORT"
+                android:background="@drawable/button_black"
+                android:textColor="@color/white"/>
         </LinearLayout>
     </LinearLayout>
+
 </LinearLayout>
