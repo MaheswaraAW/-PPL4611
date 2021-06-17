@@ -1207,6 +1207,7 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable bundar
 drawable button_black
 drawable button_stroke
+drawable cakonfirm
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1459,6 +1460,7 @@ id idETNamaPemain
 id idIVDelete
 id idIVGambarGame
 id idIVKembali
+id idIVKonfirm
 id idKategori
 id idRVGambarGame
 id idRVKonfirmasiHistory

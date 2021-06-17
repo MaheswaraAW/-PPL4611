@@ -12,12 +12,12 @@
       "filters": [
         {
           "filterType": "ABI",
-          "value": "x86"
+          "value": "arm64-v8a"
         }
       ],
       "versionCode": 1,
       "versionName": "1.0",
-      "outputFile": "app-x86-debug.apk"
+      "outputFile": "app-arm64-v8a-debug.apk"
     }
   ]
 }

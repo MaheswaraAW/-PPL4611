@@ -85,20 +85,11 @@ public class LeaderboardClientAdapter extends RecyclerView.Adapter<LeaderboardCl
         holder.TVLose.setText(Integer.toString(ALHistory.get(position).getLose()));
         no++;
         if(ALSNama==null){
-//            holder.TVNo.setText(Integer.toString(no));
-//            holder.TVName.setText(ALHistory.get(position).getName());
-//            holder.TVWin.setText(Integer.toString(ALHistory.get(position).getWin()));
-//            holder.TVLose.setText(Integer.toString(ALHistory.get(position).getLose()));
             holder.TVDay.setText(Integer.toString(ALHistory.get(position).getDay()));
             holder.TVMonth.setText(Integer.toString(ALHistory.get(position).getMonth()));
             holder.TVYear.setText(Integer.toString(ALHistory.get(position).getYear()));
-//            no++;
         }
         else if(ALSNama!=null&&ALNamaM==null){
-//            holder.TVNo.setText(Integer.toString(no));
-//            holder.TVName.setText(ALHistory.get(position).getName());
-//            holder.TVWin.setText(Integer.toString(ALHistory.get(position).getWin()));
-//            holder.TVLose.setText(Integer.toString(ALHistory.get(position).getLose()));
             if(ALSNama.contains(ALHistory.get(position).getName())){
                 holder.TVDay.setText("0");
                 holder.TVMonth.setText(Integer.toString(ALHistory.get(position).getMonth()));
@@ -108,13 +99,8 @@ public class LeaderboardClientAdapter extends RecyclerView.Adapter<LeaderboardCl
                 holder.TVMonth.setText(Integer.toString(ALHistory.get(position).getMonth()));
             }
             holder.TVYear.setText(Integer.toString(ALHistory.get(position).getYear()));
-//            no++;
         }
         else if(ALNamaM!=null){
-//            holder.TVNo.setText(Integer.toString(no));
-//            holder.TVName.setText(ALHistory.get(position).getName());
-//            holder.TVWin.setText(Integer.toString(ALHistory.get(position).getWin()));
-//            holder.TVLose.setText(Integer.toString(ALHistory.get(position).getLose()));
             if(ALSNama.contains(ALHistory.get(position).getName())){
                 holder.TVDay.setText("0");
                 holder.TVMonth.setText("0");
@@ -128,7 +114,6 @@ public class LeaderboardClientAdapter extends RecyclerView.Adapter<LeaderboardCl
                 holder.TVMonth.setText(Integer.toString(ALHistory.get(position).getMonth()));
             }
             holder.TVYear.setText(Integer.toString(ALHistory.get(position).getYear()));
-//            no++;
         }
     }
 

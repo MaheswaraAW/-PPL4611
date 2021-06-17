@@ -162,15 +162,15 @@ public class TambahHistoryClient extends AppCompatActivity {
                                         ETKalah.setError("Masukkan Data");
                                     }
                                     if(TVTanggal.getText().toString().isEmpty()){
-//                                        TVTanggal.setError("Masukkan Data");
                                         Toast.makeText(TambahHistoryClient.this, "Masukkan Tanggal", Toast.LENGTH_LONG).show();
                                     }
-//                                    if(IVGambarGame.getDrawable()==null){
                                     if(UGambarGame==null){
                                         Toast.makeText(TambahHistoryClient.this, "Masukkan Gambar", Toast.LENGTH_LONG).show();
                                     }
 
                                     if(ETNamaPemain.getText().toString().isEmpty()==false && ETMenang.getText().toString().isEmpty() == false && ETKalah.getText().toString().isEmpty() == false && TVTanggal.getText().toString().isEmpty() == false && UGambarGame!=null){
+                                        history.setKonfirmasi("0");
+
                                         history.setNamaGame(SNamaGame);
                                         history.setName(ETNamaPemain.getText().toString());
                                         history.setWin(Integer.parseInt(ETMenang.getText().toString()));
@@ -191,30 +191,10 @@ public class TambahHistoryClient extends AppCompatActivity {
                                         intenta.putExtra("NamaGame", SNamaGame);
                                         startActivity(intenta);
                                     }
-//                                    history.setNamaGame(SNamaGame);
-//                                    history.setName(ETNamaPemain.getText().toString());
-//                                    history.setWin(Integer.parseInt(ETMenang.getText().toString()));
-//                                    history.setLose(Integer.parseInt(ETKalah.getText().toString()));
-//                                    history.setTanggal(TVTanggal.getText().toString());
-//                                    IWin =  Integer.parseInt(ETMenang.getText().toString());
-//                                    ILose = Integer.parseInt(ETKalah.getText().toString());
-//                                    HitungPoint(IWin, ILose);
-//                                    history.setDay(Integer.parseInt(SDay));
-//                                    history.setMonth(Integer.parseInt(SMonth));
-//                                    history.setYear(Integer.parseInt(SYear));
-//                                    history.setMinDay(Integer.parseInt(SMinDay));
-//                                    history.setMinMonth(Integer.parseInt(SMinMonth));
-//                                    history.setMinYear(Integer.parseInt(SMinYear));
-//                                    databaseReference.child("History").child(SKeyHistory).setValue(history);
-//                                    if(ETNamaPemain.getText().toString().isEmpty()&&ETMenang.getText().toString().isEmpty()&&ETKalah.getText().toString().isEmpty()&&TVTanggal.getText().toString().isEmpty()==true){
-
-//                                    Intent intenta = new Intent(TambahHistoryClient.this, LeaderboardClient.class);
-//                                    intenta.putExtra("NamaGame", SNamaGame);
-//                                    startActivity(intenta);
                                 }
 
                                 else if(ALKey!=null){
-                                    Toast.makeText(TambahHistoryClient.this, "Nama ada"+"ALKEY:"+ALKey, Toast.LENGTH_SHORT).show();
+//                                    Toast.makeText(TambahHistoryClient.this, "Nama ada"+"ALKEY:"+ALKey, Toast.LENGTH_SHORT).show();
                                     HashMap hashMap = new HashMap();
                                     hashMap.put("win", ALWin.get(0)+Integer.parseInt(ETMenang.getText().toString()));
                                     hashMap.put("lose", ALLose.get(0)+Integer.parseInt(ETKalah.getText().toString()));

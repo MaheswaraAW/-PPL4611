@@ -60,9 +60,13 @@ public class KonfirmasiHistory extends AppCompatActivity {
 //                    String key = dataSnapshot.getKey();
                     String gambarGame = dataSnapshot.getValue(History.class).getGambarGame();
 
+                    String Konfirmasi = dataSnapshot.getValue(History.class).getKonfirmasi();
+
+                    if(Konfirmasi.equals("0")) {
                         ALHistory.add(history);
 //                        ALKey.add(key);
                         ALGambarGame.add(gambarGame);
+                    }
                 }
 //                Toast.makeText(KonfirmasiHistory.this, ""+ALKey, Toast.LENGTH_SHORT).show();
                 konfirmasiHistoryAdapter.notifyDataSetChanged();

@@ -59,6 +59,7 @@ public class LeaderboardClient extends AppCompatActivity {
 
     String SNamaGame;
     String nama,win,lose,mont,year;
+    String Skonf="0";
 
 
     @Override
@@ -94,9 +95,10 @@ public class LeaderboardClient extends AppCompatActivity {
                     History history = dataSnapshot.getValue(History.class);
                     String Tanggal = dataSnapshot.child("tanggal").getValue(String.class);
                     String NamaGame = dataSnapshot.child("namaGame").getValue(String.class);
+                    String Konfirmasi = dataSnapshot.child("konfirmasi").getValue(String.class);
 
-
-                    if(Tanggal.equals(SHariIni())&&NamaGame.equals(SNamaGame)){
+                    if(Tanggal.equals(SHariIni())&&NamaGame.equals(SNamaGame)&&Konfirmasi.equals("1")){
+//                    if(Tanggal.equals(SHariIni())&&NamaGame.equals(SNamaGame)){
                         ALHistory.add(history);
                     }
                 }
@@ -125,9 +127,9 @@ public class LeaderboardClient extends AppCompatActivity {
                             History history = dataSnapshot.getValue(History.class);
                             String Tanggal = dataSnapshot.child("tanggal").getValue(String.class);
                             String NamaGame = dataSnapshot.child("namaGame").getValue(String.class);
+                            String Konfirmasi = dataSnapshot.child("konfirmasi").getValue(String.class);
 
-
-                            if(Tanggal.equals(SHariIni())&&NamaGame.equals(SNamaGame)){
+                            if(Tanggal.equals(SHariIni())&&NamaGame.equals(SNamaGame)&&Konfirmasi.equals("1")){
                                 ALHistory.add(history);
                             }
                         }
@@ -164,7 +166,9 @@ public class LeaderboardClient extends AppCompatActivity {
                             String Bulan = Tanggal.substring(3, 5);
                             String Bulanini = SHariIni().substring(3, 5);
                             String NamaGame = dataSnapshot.child("namaGame").getValue(String.class);
-                            if(Bulan.equals(Bulanini)&&NamaGame.equals(SNamaGame)){
+                            String Konfirmasi = dataSnapshot.child("konfirmasi").getValue(String.class);
+
+                            if(Bulan.equals(Bulanini)&&NamaGame.equals(SNamaGame)&&Konfirmasi.equals("1")){
                                 ALHistory.add(history);
                                 ALDay.add(day);
                                 ALSNama.add(nama);
@@ -216,8 +220,9 @@ public class LeaderboardClient extends AppCompatActivity {
                             String Tahunini = SHariIni().substring(6);
                             String Bulanini = SHariIni().substring(3, 5);
                             String NamaGame = dataSnapshot.child("namaGame").getValue(String.class);
+                            String Konfirmasi = dataSnapshot.child("konfirmasi").getValue(String.class);
 
-                            if(Tahun.equals(Tahunini)&&NamaGame.equals(SNamaGame)){
+                            if(Tahun.equals(Tahunini)&&NamaGame.equals(SNamaGame)&&Konfirmasi.equals("1")){
                                 ALHistory.add(history);
                                 ALDay.add(day);
                                 ALSNama.add(nama);

@@ -1,6 +1,7 @@
 package com.example.catalogboardgame.model;
 
 public class History {
+    private String Konfirmasi;
     private String GambarGame;
     private String NamaGame;
     private String Name;
@@ -27,6 +28,14 @@ public class History {
         this.Day = day;
         this.Month = month;
         this.Year = year;
+    }
+
+    public String getKonfirmasi() {
+        return Konfirmasi;
+    }
+
+    public void setKonfirmasi(String konfirmasi) {
+        Konfirmasi = konfirmasi;
     }
 
     public String getGambarGame() {

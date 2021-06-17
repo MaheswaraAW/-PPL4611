@@ -12,6 +12,10 @@ com/example/catalogboardgame/KonfirmasiHistory/Adapter/KonfirmasiHistoryAdapter.
  com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$1$1
  com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$1$1$1
  com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$1$2
+ com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$2
+ com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$2$1
+ com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$2$1$1
+ com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$2$2
  com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$KonfirmasiHistoryViewHolder
 com/example/catalogboardgame/TambahGameAdmin/TbhGame.java
  com.example.catalogboardgame.TambahGameAdmin.TbhGame
