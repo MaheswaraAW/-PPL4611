@@ -1188,6 +1188,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable add_game
 drawable avd_hide_password
 drawable avd_show_password
 drawable background_leaderboard_add_history
@@ -1234,9 +1235,11 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable exit
 drawable fa
 drawable fb
 drawable fc
+drawable game
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_baseline_arrow_back_24
@@ -1264,8 +1267,10 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable time
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable user
 id ALT
 id Access
 id CTRL

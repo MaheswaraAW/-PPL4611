@@ -176,6 +176,10 @@
         "source": "C:\\Users\\USER\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\drawable\\fc.png"
     },
     {
+        "merged": "C:\\Users\\USER\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_time.png.flat",
+        "source": "C:\\Users\\USER\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\drawable\\time.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_baseline_arrow_back_24.png.flat",
         "source": "C:\\Users\\USER\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_baseline_arrow_back_24.png"
     },
@@ -304,6 +308,10 @@
         "source": "C:\\Users\\USER\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\recyclerview_leaderboard_client.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_exit.png.flat",
+        "source": "C:\\Users\\USER\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\drawable\\exit.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fb.png.flat",
         "source": "C:\\Users\\USER\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\drawable\\fb.png"
     },
@@ -384,6 +392,10 @@
         "source": "C:\\Users\\USER\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\cakonfirm.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add_game.png.flat",
+        "source": "C:\\Users\\USER\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\drawable\\add_game.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_log_auth2.xml.flat",
         "source": "C:\\Users\\USER\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\activity_log_auth2.xml"
     },
@@ -438,5 +450,13 @@
     {
         "merged": "C:\\Users\\USER\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\USER\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_game.png.flat",
+        "source": "C:\\Users\\USER\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\drawable\\game.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user.png.flat",
+        "source": "C:\\Users\\USER\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\drawable\\user.png"
     }
 ]
