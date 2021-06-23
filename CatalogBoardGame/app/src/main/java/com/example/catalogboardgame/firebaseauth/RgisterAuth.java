@@ -50,13 +50,14 @@ public class RgisterAuth extends AppCompatActivity {
         Signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                checkField(name);
+                checkField(email);
+                checkField(password);
                 if (valid){
                     firebaseAuth.createUserWithEmailAndPassword(email.getText().toString(),password.getText().toString()).addOnSuccessListener(new OnSuccessListener<AuthResult>() {
                         @Override
                         public void onSuccess(AuthResult authResult) {
-                            checkField(name);
-                            checkField(email);
-                            checkField(password);
+
                             FirebaseUser user= firebaseAuth.getCurrentUser();
 
                             akunfirebase.setNama(name.getText().toString());

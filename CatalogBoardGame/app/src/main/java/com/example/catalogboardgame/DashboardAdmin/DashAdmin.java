@@ -48,6 +48,6 @@ public class DashAdmin extends AppCompatActivity {
     }
 
     public void ListUser(View view) {
-        startActivity(new Intent(getApplicationContext(),TampilUser.class));
+        startActivity(new Intent(getApplicationContext(),TampilUserRecycler.class));
     }
 }

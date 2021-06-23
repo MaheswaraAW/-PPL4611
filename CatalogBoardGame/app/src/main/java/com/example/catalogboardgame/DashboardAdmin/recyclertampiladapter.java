@@ -58,9 +58,15 @@ public class recyclertampiladapter extends RecyclerView.Adapter<recyclertampilad
     @Override
     public void onBindViewHolder(@NonNull final recyclertampilViewHolder holder, int position) {
 
+        String akses= akunfirebases.get(position).getManag();
         holder.namas.setText(akunfirebases.get(position).getNama());
         holder.emails.setText(akunfirebases.get(position).getEmail());
-        holder.access.setText(akunfirebases.get(position).getManag());
+        if (akses.equals("1"))
+            akses="User";
+        else if (akses.equals("0"))
+            akses="Admin";
+        holder.access.setText(akses);
+
 
         final String mail=akunfirebases.get(position).getEmail();
         final String password=akunfirebases.get(position).getPassword();
