@@ -86,6 +86,9 @@ com/example/catalogboardgame/DaftarGameClient/DaftarGameCLientActiviti.java
 com/example/catalogboardgame/DaftarGameClient/DaftarGameCLientActivitiAdm.java
  com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActivitiAdm
  com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActivitiAdm$1
+com/example/catalogboardgame/user/EditUser.java
+ com.example.catalogboardgame.user.EditUser
+ com.example.catalogboardgame.user.EditUser$1
 com/example/catalogboardgame/BacaGameClient/BacaGameClient.java
  com.example.catalogboardgame.BacaGameClient.BacaGameClient
 com/example/catalogboardgame/DashboardAdmin/dbAdmin.java
@@ -153,10 +156,11 @@ com/example/catalogboardgame/SplashScreen.java
 com/example/catalogboardgame/firebaseauth/LoginAuth.java
  com.example.catalogboardgame.firebaseauth.LoginAuth
  com.example.catalogboardgame.firebaseauth.LoginAuth$1
- com.example.catalogboardgame.firebaseauth.LoginAuth$1$1
- com.example.catalogboardgame.firebaseauth.LoginAuth$1$2
- com.example.catalogboardgame.firebaseauth.LoginAuth$1$2$1
  com.example.catalogboardgame.firebaseauth.LoginAuth$2
+ com.example.catalogboardgame.firebaseauth.LoginAuth$2$1
+ com.example.catalogboardgame.firebaseauth.LoginAuth$2$2
+ com.example.catalogboardgame.firebaseauth.LoginAuth$2$2$1
+ com.example.catalogboardgame.firebaseauth.LoginAuth$3
 com/example/catalogboardgame/MainActivity.java
  com.example.catalogboardgame.MainActivity
 com/example/catalogboardgame/user/DashboardUser.java

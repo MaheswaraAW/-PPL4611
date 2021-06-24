@@ -15,7 +15,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="MissingClass">
-        <activity android:name=".LeaderboardClient.LeaderboardAdmin"></activity>
+        <activity android:name=".user.EditUser"></activity>
+        <activity android:name=".LeaderboardClient.LeaderboardAdmin" />
         <activity android:name=".DashboardAdmin.TampilUserRecycler">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

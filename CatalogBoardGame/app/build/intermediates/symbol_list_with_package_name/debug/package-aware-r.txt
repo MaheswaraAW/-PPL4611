@@ -1412,7 +1412,11 @@ id dragUp
 id easeIn
 id easeInOut
 id easeOut
+id edit
 id edit_query
+id editemailusers
+id editnamausers
+id editpasswordusers
 id email
 id emails
 id emailuser
@@ -1734,6 +1738,7 @@ layout activity_dash_admin
 layout activity_dash_user
 layout activity_dashboard_user
 layout activity_db_admin
+layout activity_edit_user
 layout activity_export
 layout activity_konfirmasi_history
 layout activity_leaderboard_admin

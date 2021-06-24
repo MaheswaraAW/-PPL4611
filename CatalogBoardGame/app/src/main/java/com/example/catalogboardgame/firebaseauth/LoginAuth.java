@@ -15,10 +15,13 @@ import android.widget.Toast;
 import com.example.catalogboardgame.DashboardAdmin.DashAdmin;
 import com.example.catalogboardgame.R;
 import com.example.catalogboardgame.user.DashUser;
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -39,6 +42,7 @@ public class LoginAuth extends AppCompatActivity {
     DatabaseReference databaseReference1;
             //= FirebaseDatabase.getInstance().getReference();
     Akunfirebase akunfirebase;
+    FirebaseUser firebaseUser;
 
     ArrayAdapter arrayAdapter;
     ArrayList<String> arrayTampil=new ArrayList<String>();
@@ -48,6 +52,48 @@ public class LoginAuth extends AppCompatActivity {
 //    ArrayList<String> arrayEdit=new ArrayList<>();
 //    ArrayList<String> arrayHapus=new ArrayList<>();
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        firebaseUser =FirebaseAuth.getInstance().getCurrentUser();
+        if (firebaseUser!=null)
+        {
+            String UID;
+            UID=firebaseUser.getUid();
+            databaseReference1=FirebaseDatabase.getInstance().getReference().child("Akuns").child(UID);
+            databaseReference1.addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot snapshot) {
+                    String manage=snapshot.child("manag").getValue(String.class);
+                    Log.d("TAG", "onStart: "+manage);
+                    if (manage.equals("1"))
+                    {
+                        Intent intent =new Intent(LoginAuth.this,DashUser.class);
+                        startActivity(intent);
+                        finish();
+                    }
+                    else if (manage.equals("0"))
+                    {
+                        Intent intent =new Intent(LoginAuth.this,DashAdmin.class);
+                        startActivity(intent);
+                        finish();
+                    }
+
+                }
+
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {
+
+                }
+            });
+
+
+        }
+        else {
+            // User is signed out
+            Log.d("TAG", "onAuthStateChanged:signed_out");
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -93,29 +139,40 @@ public class LoginAuth extends AppCompatActivity {
                                     databaseReference1.addValueEventListener(new ValueEventListener() {
                                         @Override
                                         public void onDataChange(@NonNull DataSnapshot snapshot) {
-                                            String manag= snapshot.toString();
+//                                            String manag= snapshot.toString();
+//
+//                                            String s="sadsad";
+//                                            String sa;
+//                                            arrayTampil.add((String) snapshot.child("manag").getValue());
+//
+//                                            arrayTampil1.add((String) snapshot.child("managa").getValue());
+//
+//
+//                                            Log.d("TAG", "onDataChange: "+manag);
+//                                            Log.d("TAG", "onDataChange: "+arrayTampil);
+//                                            String d= arrayTampil.toString();
+//
+//                                            Log.d("TAG", "onDataChange: "+d);
+//                                            StringBuffer stringBuilder=new StringBuffer();
+//
+//                                            for (String k: arrayTampil)
+//                                            {
+//                                                stringBuilder.append(k);
+//                                                stringBuilder.append("");
+//                                            }
+//                                            String l=stringBuilder.toString();
+//                                            Log.d("TAG", "onDataChange: "+l);
 
-                                            String s="sadsad";
-                                            String sa;
-                                            arrayTampil.add((String) snapshot.child("manag").getValue());
 
-                                            arrayTampil1.add((String) snapshot.child("managa").getValue());
-
-
-                                            Log.d("TAG", "onDataChange: "+manag);
-                                            Log.d("TAG", "onDataChange: "+arrayTampil);
-                                            String d= arrayTampil.toString();
-
-                                            Log.d("TAG", "onDataChange: "+d);
-                                            StringBuffer stringBuilder=new StringBuffer();
-
-                                            for (String k: arrayTampil)
-                                            {
-                                                stringBuilder.append(k);
-                                                stringBuilder.append("");
-                                            }
-                                            String l=stringBuilder.toString();
-                                            Log.d("TAG", "onDataChange: "+l);
+                                            String l=snapshot.child("manag").getValue(String.class);
+                                            String key= snapshot.child("uid").getValue(String.class);
+                                            String nama=snapshot.child("nama").getValue(String.class);
+                                            String email=snapshot.child("email").getValue(String.class);
+                                            String password=snapshot.child("password").getValue(String.class);
+                                            Log.d("TAG", "onDataChangess: "+key);
+                                            Log.d("TAG", "onDataChangess: "+nama);
+                                            Log.d("TAG", "onDataChangess: "+email);
+                                            Log.d("TAG", "onDataChangess: "+password);
 
 
 
@@ -125,6 +182,10 @@ public class LoginAuth extends AppCompatActivity {
                                                 Toast.makeText(LoginAuth.this, "User", Toast.LENGTH_LONG).show();
 
                                                 Intent intent = new Intent(LoginAuth.this, DashUser.class);
+                                                intent.putExtra("idkey",key);
+                                                intent.putExtra("idemail",email);
+                                                intent.putExtra("idpass",password);
+                                                intent.putExtra("idnama",nama);
                                                 startActivity(intent);
                                                 finish();
 
@@ -137,31 +198,33 @@ public class LoginAuth extends AppCompatActivity {
                                                 finish();
 
                                             }
-
-                                            StringBuffer stringBuildera=new StringBuffer();
-
-                                            for (String m: arrayTampil1)
-                                            {
-                                                stringBuildera.append(m);
-                                                stringBuildera.append("");
-                                            }
-                                            String j=stringBuildera.toString();
-
-                                            if (j.equals("1"))
-                                            {
-                                                Toast.makeText(LoginAuth.this, "User", Toast.LENGTH_LONG).show();
-
-                                                Intent intent = new Intent(LoginAuth.this, DashUser.class);
-                                                startActivity(intent);
-
-                                            }
-                                            else if (j.equals("0")){
-                                                Toast.makeText(LoginAuth.this, "ADM", Toast.LENGTH_LONG).show();
-
-                                                Intent intents = new Intent(LoginAuth.this, DashAdmin.class);
-                                                startActivity(intents);
-
-                                            }
+//
+//                                            StringBuffer stringBuildera=new StringBuffer();
+//
+//                                            for (String m: arrayTampil1)
+//                                            {
+//                                                stringBuildera.append(m);
+//                                                stringBuildera.append("");
+//                                            }
+//                                            String j=stringBuildera.toString();
+//
+//                                            if (j.equals("1"))
+//                                            {
+//                                                Toast.makeText(LoginAuth.this, "User", Toast.LENGTH_LONG).show();
+//
+//                                                Intent intent = new Intent(LoginAuth.this, DashUser.class);
+//
+//
+//                                                startActivity(intent);
+//
+//                                            }
+//                                            else if (j.equals("0")){
+//                                                Toast.makeText(LoginAuth.this, "ADM", Toast.LENGTH_LONG).show();
+//
+//                                                Intent intents = new Intent(LoginAuth.this, DashAdmin.class);
+//                                                startActivity(intents);
+//
+//                                            }
 
                                         }
 

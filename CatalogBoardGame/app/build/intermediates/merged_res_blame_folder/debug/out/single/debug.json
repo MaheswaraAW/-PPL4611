@@ -164,6 +164,10 @@
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
+        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_user.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\activity_edit_user.xml"
+    },
+    {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fa.png.flat",
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\drawable\\fa.png"
     },
