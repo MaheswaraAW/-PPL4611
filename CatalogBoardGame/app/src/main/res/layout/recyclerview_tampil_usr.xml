@@ -27,8 +27,9 @@
             android:text="Nama"
             android:gravity="center"
             android:textStyle="bold"
-            android:textSize="10dp"
-            android:textColor="@color/black"></TextView>
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
+
         <TextView
             android:id="@+id/emails"
             android:layout_width="0dp"
@@ -37,8 +38,9 @@
             android:text="Email"
             android:gravity="center"
             android:textStyle="bold"
-            android:textSize="10dp"
-            android:textColor="@color/blue"></TextView>
+            android:textSize="14sp"
+            android:textColor="@color/blue"/>
+
         <TextView
             android:id="@+id/Access"
             android:layout_width="0dp"
@@ -47,8 +49,9 @@
             android:text="Acces"
             android:gravity="center"
             android:textStyle="bold"
-            android:textSize="10dp"
-            android:textColor="@color/merah"></TextView>
+            android:textSize="14sp"
+            android:textColor="@color/merah"/>
+
         <ImageView
             android:id="@+id/deletes"
             android:layout_width="0dp"
@@ -57,7 +60,7 @@
             android:src="@drawable/delete"
             android:textSize="10dp"
             android:layout_marginRight="5dp"
-            android:gravity="center"></ImageView>
+            android:gravity="center"/>
     </LinearLayout>
 
 </LinearLayout>

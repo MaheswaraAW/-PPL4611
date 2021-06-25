@@ -8,11 +8,6 @@
     android:backgroundTint="@color/white"
     tools:context=".BacaGameClient.BacaGameAdm">
 
-<!--    <View
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="9"></View>-->
-
     <androidx.appcompat.widget.Toolbar
         android:background="@color/colorPrimaryDark"
         android:layout_width="match_parent"

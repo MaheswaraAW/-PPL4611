@@ -3,6 +3,11 @@
   <component name="WizardSettings">
     <option name="children">
       <map>
+        <entry key="imageWizard">
+          <value>
+            <PersistentState />
+          </value>
+        </entry>
         <entry key="vectorWizard">
           <value>
             <PersistentState>
@@ -28,9 +33,10 @@
                         </option>
                         <option name="values">
                           <map>
+                            <entry key="assetSourceType" value="FILE" />
                             <entry key="color" value="4d56c2" />
-                            <entry key="outputName" value="cakonfirm" />
-                            <entry key="sourceFile" value="C:\Users\USER\Downloads\PPL\UI BOARD GAME\bg_splash.svg" />
+                            <entry key="outputName" value="ic_gallery" />
+                            <entry key="sourceFile" value="C:\Users\USER\Downloads\gallery.svg" />
                           </map>
                         </option>
                       </PersistentState>
