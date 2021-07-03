@@ -79,6 +79,7 @@ public class RgisterAuth extends AppCompatActivity {
 //                            databaseReference.setValue(userInfo);
 
                     databaseReference.child(user.getUid()).setValue(akunfirebase);
+                    FirebaseAuth.getInstance().signOut();
                     startActivity(new Intent(getApplicationContext(),LoginAuth.class));
                     finish();
 
