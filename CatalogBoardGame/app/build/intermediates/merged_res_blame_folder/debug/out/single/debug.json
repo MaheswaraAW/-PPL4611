@@ -120,6 +120,10 @@
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_edit_user.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout-land\\activity_edit_user.xml"
+    },
+    {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cakonfirm.png.flat",
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\cakonfirm.png"
     },
@@ -334,6 +338,10 @@
     {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_leaderboard_user.xml.flat",
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\activity_leaderboard_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_rgister_auth.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout-land\\activity_rgister_auth.xml"
     },
     {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_arrow_back_24.png.flat",
@@ -580,6 +588,10 @@
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_bg_splash.png"
     },
     {
+        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_tampil_user_recycler.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout-land\\activity_tampil_user_recycler.xml"
+    },
+    {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\font_montserratalternates_bold.ttf.flat",
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\font\\montserratalternates_bold.ttf"
     },
@@ -726,6 +738,10 @@
     {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_baca_game_adm.xml.flat",
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\activity_baca_game_adm.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_login_auth.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout-land\\activity_login_auth.xml"
     },
     {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_email_fokus.png.flat",
