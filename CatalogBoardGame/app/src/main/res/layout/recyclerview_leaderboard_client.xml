@@ -15,9 +15,10 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="No"
+            android:fontFamily="@font/montserrat_regular"
             android:gravity="center"
             android:textStyle="bold"
-            android:textSize="12sp"
+            android:textSize="14sp"
             android:textColor="@color/black"/>
 
         <TextView
@@ -26,9 +27,10 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="Name"
+            android:fontFamily="@font/montserrat_semibold"
             android:gravity="center"
             android:textStyle="bold"
-            android:textSize="12sp"
+            android:textSize="14sp"
             android:textColor="@color/black"/>
 
         <TextView
@@ -37,9 +39,10 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="Win"
+            android:fontFamily="@font/montserrat_regular"
             android:gravity="center"
             android:textStyle="bold"
-            android:textSize="12sp"
+            android:textSize="14sp"
             android:textColor="@color/blue"/>
 
         <TextView
@@ -48,9 +51,10 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="Lose"
+            android:fontFamily="@font/montserrat_regular"
             android:gravity="center"
             android:textStyle="bold"
-            android:textSize="12sp"
+            android:textSize="14sp"
             android:textColor="@color/merah"/>
         <TextView
             android:id="@+id/idTVDay"
@@ -58,7 +62,9 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="Day"
-            android:textSize="12sp"
+            android:fontFamily="@font/montserratalternates_semibold"
+            android:textColor="@color/black2"
+            android:textSize="14sp"
             android:gravity="center"/>
 
         <TextView
@@ -67,7 +73,9 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="Month"
-            android:textSize="12sp"
+            android:fontFamily="@font/montserratalternates_semibold"
+            android:textSize="14sp"
+            android:textColor="@color/black2"
             android:gravity="center"/>
 
         <TextView
@@ -76,7 +84,9 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="Year"
-            android:textSize="12sp"
+            android:fontFamily="@font/montserratalternates_semibold"
+            android:textSize="14sp"
+            android:textColor="@color/black2"
             android:layout_marginRight="5dp"
             android:gravity="center"/>
     </LinearLayout>

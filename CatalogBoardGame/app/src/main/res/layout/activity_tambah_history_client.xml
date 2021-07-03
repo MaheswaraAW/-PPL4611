@@ -58,6 +58,7 @@
 
                 <TextView
                     android:text="Board Game"
+                    android:fontFamily="@font/montserratalternates_medium"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#F2E3E3"
@@ -80,6 +81,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Add History Here !!"
+            android:fontFamily="@font/montserratalternates_regular"
             android:textSize="25sp"
             android:textColor="@color/text2"/>
     </LinearLayout>
@@ -96,6 +98,8 @@
             android:layout_height="wrap_content"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:fontFamily="@font/montserratalternates_semibold"
+            android:textColor="@color/black"
             android:gravity="center"/>
     </LinearLayout>
 
@@ -113,6 +117,7 @@
             android:layout_marginBottom="5dp">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:fontFamily="@font/montserrat_regular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/idETNamaPemain"
@@ -127,6 +132,7 @@
             android:layout_marginBottom="5dp">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:fontFamily="@font/montserrat_regular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/idETMenang"
@@ -141,80 +147,41 @@
             android:layout_marginBottom="5dp">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:fontFamily="@font/montserrat_regular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/idETKalah"
                 android:inputType="numberDecimal"/>
         </com.google.android.material.textfield.TextInputLayout>
 
-
-        <!--        <EditText
-                    android:id="@+id/idETNamaPemain"
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:hint="Nama Pemain"
-                    android:layout_margin="5dp"
-                    android:background="@drawable/borderabu"
-                    android:padding="10dp">
-                </EditText>-->
-        <!--        <EditText
-                    android:id="@+id/idETMenang"
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:hint="Menang"
-                    android:layout_margin="5dp"
-                    android:background="@drawable/borderabu"
-                    android:padding="10dp">
-                </EditText>-->
-        <!--        <EditText
-                    android:id="@+id/idETKalah"
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:hint="Kalah"
-                    android:layout_margin="5dp"
-                    android:background="@drawable/borderabu"
-                    android:padding="10dp">
-                </EditText>-->
-
-
-        <!--        <EditText-->
-        <!--            android:id="@+id/idETWaktu"-->
-        <!--            android:layout_width="match_parent"-->
-        <!--            android:layout_height="0dp"-->
-        <!--            android:layout_weight="1"-->
-        <!--            android:hint="Waktu"-->
-        <!--            android:layout_margin="10dp"-->
-        <!--            android:background="@drawable/borderabu"-->
-        <!--            android:padding="10dp">-->
-        <!--        </EditText>-->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:layout_height="55dp"
             android:layout_marginTop="5dp"
-            android:background="@drawable/borderabu">
+            android:background="@drawable/custom_edittext"
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/idTVTanggal"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
-                android:hint="Tanggal"
-                android:gravity="center"/>
+                android:fontFamily="@font/montserrat_regular"
+                android:gravity="center"
+                android:hint="Tanggal" />
 
             <Button
                 android:id="@+id/idBTanggal"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:hint="Tanggal"
-                android:text="Tanggal"
-                android:onClick="OCTanggal"
                 android:background="@drawable/button_black"
-                android:textColor="@color/white"/>
+                android:fontFamily="@font/montserrat_regular"
+                android:hint="Tanggal"
+                android:textAllCaps="false"
+                android:onClick="OCTanggal"
+                android:text="Tanggal"
+                android:textColor="@color/white" />
         </LinearLayout>
 
         <LinearLayout
@@ -229,6 +196,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="ADD PHOTO"
+                android:fontFamily="@font/montserrat_regular"
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:gravity="center"
@@ -249,6 +217,8 @@
             android:background="@drawable/button_black"
             android:layout_marginTop="10dp"
             android:text="Add History"
+            android:textAllCaps="false"
+            android:fontFamily="@font/montserrat_medium"
             android:textColor="@color/white"/>
     </LinearLayout>
 

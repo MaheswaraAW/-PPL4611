@@ -54,6 +54,7 @@
 
                     <TextView
                         android:text="Board Game"
+                        android:fontFamily="@font/montserratalternates_medium"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textColor="#F2E3E3"
@@ -75,222 +76,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Menu"
+                android:fontFamily="@font/montserratalternates_regular"
                 android:textSize="25sp"
                 android:textColor="@color/text2"/>
         </LinearLayout>
-
-        <!--<GridLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:alignmentMode="alignMargins"
-            android:backgroundTint="@color/white"
-            android:columnCount="3"
-            android:columnOrderPreserved="false"
-            android:rowCount="3">
-            &lt;!&ndash;            ada Bug di cardview klo ditaruh di dalam package&ndash;&gt;
-
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="20dp"
-                android:layout_marginBottom="20dp"
-                android:elevation="6dp"
-                app:cardCornerRadius="12dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/border"
-                    android:clickable="true"
-                    android:gravity="center"
-                    android:onClick="DAFTARGAMEs"
-                    android:orientation="vertical"
-                    android:padding="16dp">
-
-                    <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/ic_launcher_foreground"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="DAFTAR GAME"
-                        android:textColor="@color/black"/>
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="0.2"
-                android:elevation="6dp"
-                app:cardCornerRadius="12dp">
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginRight="20dp"
-                android:layout_marginBottom="20dp"
-
-                android:elevation="6dp"
-                app:cardCornerRadius="12dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/border"
-                    android:clickable="true"
-                    android:gravity="center"
-                    android:onClick="Historyadmin"
-                    android:orientation="vertical"
-                    android:padding="16dp">
-
-                    <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/ic_launcher_foreground"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="History GAME"
-                        android:textColor="@color/black"/>
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="20dp"
-                android:layout_marginBottom="20dp"
-
-                android:elevation="6dp"
-                app:cardCornerRadius="12dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/border"
-                    android:clickable="true"
-                    android:gravity="center"
-                    android:onClick="TambahGame"
-                    android:orientation="vertical"
-                    android:padding="16dp">
-
-                    <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/ic_launcher_foreground"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Tambah Game"
-                        android:textColor="@color/black"/>
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="0.2"
-                android:elevation="6dp"
-
-                app:cardCornerRadius="12dp">
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginRight="20dp"
-                android:layout_marginBottom="20dp"
-
-                android:elevation="6dp"
-                app:cardCornerRadius="12dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/border"
-                    android:clickable="true"
-                    android:gravity="center"
-                    android:onClick="LogOutAdm"
-                    android:orientation="vertical"
-                    android:padding="16dp">
-
-                    <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/ic_launcher_foreground"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Log Out"
-                        android:textColor="@color/black"/>
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="20dp"
-                android:layout_marginBottom="10dp"
-
-                android:elevation="6dp"
-                app:cardCornerRadius="12dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/border"
-                    android:clickable="true"
-                    android:gravity="center"
-                    android:onClick="ListUser"
-                    android:orientation="vertical"
-                    android:padding="16dp">
-
-                    <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/ic_launcher_foreground"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Daftar User"
-                        android:textColor="@color/black"/>
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="0.2"
-                android:elevation="6dp"
-                app:cardCornerRadius="12dp">
-            </androidx.cardview.widget.CardView>
-
-
-
-        </GridLayout>-->
 
         <GridLayout
             android:layout_width="match_parent"
@@ -337,7 +126,8 @@
                         android:layout_marginTop="10dp"
                         android:textSize="16sp"
                         android:text="Daftar Game"
-                        android:textColor="@color/black"/>
+                        android:fontFamily="@font/montserrat_regular"
+                        android:textColor="@color/black2"/>
 
                 </LinearLayout>
 
@@ -386,8 +176,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:text="History Game"
+                        android:fontFamily="@font/montserrat_regular"
                         android:textSize="16sp"
-                        android:textColor="@color/black"/>
+                        android:textColor="@color/black2"/>
 
                 </LinearLayout>
 
@@ -425,8 +216,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:text="Tambah Game"
+                        android:fontFamily="@font/montserrat_regular"
                         android:textSize="16sp"
-                        android:textColor="@color/black"/>
+                        android:textColor="@color/black2"/>
 
                 </LinearLayout>
 
@@ -473,65 +265,19 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:text="Daftar User"
+                        android:fontFamily="@font/montserrat_regular"
                         android:textSize="16sp"
-                        android:textColor="@color/black"/>
+                        android:textColor="@color/black2"/>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
-
-            <!--<androidx.cardview.widget.CardView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="20dp"
-                android:layout_marginBottom="10dp"
-                android:elevation="6dp"
-                app:cardCornerRadius="12dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/border"
-                    android:backgroundTint="#f3dfa2"
-                    android:clickable="true"
-                    android:gravity="center"
-                    android:onClick="ListUser"
-                    android:orientation="vertical"
-                    android:padding="16dp">
-
-                    <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:layout_gravity="center"
-                        android:src="@drawable/user"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="Daftar User"
-                        android:textSize="16sp"
-                        android:textColor="@color/black"/>
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>-->
-
-            <!--            <androidx.cardview.widget.CardView
-                            xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_columnWeight="0.2"
-                            android:elevation="6dp"
-                            app:cardCornerRadius="12dp">
-                        </androidx.cardview.widget.CardView>-->
-
-
 
         </GridLayout>
 
         <Button
             android:onClick="LogOutAdm"
             android:clickable="true"
-            android:text="LOG OUT"
+            android:text="Log out"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
@@ -539,6 +285,7 @@
             android:background="@color/white"
             android:textColor="@color/black"
             android:textSize="16sp"
+            android:fontFamily="@font/montserrat_medium"
             android:textStyle="bold"
             style="@style/Widget.MaterialComponents.Button.TextButton" />
 

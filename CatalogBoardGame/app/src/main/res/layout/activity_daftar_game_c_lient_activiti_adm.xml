@@ -55,10 +55,11 @@
 
                     <TextView
                         android:text="Board Game"
+                        android:fontFamily="@font/montserratalternates_medium"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textColor="#F2E3E3"
-                        android:textSize="30dp"/>
+                        android:textSize="30sp"/>
 
                 </LinearLayout>
 

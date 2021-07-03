@@ -54,6 +54,7 @@
 
                 <TextView
                     android:text="Board Game"
+                    android:fontFamily="@font/montserratalternates_medium"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#F2E3E3"
@@ -76,6 +77,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Leaderboard"
+            android:fontFamily="@font/montserratalternates_regular"
             android:textSize="25sp"
             android:textColor="@color/text2"/>
     </LinearLayout>
@@ -88,6 +90,8 @@
 
         <TextView
             android:id="@+id/idTVNamaGame"
+            android:fontFamily="@font/montserratalternates_semibold"
+            android:textColor="@color/black2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
@@ -95,32 +99,10 @@
             android:gravity="center"/>
     </LinearLayout>
 
-<!--    <LinearLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:orientation="horizontal">
-        <ImageView
-            android:id="@+id/idIVKembali"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/kembali"></ImageView>
-        <View
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="7"></View>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="2"></LinearLayout>-->
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="6"
         android:orientation="vertical">
 
         <LinearLayout
@@ -136,26 +118,29 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="No"
+                android:fontFamily="@font/montserrat_regular"
                 android:gravity="center"
                 android:textStyle="bold"
                 android:textSize="14sp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black2"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Name"
+                android:fontFamily="@font/montserrat_regular"
                 android:gravity="center"
                 android:textStyle="bold"
                 android:textSize="14sp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black2"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Win"
+                android:fontFamily="@font/montserrat_regular"
                 android:gravity="center"
                 android:textStyle="bold"
                 android:textSize="14sp"
@@ -166,6 +151,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Lose"
+                android:fontFamily="@font/montserrat_regular"
                 android:gravity="center"
                 android:textStyle="bold"
                 android:textSize="14sp"
@@ -176,8 +162,10 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:fontFamily="@font/montserrat_regular"
                 android:text="Day"
                 android:textSize="14sp"
+                android:textColor="@color/black2"
                 android:background="@color/white"/>
 
             <Button
@@ -186,7 +174,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Month"
+                android:fontFamily="@font/montserrat_regular"
                 android:textSize="14sp"
+                android:textColor="@color/black2"
                 android:background="@color/white"/>
 
             <Button
@@ -195,8 +185,10 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Year"
+                android:fontFamily="@font/montserratalternates_regular"
                 android:textSize="14sp"
                 android:layout_marginRight="5dp"
+                android:textColor="@color/black2"
                 android:background="@color/white"/>
 
         </LinearLayout>
@@ -214,10 +206,7 @@
                 android:layout_weight="1"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                 tools:listitem="@layout/recyclerview_leaderboard_client"/>
-            <!--            <ListView-->
-            <!--                android:layout_width="match_parent"-->
-            <!--                android:layout_height="0dp"-->
-            <!--                android:layout_weight="6"></ListView>-->
+
         </LinearLayout>
 
         <LinearLayout
@@ -230,7 +219,9 @@
                 android:id="@+id/exporrts"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="EXPORT"
+                android:text="Export"
+                android:textAllCaps="false"
+                android:fontFamily="@font/montserrat_medium"
                 android:background="@drawable/button_black"
                 android:textColor="@color/white"/>
         </LinearLayout>

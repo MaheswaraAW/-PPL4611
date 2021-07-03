@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,284 +8,201 @@
     android:backgroundTint="@color/white"
     tools:context=".BacaGameClient.BacaGameAdm">
 
-    <androidx.appcompat.widget.Toolbar
-        android:background="@color/colorPrimaryDark"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <Button
-                android:background="@drawable/ic_baseline_arrow_back_24"
-                android:layout_width="25dp"
-                android:layout_height="25dp"/>
-        </LinearLayout>
-
-    </androidx.appcompat.widget.Toolbar>
-
     <LinearLayout
-        android:padding="20dp"
-        android:background="@drawable/ic_head1"
         android:layout_width="match_parent"
-        android:layout_height="200dp">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-        <LinearLayout
-            android:orientation="horizontal"
+        <androidx.appcompat.widget.Toolbar
+            android:background="@color/colorPrimaryDark"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <LinearLayout
-                android:padding="20dp"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
+                <Button
+                    android:background="@drawable/ic_baseline_arrow_back_24"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"/>
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:padding="20dp"
+            android:background="@drawable/ic_head1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="20dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </LinearLayout>
 
             </LinearLayout>
 
         </LinearLayout>
 
-    </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/bg_tampilgambar"
+            android:layout_width="240dp"
+            android:layout_height="210dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="-160dp"
+            android:layout_marginBottom="30dp">
 
-    <LinearLayout
-        android:background="@drawable/bg_tampilgambar"
-        android:layout_width="240dp"
-        android:layout_height="210dp"
-        android:layout_gravity="center"
-        android:orientation="vertical"
-        android:layout_marginTop="-120dp"
-        android:layout_marginBottom="40dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="7dp">
+
+                    <ImageView
+                        android:id="@+id/idIVGambarGame"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_launcher_background"/>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/idTVNamaGame"
+                    android:fontFamily="@font/montserratalternates_semibold"
+                    android:textColor="@color/black2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:padding="20dp"
             android:orientation="vertical">
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="160dp"
-                app:cardCornerRadius="7dp">
-
-                <ImageView
-                    android:id="@+id/idIVGambarGame"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/ic_launcher_background"/>
-            </androidx.cardview.widget.CardView>
-
-            <TextView
-                android:id="@+id/idTVNamaGame"
+            <LinearLayout
+                android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:textStyle="bold"
                 android:layout_marginTop="5dp"
-                android:textSize="20sp"/>
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Level Game"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/idTVKategori"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:textColor="@color/black2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jumlah Pemain"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/idTVJumlahPemain"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:textColor="@color/black2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Deskripsi"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/idTVDeskripsiGame"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:textColor="@color/black2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"/>
+            </LinearLayout>
 
         </LinearLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="20dp"
-        android:orientation="vertical">
 
         <LinearLayout
-            android:orientation="vertical"
+            android:padding="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp">
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp">
 
-            <TextView
+            <Button
+                android:id="@+id/idBLeaderboard"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Level Game"
-                android:textSize="20sp"/>
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:text="Leaderboard"
+                android:textAllCaps="false"
+                android:fontFamily="@font/montserrat_medium"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_black"/>
 
-            <TextView
-                android:id="@+id/idTVKategori"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:textStyle="bold"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Jumlah Pemain"
-                android:textSize="20sp"/>
-
-            <TextView
-                android:id="@+id/idTVJumlahPemain"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:textStyle="bold"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Deskripsi"
-                android:textSize="20sp"/>
-
-            <TextView
-                android:id="@+id/idTVDeskripsiGame"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:textStyle="bold"/>
         </LinearLayout>
 
     </LinearLayout>
 
-    <LinearLayout
-        android:padding="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="30dp">
-
-        <Button
-            android:id="@+id/idBLeaderboard"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="5dp"
-            android:text="LEADERBOARD"
-            android:textSize="16sp"
-            android:textColor="@color/white"
-            android:background="@drawable/button_black"/>
-
-    </LinearLayout>
-
-<!--    <androidx.cardview.widget.CardView
-        android:layout_width="199dp"
-        android:layout_height="0dp"
-        android:layout_weight="3"
-        android:layout_gravity="center"
-        app:cardCornerRadius="13dp">
-        <ImageView
-            android:id="@+id/idIVGambarGame"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scaleType="fitXY"
-            android:layout_weight="3"
-            android:src="@drawable/ic_launcher_background"></ImageView>
-    </androidx.cardview.widget.CardView>
-
-    <TextView
-        android:id="@+id/idTVNamaGame"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:layout_marginLeft="5dp"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:layout_marginTop="5dp"></TextView>-->
-
-<!--    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0"
-        android:orientation="vertical"
-        android:layout_marginLeft="5dp">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="Level Game"
-            android:textSize="20dp"></TextView>
-        <TextView
-            android:id="@+id/idTVKategori"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:textStyle="bold"
-            android:textSize="20dp"></TextView>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0"
-        android:orientation="vertical"
-        android:layout_marginLeft="5dp">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="Jumlah Pemain"
-            android:textSize="20dp"></TextView>
-        <TextView
-            android:id="@+id/idTVJumlahPemain"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:textStyle="bold"
-            android:textSize="20dp"></TextView>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="4"
-        android:orientation="vertical"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="10dp">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="Deskripsi"
-            android:textSize="20dp"></TextView>
-        <TextView
-            android:id="@+id/idTVDeskripsiGame"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="3"
-            android:textStyle="bold"
-            android:textSize="20dp"></TextView>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="horizontal"
-        android:layout_margin="5dp">
-        <Button
-            android:id="@+id/idBLeaderboard"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="LEADERBOARD"
-            android:textColor="@color/cardview_light_background"
-            android:background="@drawable/background_leaderboard_add_history"></Button>
-    </LinearLayout>-->
-
-
-</LinearLayout>
+</ScrollView>
