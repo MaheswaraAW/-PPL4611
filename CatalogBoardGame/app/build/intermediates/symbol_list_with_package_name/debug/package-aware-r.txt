@@ -1283,17 +1283,13 @@ drawable time
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable user
-font montserrat_light
 font montserrat_medium
 font montserrat_regular
 font montserrat_semibold
-font montserrat_thin
 font montserratalternates_bold
-font montserratalternates_light
 font montserratalternates_medium
 font montserratalternates_regular
 font montserratalternates_semibold
-font montserratalternates_thin
 id ALT
 id Access
 id CTRL
