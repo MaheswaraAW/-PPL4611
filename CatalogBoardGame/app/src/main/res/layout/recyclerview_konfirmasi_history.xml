@@ -11,23 +11,14 @@
         android:padding="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="5dp">
-<!--        <TextView-->
-<!--            android:id="@+id/idTVNo"-->
-<!--            android:layout_width="0dp"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:layout_weight="1"-->
-<!--            android:text="No"-->
-<!--            android:gravity="center"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textSize="10dp"-->
-<!--            android:textColor="@color/black"></TextView>-->
+
         <ImageView
             android:id="@+id/idIVGambarGame"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:gravity="center"
             android:scaleType="fitXY"
-            android:background="@drawable/ic_launcher_background"
+            android:background="@drawable/ic_gallery"
             android:textColor="@color/black"/>
 
         <TextView
@@ -36,10 +27,11 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="Name"
+            android:fontFamily="@font/montserrat_regular"
             android:gravity="center"
             android:textStyle="bold"
             android:textSize="14sp"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black2"/>
 
         <TextView
             android:id="@+id/idTVWin"
@@ -47,6 +39,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="Win"
+            android:fontFamily="@font/montserrat_regular"
             android:gravity="center"
             android:textStyle="bold"
             android:textSize="14sp"
