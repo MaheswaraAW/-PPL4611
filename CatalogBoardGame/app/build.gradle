@@ -56,6 +56,8 @@ dependencies {
 //baru dibuat, salah hapus aja line 45
 
     implementation group: 'net.sourceforge.jexcelapi', name: 'jxl', version: '2.6'
+
+    //dikasih dibawah agar constrain pada login dan signup tidak merah
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
 
 
