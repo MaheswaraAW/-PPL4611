@@ -8,6 +8,37 @@
   "variantName": "processDebugResources",
   "elements": [
     {
+      "type": "UNIVERSAL",
+      "filters": [],
+      "versionCode": 1,
+      "versionName": "1.0",
+      "outputFile": "app-universal-debug.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86_64"
+        }
+      ],
+      "versionCode": 1,
+      "versionName": "1.0",
+      "outputFile": "app-x86_64-debug.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "mips64"
+        }
+      ],
+      "versionCode": 1,
+      "versionName": "1.0",
+      "outputFile": "app-mips64-debug.apk"
+    },
+    {
       "type": "ONE_OF_MANY",
       "filters": [
         {
@@ -18,6 +49,54 @@
       "versionCode": 1,
       "versionName": "1.0",
       "outputFile": "app-x86-debug.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "armeabi"
+        }
+      ],
+      "versionCode": 1,
+      "versionName": "1.0",
+      "outputFile": "app-armeabi-debug.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "armeabi-v7a"
+        }
+      ],
+      "versionCode": 1,
+      "versionName": "1.0",
+      "outputFile": "app-armeabi-v7a-debug.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "mips"
+        }
+      ],
+      "versionCode": 1,
+      "versionName": "1.0",
+      "outputFile": "app-mips-debug.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "arm64-v8a"
+        }
+      ],
+      "versionCode": 1,
+      "versionName": "1.0",
+      "outputFile": "app-arm64-v8a-debug.apk"
     }
   ]
 }

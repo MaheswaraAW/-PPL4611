@@ -125,7 +125,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:textSize="16sp"
-                        android:text="Daftar Game"
+                        android:text="Daftar Game Board"
+                        android:textAlignment="center"
                         android:fontFamily="@font/montserrat_regular"
                         android:textColor="@color/black2"/>
 
@@ -175,7 +176,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:text="History Game"
+                        android:text="Konfirmasi History"
+                        android:textAlignment="center"
                         android:fontFamily="@font/montserrat_regular"
                         android:textSize="16sp"
                         android:textColor="@color/black2"/>
