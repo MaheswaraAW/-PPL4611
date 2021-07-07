@@ -6,6 +6,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapters;
 import com.example.catalogboardgame.DaftarGameClient.Model.CKategori;
@@ -23,6 +25,7 @@ import java.util.List;
 public class DaftarGameCLientActiviti extends AppCompatActivity {
     RecyclerView RVDaftarGameClient;
     DaftarGameClientAdapters daftarGameClientAdapter;
+    Button BKembali;
 
     DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("CatalogBoardGame");
 
@@ -32,6 +35,14 @@ public class DaftarGameCLientActiviti extends AppCompatActivity {
         setContentView(R.layout.activity_daftar_game_c_lient_activiti);
 
         RVDaftarGameClient = findViewById(R.id.idRVLihatGameClient);
+        BKembali = findViewById(R.id.idBKembali);
+
+        BKembali.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         final ArrayList<CatalogBoardGame> ALCatalogBoardGameEasy = new ArrayList<>();
         final ArrayList<CatalogBoardGame> ALCatalogBoardGameMedium = new ArrayList<>();

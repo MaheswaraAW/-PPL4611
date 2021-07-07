@@ -145,7 +145,7 @@ public class TambahHistoryClient extends AppCompatActivity {
 //                                        ALminDay.add(minDay);
 //                                        ALminMonth.add(minMonth);
 //                                        ALminYear.add(minYear);
-                                        Toast.makeText(TambahHistoryClient.this, "Nama Ada:"+Name+"ALKEY:"+ALKey, Toast.LENGTH_SHORT).show();
+//                                        Toast.makeText(TambahHistoryClient.this, "Nama Ada:"+Name+"ALKEY:"+ALKey, Toast.LENGTH_SHORT).show();
                                     }
                                 }
 //                                Toast.makeText(TambahHistoryClient.this, "ALKEY"+ALKey, Toast.LENGTH_SHORT).show();
@@ -186,6 +186,7 @@ public class TambahHistoryClient extends AppCompatActivity {
                                         history.setMinMonth(Integer.parseInt(SMinMonth));
                                         history.setMinYear(Integer.parseInt(SMinYear));
                                         databaseReference.child("History").child(SKeyHistory).setValue(history);
+                                        Toast.makeText(TambahHistoryClient.this, "Tunggu Konfirmasi Admin", Toast.LENGTH_SHORT).show();
                                         finish();
                                         Intent intenta = new Intent(TambahHistoryClient.this, LeaderboardClient.class);
                                         intenta.putExtra("NamaGame", SNamaGame);
@@ -196,6 +197,8 @@ public class TambahHistoryClient extends AppCompatActivity {
                                 else if(ALKey!=null){
 //                                    Toast.makeText(TambahHistoryClient.this, "Nama ada"+"ALKEY:"+ALKey, Toast.LENGTH_SHORT).show();
                                     HashMap hashMap = new HashMap();
+                                    hashMap.put("konfirmasi", "0");
+                                    hashMap.put("gambarGame", history.getGambarGame());
                                     hashMap.put("win", ALWin.get(0)+Integer.parseInt(ETMenang.getText().toString()));
                                     hashMap.put("lose", ALLose.get(0)+Integer.parseInt(ETKalah.getText().toString()));
                                     hashMap.put("tanggal", TVTanggal.getText().toString());
@@ -209,7 +212,7 @@ public class TambahHistoryClient extends AppCompatActivity {
                                     hashMap.put("minMonth", Integer.parseInt(SMinMonth));
                                     hashMap.put("minYear", Integer.parseInt(SMinYear));
                                     databaseReference.child("History").child(ALKey.get(0)).updateChildren(hashMap);
-                                    Toast.makeText(TambahHistoryClient.this, "Berhasil Update"+ALWin.get(0)+"ALKey"+ALKey.get(0), Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(TambahHistoryClient.this, "Menuggu konfirmasi", Toast.LENGTH_SHORT).show();
                                     finish();
                                 }
                             }
