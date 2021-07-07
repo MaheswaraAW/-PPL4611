@@ -1,5 +1,6 @@
 package com.example.catalogboardgame.DashboardAdmin;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
@@ -15,6 +16,12 @@ import android.widget.Toast;
 import com.example.catalogboardgame.R;
 import com.example.catalogboardgame.firebaseauth.RgisterAuth;
 import com.example.catalogboardgame.user.EditUser;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthCredential;
+import com.google.firebase.auth.EmailAuthProvider;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -79,8 +86,37 @@ public class EditAdmin extends AppCompatActivity {
                         pass.setError("Password Minimal 7 Huruf");
                     else {
                         String nam = nama.getText().toString();
-                        String mail = email.getText().toString();
-                        String password = pass.getText().toString();
+                        final String mail = email.getText().toString();
+                        final String password = pass.getText().toString();
+                        final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+
+                        AuthCredential credential= EmailAuthProvider.getCredential(Semail,Spass);
+                        user.reauthenticate(credential).addOnCompleteListener(new OnCompleteListener<Void>() {
+                            @Override
+                            public void onComplete(@NonNull Task<Void> task) {
+                                Log.d("TAG", "User-Reauth");
+                                FirebaseUser user1= FirebaseAuth.getInstance().getCurrentUser();
+                                user1.updateEmail(mail).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                    @Override
+                                    public void onComplete(@NonNull Task<Void> task) {
+                                        if (task.isSuccessful()) {
+                                            Log.d("TAG", "User email address updated.");
+                                        }
+                                    }
+                                });
+                                user1.updatePassword(password).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                    @Override
+                                    public void onComplete(@NonNull Task<Void> task) {
+                                        if (task.isSuccessful()) {
+                                            Log.d("TAG", "User pass updated.");
+                                        }
+                                    }
+                                });
+
+                            }
+                        });
+
+
                         HashMap hashMap = new HashMap();
                         hashMap.put("nama", nam);
                         hashMap.put("email", mail);

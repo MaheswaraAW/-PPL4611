@@ -99,7 +99,6 @@
                 android:id="@+id/editemailadmin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:enabled="false"
                 android:inputType="textEmailAddress"
 
                 android:drawableStart="@drawable/custom_email_icon"

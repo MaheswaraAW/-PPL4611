@@ -47,6 +47,9 @@ com/example/catalogboardgame/user/EditUser.java
  com.example.catalogboardgame.user.EditUser
  com.example.catalogboardgame.user.EditUser$1
  com.example.catalogboardgame.user.EditUser$2
+ com.example.catalogboardgame.user.EditUser$2$1
+ com.example.catalogboardgame.user.EditUser$2$1$1
+ com.example.catalogboardgame.user.EditUser$2$1$2
  com.example.catalogboardgame.user.EditUser$3
 com/example/catalogboardgame/BacaGameClient/BacaGameClient.java
  com.example.catalogboardgame.BacaGameClient.BacaGameClient
@@ -203,6 +206,9 @@ com/example/catalogboardgame/DashboardAdmin/EditAdmin.java
  com.example.catalogboardgame.DashboardAdmin.EditAdmin
  com.example.catalogboardgame.DashboardAdmin.EditAdmin$1
  com.example.catalogboardgame.DashboardAdmin.EditAdmin$2
+ com.example.catalogboardgame.DashboardAdmin.EditAdmin$2$1
+ com.example.catalogboardgame.DashboardAdmin.EditAdmin$2$1$1
+ com.example.catalogboardgame.DashboardAdmin.EditAdmin$2$1$2
  com.example.catalogboardgame.DashboardAdmin.EditAdmin$3
 com/example/catalogboardgame/DashboardAdmin/TampilUserRecycler.java
  com.example.catalogboardgame.DashboardAdmin.TampilUserRecycler

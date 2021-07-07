@@ -96,7 +96,6 @@
                 android:drawableStart="@drawable/custom_email_icon"
                 android:drawablePadding="12dp"
                 android:fontFamily="@font/montserrat_regular"
-                android:enabled="false"
                 android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
 
