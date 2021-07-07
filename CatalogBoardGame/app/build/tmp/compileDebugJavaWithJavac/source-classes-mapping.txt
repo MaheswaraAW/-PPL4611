@@ -26,17 +26,8 @@ com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientAdapters.j
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapters$DaftarGameClientViewHolder
 com/example/catalogboardgame/model/Akun.java
  com.example.catalogboardgame.model.Akun
-com/example/catalogboardgame/LeaderboardClient/LeaderboardAdmin.java
- com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin
- com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$1
- com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$2
- com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$3
- com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$3$1
- com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$4
- com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$4$1
- com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$5
- com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$5$1
- com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$6
+com/example/catalogboardgame/user/DashUser.java
+ com.example.catalogboardgame.user.DashUser
 com/example/catalogboardgame/model/History.java
  com.example.catalogboardgame.model.History
 com/example/catalogboardgame/DaftarGameClient/DaftarGameCLientActiviti.java
@@ -76,9 +67,10 @@ com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientGambarGame
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdaptersAdm$DaftarGameClientGambarGameViewHolder
 com/example/catalogboardgame/LeaderboardClient/Adapter/LeaderboardAdminAdapter.java
  com.example.catalogboardgame.LeaderboardClient.Adapter.LeaderboardAdminAdapter
-com/example/catalogboardgame/BacaGameClient/BacaGameAdm.java
- com.example.catalogboardgame.BacaGameClient.BacaGameAdm
- com.example.catalogboardgame.BacaGameClient.BacaGameAdm$1
+com/example/catalogboardgame/DashboardAdmin/TampilUserRecycler.java
+ com.example.catalogboardgame.DashboardAdmin.TampilUserRecycler
+ com.example.catalogboardgame.DashboardAdmin.TampilUserRecycler$1
+ com.example.catalogboardgame.DashboardAdmin.TampilUserRecycler$2
 com/example/catalogboardgame/MainActivity2.java
  com.example.catalogboardgame.MainActivity2
 com/example/catalogboardgame/firebaseauth/LogAuth2.java
@@ -197,9 +189,17 @@ com/example/catalogboardgame/DashboardAdmin/EditAdmin.java
  com.example.catalogboardgame.DashboardAdmin.EditAdmin$1
  com.example.catalogboardgame.DashboardAdmin.EditAdmin$2
  com.example.catalogboardgame.DashboardAdmin.EditAdmin$3
-com/example/catalogboardgame/DashboardAdmin/TampilUserRecycler.java
- com.example.catalogboardgame.DashboardAdmin.TampilUserRecycler
- com.example.catalogboardgame.DashboardAdmin.TampilUserRecycler$1
- com.example.catalogboardgame.DashboardAdmin.TampilUserRecycler$2
-com/example/catalogboardgame/user/DashUser.java
- com.example.catalogboardgame.user.DashUser
+com/example/catalogboardgame/LeaderboardClient/LeaderboardAdmin.java
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$1
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$2
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$3
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$3$1
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$4
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$4$1
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$5
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$5$1
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$6
+com/example/catalogboardgame/BacaGameClient/BacaGameAdm.java
+ com.example.catalogboardgame.BacaGameClient.BacaGameAdm
+ com.example.catalogboardgame.BacaGameClient.BacaGameAdm$1

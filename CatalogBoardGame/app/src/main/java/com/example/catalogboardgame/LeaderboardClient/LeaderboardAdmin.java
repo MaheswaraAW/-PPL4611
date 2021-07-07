@@ -65,6 +65,7 @@ public class LeaderboardAdmin extends AppCompatActivity {
     String namax,wins,loses;
     Integer win,lose;
     Integer no=0;
+    String time;
 
 
     @Override
@@ -143,6 +144,7 @@ public class LeaderboardAdmin extends AppCompatActivity {
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         ALHistory.clear();
                         datas.clear();
+                        time="Hari";
                         for(DataSnapshot dataSnapshot : snapshot.getChildren()){
                             History history = dataSnapshot.getValue(History.class);
                             String Tanggal = dataSnapshot.child("tanggal").getValue(String.class);
@@ -188,6 +190,8 @@ public class LeaderboardAdmin extends AppCompatActivity {
                         ALNamaD.clear();
                         ALSNama.clear();
                         datas.clear();
+                        time="Bulan";
+
                         for(DataSnapshot dataSnapshot : snapshot.getChildren()){
                             History history = dataSnapshot.getValue(History.class);
                             String Tanggal = dataSnapshot.child("tanggal").getValue(String.class);
@@ -248,6 +252,8 @@ public class LeaderboardAdmin extends AppCompatActivity {
                         ALSNama.clear();
                         ALNamaM.clear();
                         datas.clear();
+                        time="Tahun";
+
 //                        ALMonth.clear();
                         for(DataSnapshot dataSnapshot : snapshot.getChildren()){
                             History history = dataSnapshot.getValue(History.class);
@@ -313,7 +319,7 @@ public class LeaderboardAdmin extends AppCompatActivity {
                 }
                 String asa = as.toString();
                 String ca=da+asa;
-                generateNoteOnSD(LeaderboardAdmin.this,"/"+" "+tgl+".csv",ca);
+                generateNoteOnSD(LeaderboardAdmin.this,"/"+" "+time+" "+tgl+".csv",ca);
 
             }
         });
