@@ -81,7 +81,7 @@ public class EditAdmin extends AppCompatActivity {
         builder.setPositiveButton("Iya", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                if (nama.getText().toString().isEmpty()==false && pass.getText().toString().isEmpty()==false) {
+                if (nama.getText().toString().isEmpty()==false && pass.getText().toString().isEmpty()==false &&email.getText().toString().isEmpty()==false) {
                     if (pass.getText().toString().length() <7)
                         pass.setError("Password Minimal 7 Huruf");
                     else {
@@ -125,18 +125,34 @@ public class EditAdmin extends AppCompatActivity {
                         Toast.makeText(EditAdmin.this, "Data Tersimpan", Toast.LENGTH_SHORT).show();
                     }
                 }
-                else if (nama.getText().toString().isEmpty()==false && pass.getText().toString().isEmpty()== true){
+                else if (nama.getText().toString().isEmpty()==false && pass.getText().toString().isEmpty()== true && email.getText().toString().isEmpty()==false){
                     pass.setError("Passsword Tidak Boleh Kosong");
 
                 }
-                else if (nama.getText().toString().isEmpty()==true && pass.getText().toString().isEmpty()== false){
+                else if (nama.getText().toString().isEmpty()==true && pass.getText().toString().isEmpty()== false && email.getText().toString().isEmpty()==false){
                     nama.setError("Nama Tidak Boleh Kosong");
 
                 }
-                else if (nama.getText().toString().isEmpty()==true && pass.getText().toString().isEmpty()== true){
+                else if (nama.getText().toString().isEmpty()==true && pass.getText().toString().isEmpty()== true && email.getText().toString().isEmpty()==false){
                     nama.setError("Nama Tidak Boleh Kosong");
                     pass.setError("Password Tidak Boleh Kosong");
 
+                }
+                else if (nama.getText().toString().isEmpty()==false && pass.getText().toString().isEmpty()== false && email.getText().toString().isEmpty()==true) {
+                    email.setError("Email Tidak Boleh Kosong");
+                }
+                else if (nama.getText().toString().isEmpty()==false && pass.getText().toString().isEmpty()== true && email.getText().toString().isEmpty()==true) {
+                    pass.setError("Password Tidak Boleh Kosong");
+                    email.setError("Email Tidak Boleh Kosong");
+                }
+                else if (nama.getText().toString().isEmpty()==true && pass.getText().toString().isEmpty()== false && email.getText().toString().isEmpty()==true) {
+                    nama.setError("Nama Tidak Boleh Kosong");
+                    email.setError("Email Tidak Boleh Kosong");
+                }
+                else if (nama.getText().toString().isEmpty()==true && pass.getText().toString().isEmpty()== true && email.getText().toString().isEmpty()==true) {
+                    nama.setError("Nama Tidak Boleh Kosong");
+                    pass.setError("Password Tidak Boleh Kosong");
+                    email.setError("Email Tidak Boleh Kosong");
                 }
 
             }

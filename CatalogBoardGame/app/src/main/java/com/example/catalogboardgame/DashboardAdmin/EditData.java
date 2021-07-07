@@ -77,7 +77,7 @@ public class EditData extends AppCompatActivity {
         builder.setPositiveButton("Iya", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                if (nama.getText().toString().isEmpty()==false && pass.getText().toString().isEmpty()==false&& access.getText().toString().isEmpty()==false) {
+                if (nama.getText().toString().isEmpty()==false && access.getText().toString().isEmpty()==false) {
                     if (pass.getText().toString().length() <7)
                         pass.setError("Password Minimal 7 Huruf");
                     else {
@@ -98,21 +98,20 @@ public class EditData extends AppCompatActivity {
                         Toast.makeText(EditData.this, "Data Tersimpan", Toast.LENGTH_SHORT).show();
                     }
                 }
-                else if (nama.getText().toString().isEmpty()==false && pass.getText().toString().isEmpty()==true&& access.getText().toString().isEmpty()==false) {
-                    pass.setError("Passsword Tidak Boleh Kosong");
-
-                }
-                else if (nama.getText().toString().isEmpty()==true && pass.getText().toString().isEmpty()==false&& access.getText().toString().isEmpty()==false) {
+//                else if (nama.getText().toString().isEmpty()==false && access.getText().toString().isEmpty()==false) {
+//                    pass.setError("Passsword Tidak Boleh Kosong");
+//
+//                }
+                else if (nama.getText().toString().isEmpty()==true && access.getText().toString().isEmpty()==false) {
                     nama.setError("Nama Tidak Boleh Kosong");
 
                 }
-                else if (nama.getText().toString().isEmpty()==true && pass.getText().toString().isEmpty()==true&& access.getText().toString().isEmpty()==true) {
+                else if (nama.getText().toString().isEmpty()==true && access.getText().toString().isEmpty()==true) {
                     nama.setError("Nama Tidak Boleh Kosong");
-                    pass.setError("Password Tidak Boleh Kosong");
                     access.setError("Access Tidak Boleh Kosong");
 
                 }
-                else if (nama.getText().toString().isEmpty()==false && pass.getText().toString().isEmpty()==false&& access.getText().toString().isEmpty()==true) {
+                else if (nama.getText().toString().isEmpty()==false && access.getText().toString().isEmpty()==true) {
                     access.setError("Access Tidak Boleh Kosong");
 
                 }

@@ -1,0 +1,4 @@
+#Thu Jul 08 00:28:55 ICT 2021
+base.0=C\:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

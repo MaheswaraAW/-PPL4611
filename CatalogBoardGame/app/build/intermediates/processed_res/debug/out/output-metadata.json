@@ -8,6 +8,85 @@
   "variantName": "processDebugResources",
   "elements": [
     {
+      "type": "UNIVERSAL",
+      "filters": [],
+      "versionCode": 1,
+      "versionName": "1.0",
+      "outputFile": "resources-universalDebug.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "mips64"
+        }
+      ],
+      "versionCode": 1,
+      "versionName": "1.0",
+      "outputFile": "resources-mips64Debug.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "armeabi"
+        }
+      ],
+      "versionCode": 1,
+      "versionName": "1.0",
+      "outputFile": "resources-armeabiDebug.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "mips"
+        }
+      ],
+      "versionCode": 1,
+      "versionName": "1.0",
+      "outputFile": "resources-mipsDebug.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "arm64-v8a"
+        }
+      ],
+      "versionCode": 1,
+      "versionName": "1.0",
+      "outputFile": "resources-arm64-v8aDebug.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "armeabi-v7a"
+        }
+      ],
+      "versionCode": 1,
+      "versionName": "1.0",
+      "outputFile": "resources-armeabi-v7aDebug.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86_64"
+        }
+      ],
+      "versionCode": 1,
+      "versionName": "1.0",
+      "outputFile": "resources-x86_64Debug.ap_"
+    },
+    {
       "type": "ONE_OF_MANY",
       "filters": [
         {
