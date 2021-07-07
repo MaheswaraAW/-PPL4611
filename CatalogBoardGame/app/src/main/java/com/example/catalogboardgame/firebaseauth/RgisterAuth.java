@@ -50,25 +50,29 @@ public class RgisterAuth extends AppCompatActivity {
         Signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                checkField(name);
-                checkField(email);
-                checkField(password);
-                if (valid){
-                    firebaseAuth.createUserWithEmailAndPassword(email.getText().toString(),password.getText().toString()).addOnSuccessListener(new OnSuccessListener<AuthResult>() {
-                        @Override
-                        public void onSuccess(AuthResult authResult) {
+//                checkField(name);
+//                checkField(email);
+//                checkField(password);
+                if (name.getText().toString().isEmpty()==false && email.getText().toString().isEmpty()==false && password.getText().toString().isEmpty()==false){
+//                if (valid){
+                    if (password.getText().toString().length() <7)
+                        password.setError("Password Minimal 7 Huruf");
+                    else {
+                        firebaseAuth.createUserWithEmailAndPassword(email.getText().toString(), password.getText().toString()).addOnSuccessListener(new OnSuccessListener<AuthResult>() {
+                            @Override
+                            public void onSuccess(AuthResult authResult) {
 
-                            FirebaseUser user= firebaseAuth.getCurrentUser();
+                                FirebaseUser user = firebaseAuth.getCurrentUser();
 
-                            akunfirebase.setNama(name.getText().toString());
-                            akunfirebase.setEmail(email.getText().toString());
-                            akunfirebase.setPassword(password.getText().toString());
-                            akunfirebase.setManag(manag);
-                            String ID=databaseReference.push().getKey();
-                            akunfirebase.setID(ID);
-                            akunfirebase.setUID(user.getUid());
+                                akunfirebase.setNama(name.getText().toString());
+                                akunfirebase.setEmail(email.getText().toString());
+                                akunfirebase.setPassword(password.getText().toString());
+                                akunfirebase.setManag(manag);
+                                String ID = databaseReference.push().getKey();
+                                akunfirebase.setID(ID);
+                                akunfirebase.setUID(user.getUid());
 
-                            Toast.makeText(RgisterAuth.this,"Akun berhasil dibuat",Toast.LENGTH_SHORT).show();
+                                Toast.makeText(RgisterAuth.this, "Akun berhasil dibuat", Toast.LENGTH_SHORT).show();
 
 //                            Map<String ,Object> userInfo= new HashMap<>();
 //                            userInfo.put("nama",name.getText().toString());
@@ -78,22 +82,40 @@ public class RgisterAuth extends AppCompatActivity {
 //                            userInfo.put("isUser","0");
 //                            databaseReference.setValue(userInfo);
 
-                    databaseReference.child(user.getUid()).setValue(akunfirebase);
-                    FirebaseAuth.getInstance().signOut();
-                    startActivity(new Intent(getApplicationContext(),LoginAuth.class));
-                    finish();
+                                databaseReference.child(user.getUid()).setValue(akunfirebase);
+                                FirebaseAuth.getInstance().signOut();
+                                startActivity(new Intent(getApplicationContext(), LoginAuth.class));
+                                finish();
 
-                        }
-                    }).addOnFailureListener(new OnFailureListener() {
-                        @Override
-                        public void onFailure(@NonNull Exception e) {
-                            Toast.makeText(RgisterAuth.this,"Akun Gagal Dibuat",Toast.LENGTH_SHORT).show();
-                        }
-                    });
+                            }
+                        }).addOnFailureListener(new OnFailureListener() {
+                            @Override
+                            public void onFailure(@NonNull Exception e) {
+                                Toast.makeText(RgisterAuth.this, "Akun Gagal Dibuat", Toast.LENGTH_SHORT).show();
+                            }
+                        });
+                    }
+
+                }
+                else if (name.getText().toString().isEmpty()==false && email.getText().toString().isEmpty()==false && password.getText().toString().isEmpty()==true){
+                    password.setError("Password Tidak Boleh Kosong");
+                }
+                else if (name.getText().toString().isEmpty()==false && email.getText().toString().isEmpty()==true && password.getText().toString().isEmpty()==false){
+                    email.setError("Email Tidak Boleh Kosong");
+                }
+                else if (name.getText().toString().isEmpty()==true && email.getText().toString().isEmpty()==false && password.getText().toString().isEmpty()==false){
+                    name.setError("Nama Tidak Boleh Kosong");
+                }
+                else if (name.getText().toString().isEmpty()==true && email.getText().toString().isEmpty()==true && password.getText().toString().isEmpty()==true){
+                    name.setError("Nama Tidak Boleh Kosong");
+                    email.setError("Email Tidak Boleh Kosong");
+                    password.setError("Password Tidak Boleh Kosong");
+
 
                 }
 
-            }
+
+                }
         });
         Login.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -4,31 +4,6 @@ com/example/catalogboardgame/DashboardAdmin/DashAdmin.java
  com.example.catalogboardgame.DashboardAdmin.DashAdmin
 com/example/catalogboardgame/model/akn.java
  com.example.catalogboardgame.model.akn
-com/example/catalogboardgame/Export.java
- com.example.catalogboardgame.Export
-com/example/catalogboardgame/KonfirmasiHistory/Adapter/KonfirmasiHistoryAdapter.java
- com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter
- com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$1
- com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$1$1
- com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$1$1$1
- com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$1$2
- com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$2
- com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$2$1
- com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$2$1$1
- com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$2$2
- com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$KonfirmasiHistoryViewHolder
-com/example/catalogboardgame/TambahGameAdmin/TbhGame.java
- com.example.catalogboardgame.TambahGameAdmin.TbhGame
- com.example.catalogboardgame.TambahGameAdmin.TbhGame$1
- com.example.catalogboardgame.TambahGameAdmin.TbhGame$2
- com.example.catalogboardgame.TambahGameAdmin.TbhGame$2$1
- com.example.catalogboardgame.TambahGameAdmin.TbhGame$2$2
- com.example.catalogboardgame.TambahGameAdmin.TbhGame$3
- com.example.catalogboardgame.TambahGameAdmin.TbhGame$4
- com.example.catalogboardgame.TambahGameAdmin.TbhGame$5
- com.example.catalogboardgame.TambahGameAdmin.TbhGame$5$1
-com/example/catalogboardgame/BacaGameAdmin.java
- com.example.catalogboardgame.BacaGameAdmin
 com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientGambarGameRecyclerAdapter.java
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdapter
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdapter$1
@@ -51,16 +26,6 @@ com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientAdapters.j
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapters$DaftarGameClientViewHolder
 com/example/catalogboardgame/model/Akun.java
  com.example.catalogboardgame.model.Akun
-com/example/catalogboardgame/LeaderboardClient/LeaderboardClient.java
- com.example.catalogboardgame.LeaderboardClient.LeaderboardClient
- com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$1
- com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$2
- com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$3
- com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$3$1
- com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$4
- com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$4$1
- com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$5
- com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$5$1
 com/example/catalogboardgame/LeaderboardClient/LeaderboardAdmin.java
  com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin
  com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$1
@@ -74,18 +39,10 @@ com/example/catalogboardgame/LeaderboardClient/LeaderboardAdmin.java
  com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin$6
 com/example/catalogboardgame/model/History.java
  com.example.catalogboardgame.model.History
-com/example/catalogboardgame/model/CatalogBoardGame.java
- com.example.catalogboardgame.model.CatalogBoardGame
-com/example/catalogboardgame/Sign/Daftar.java
- com.example.catalogboardgame.Sign.Daftar
- com.example.catalogboardgame.Sign.Daftar$1
- com.example.catalogboardgame.Sign.Daftar$2
 com/example/catalogboardgame/DaftarGameClient/DaftarGameCLientActiviti.java
  com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActiviti
  com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActiviti$1
-com/example/catalogboardgame/DaftarGameClient/DaftarGameCLientActivitiAdm.java
- com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActivitiAdm
- com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActivitiAdm$1
+ com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActiviti$2
 com/example/catalogboardgame/user/EditUser.java
  com.example.catalogboardgame.user.EditUser
  com.example.catalogboardgame.user.EditUser$1
@@ -120,19 +77,10 @@ com/example/catalogboardgame/LeaderboardClient/Adapter/LeaderboardAdminAdapter.j
 com/example/catalogboardgame/BacaGameClient/BacaGameAdm.java
  com.example.catalogboardgame.BacaGameClient.BacaGameAdm
  com.example.catalogboardgame.BacaGameClient.BacaGameAdm$1
-com/example/catalogboardgame/firebaseauth/RgisterAuth.java
- com.example.catalogboardgame.firebaseauth.RgisterAuth
- com.example.catalogboardgame.firebaseauth.RgisterAuth$1
- com.example.catalogboardgame.firebaseauth.RgisterAuth$1$1
- com.example.catalogboardgame.firebaseauth.RgisterAuth$1$2
- com.example.catalogboardgame.firebaseauth.RgisterAuth$2
 com/example/catalogboardgame/MainActivity2.java
  com.example.catalogboardgame.MainActivity2
 com/example/catalogboardgame/firebaseauth/LogAuth2.java
  com.example.catalogboardgame.firebaseauth.LogAuth2
-com/example/catalogboardgame/LeaderboardClient/Adapter/LeaderboardClientAdapter.java
- com.example.catalogboardgame.LeaderboardClient.Adapter.LeaderboardClientAdapter
- com.example.catalogboardgame.LeaderboardClient.Adapter.LeaderboardClientAdapter$LeaderboardClientViewHolder
 com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientGambarGameRecyclerAdapters.java
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdapters
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientGambarGameRecyclerAdapters$1
@@ -148,6 +96,73 @@ com/example/catalogboardgame/DashboardAdmin/recyclertampiladapter.java
  com.example.catalogboardgame.DashboardAdmin.recyclertampiladapter$recyclertampilViewHolder
 com/example/catalogboardgame/firebaseauth/Akunfirebase.java
  com.example.catalogboardgame.firebaseauth.Akunfirebase
+com/example/catalogboardgame/user/DashboardUser.java
+ com.example.catalogboardgame.user.DashboardUser
+com/example/catalogboardgame/DashboardAdmin/TampilUser.java
+ com.example.catalogboardgame.DashboardAdmin.TampilUser
+ com.example.catalogboardgame.DashboardAdmin.TampilUser$1
+ com.example.catalogboardgame.DashboardAdmin.TampilUser$2
+ com.example.catalogboardgame.DashboardAdmin.TampilUser$3
+com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientAdapter.java
+ com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapter
+ com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapter$DaftarGameClientViewHolder
+com/example/catalogboardgame/KonfirmasiHistory/KonfirmasiHistory.java
+ com.example.catalogboardgame.KonfirmasiHistory.KonfirmasiHistory
+ com.example.catalogboardgame.KonfirmasiHistory.KonfirmasiHistory$1
+ com.example.catalogboardgame.KonfirmasiHistory.KonfirmasiHistory$2
+com/example/catalogboardgame/Export.java
+ com.example.catalogboardgame.Export
+com/example/catalogboardgame/KonfirmasiHistory/Adapter/KonfirmasiHistoryAdapter.java
+ com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter
+ com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$1
+ com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$1$1
+ com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$1$1$1
+ com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$1$2
+ com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$2
+ com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$2$1
+ com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$2$1$1
+ com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$2$2
+ com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter$KonfirmasiHistoryViewHolder
+com/example/catalogboardgame/TambahGameAdmin/TbhGame.java
+ com.example.catalogboardgame.TambahGameAdmin.TbhGame
+ com.example.catalogboardgame.TambahGameAdmin.TbhGame$1
+ com.example.catalogboardgame.TambahGameAdmin.TbhGame$2
+ com.example.catalogboardgame.TambahGameAdmin.TbhGame$2$1
+ com.example.catalogboardgame.TambahGameAdmin.TbhGame$2$2
+ com.example.catalogboardgame.TambahGameAdmin.TbhGame$3
+ com.example.catalogboardgame.TambahGameAdmin.TbhGame$4
+ com.example.catalogboardgame.TambahGameAdmin.TbhGame$5
+ com.example.catalogboardgame.TambahGameAdmin.TbhGame$5$1
+com/example/catalogboardgame/BacaGameAdmin.java
+ com.example.catalogboardgame.BacaGameAdmin
+com/example/catalogboardgame/LeaderboardClient/LeaderboardClient.java
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardClient
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$1
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$2
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$3
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$3$1
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$4
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$4$1
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$5
+ com.example.catalogboardgame.LeaderboardClient.LeaderboardClient$5$1
+com/example/catalogboardgame/model/CatalogBoardGame.java
+ com.example.catalogboardgame.model.CatalogBoardGame
+com/example/catalogboardgame/Sign/Daftar.java
+ com.example.catalogboardgame.Sign.Daftar
+ com.example.catalogboardgame.Sign.Daftar$1
+ com.example.catalogboardgame.Sign.Daftar$2
+com/example/catalogboardgame/DaftarGameClient/DaftarGameCLientActivitiAdm.java
+ com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActivitiAdm
+ com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActivitiAdm$1
+com/example/catalogboardgame/firebaseauth/RgisterAuth.java
+ com.example.catalogboardgame.firebaseauth.RgisterAuth
+ com.example.catalogboardgame.firebaseauth.RgisterAuth$1
+ com.example.catalogboardgame.firebaseauth.RgisterAuth$1$1
+ com.example.catalogboardgame.firebaseauth.RgisterAuth$1$2
+ com.example.catalogboardgame.firebaseauth.RgisterAuth$2
+com/example/catalogboardgame/LeaderboardClient/Adapter/LeaderboardClientAdapter.java
+ com.example.catalogboardgame.LeaderboardClient.Adapter.LeaderboardClientAdapter
+ com.example.catalogboardgame.LeaderboardClient.Adapter.LeaderboardClientAdapter$LeaderboardClientViewHolder
 com/example/catalogboardgame/LeaderboardUser.java
  com.example.catalogboardgame.LeaderboardUser
 com/example/catalogboardgame/SplashScreen.java
@@ -163,8 +178,6 @@ com/example/catalogboardgame/firebaseauth/LoginAuth.java
  com.example.catalogboardgame.firebaseauth.LoginAuth$3
 com/example/catalogboardgame/MainActivity.java
  com.example.catalogboardgame.MainActivity
-com/example/catalogboardgame/user/DashboardUser.java
- com.example.catalogboardgame.user.DashboardUser
 com/example/catalogboardgame/BacaGameClient/BacaGameClients.java
  com.example.catalogboardgame.BacaGameClient.BacaGameClients
  com.example.catalogboardgame.BacaGameClient.BacaGameClients$1
@@ -173,20 +186,11 @@ com/example/catalogboardgame/BacaGameClient/BacaGameClients.java
 com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientAdaptersAdm.java
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdaptersAdm
  com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdaptersAdm$DaftarGameClientViewHolder
-com/example/catalogboardgame/DashboardAdmin/TampilUser.java
- com.example.catalogboardgame.DashboardAdmin.TampilUser
- com.example.catalogboardgame.DashboardAdmin.TampilUser$1
- com.example.catalogboardgame.DashboardAdmin.TampilUser$2
- com.example.catalogboardgame.DashboardAdmin.TampilUser$3
 com/example/catalogboardgame/DaftarGameClient/Model/CKategori.java
  com.example.catalogboardgame.DaftarGameClient.Model.CKategori
-com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientAdapter.java
- com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapter
- com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdapter$DaftarGameClientViewHolder
-com/example/catalogboardgame/KonfirmasiHistory/KonfirmasiHistory.java
- com.example.catalogboardgame.KonfirmasiHistory.KonfirmasiHistory
- com.example.catalogboardgame.KonfirmasiHistory.KonfirmasiHistory$1
- com.example.catalogboardgame.KonfirmasiHistory.KonfirmasiHistory$2
+com/example/catalogboardgame/DashboardAdmin/EditAdmin.java
+ com.example.catalogboardgame.DashboardAdmin.EditAdmin
+ com.example.catalogboardgame.DashboardAdmin.EditAdmin$1
 com/example/catalogboardgame/DashboardAdmin/TampilUserRecycler.java
  com.example.catalogboardgame.DashboardAdmin.TampilUserRecycler
  com.example.catalogboardgame.DashboardAdmin.TampilUserRecycler$1

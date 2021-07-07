@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.catalogboardgame.DashboardAdmin.EditAdmin;
 import com.example.catalogboardgame.R;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -56,18 +57,33 @@ public class EditUser extends AppCompatActivity {
     }
 
     private void UpdateData() {
-        String nam= nama.getText().toString();
-        String mail= email.getText().toString();
-        String password=pass.getText().toString();
+        if (nama.getText().toString().isEmpty()==false && pass.getText().toString().isEmpty()==false) {
+            if (pass.getText().toString().length() <7)
+                pass.setError("Password Minimal 7 Huruf");
+            else {
+                String nam = nama.getText().toString();
+                String mail = email.getText().toString();
+                String password = pass.getText().toString();
+                HashMap hashMap = new HashMap();
+                hashMap.put("nama", nam);
+                hashMap.put("email", mail);
+                hashMap.put("password", password);
+                databaseReference.child(Skey).updateChildren(hashMap);
+                Toast.makeText(EditUser.this, "Data Tersimpan", Toast.LENGTH_SHORT).show();
+            }
+        }
+        else if (nama.getText().toString().isEmpty()==false && pass.getText().toString().isEmpty()== true){
+            pass.setError("Passsword Tidak Boleh Kosong");
 
-        HashMap hashMap=new HashMap();
-        hashMap.put("nama",nam);
-        hashMap.put("email",mail);
-        hashMap.put("password",password);
-        databaseReference.child(Skey).updateChildren(hashMap);
-        Toast.makeText(EditUser.this,"Data Tersimpan",Toast.LENGTH_SHORT).show();
+        }
+        else if (nama.getText().toString().isEmpty()==true && pass.getText().toString().isEmpty()== false){
+            nama.setError("Nama Tidak Boleh Kosong");
 
+        }
+        else if (nama.getText().toString().isEmpty()==true && pass.getText().toString().isEmpty()== true){
+            nama.setError("Nama Tidak Boleh Kosong");
+            pass.setError("Password Tidak Boleh Kosong");
 
-
+        }
     }
 }

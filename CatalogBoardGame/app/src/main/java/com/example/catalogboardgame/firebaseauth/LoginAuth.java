@@ -65,16 +65,29 @@ public class LoginAuth extends AppCompatActivity {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
                     String manage=snapshot.child("manag").getValue(String.class);
+                    String key= snapshot.child("uid").getValue(String.class);
+                    String nama=snapshot.child("nama").getValue(String.class);
+                    String email=snapshot.child("email").getValue(String.class);
+                    String password=snapshot.child("password").getValue(String.class);
                     Log.d("TAG", "onStart: "+manage);
                     if (manage.equals("1"))
                     {
                         Intent intent =new Intent(LoginAuth.this,DashUser.class);
+                        intent.putExtra("idkey",key);
+                        intent.putExtra("idemail",email);
+                        intent.putExtra("idpass",password);
+                        intent.putExtra("idnama",nama);
+
                         startActivity(intent);
                         finish();
                     }
                     else if (manage.equals("0"))
                     {
                         Intent intent =new Intent(LoginAuth.this,DashAdmin.class);
+                        intent.putExtra("idkeys",key);
+                        intent.putExtra("idemails",email);
+                        intent.putExtra("idpasss",password);
+                        intent.putExtra("idnamas",nama);
                         startActivity(intent);
                         finish();
                     }
@@ -115,10 +128,11 @@ public class LoginAuth extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                checkField(email);
-                checkField(password);
+//                checkField(email);
+//                checkField(password);
+                if (email.getText().toString().isEmpty()==false && password.getText().toString().isEmpty()==false) {
 
-                if (valid) {
+//                if (valid) {
                     firebaseAuth.signInWithEmailAndPassword(email.getText().toString(), password.getText().toString())
                             .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
                                 @Override
@@ -126,16 +140,16 @@ public class LoginAuth extends AppCompatActivity {
                                     Toast.makeText(LoginAuth.this, "Berhasil Masuk", Toast.LENGTH_SHORT).show();
 
 //                                    checkuserAccesLevel(authResult.getUser().getUid());
-                                    UId=authResult.getUser().getUid();
-                                    Log.d("TAG", "onCreateaaaa: "+UId);
-                                    DatabaseReference databaseReference=FirebaseDatabase.getInstance().getReference();
-                                    DatabaseReference reference=databaseReference.child("Akuns").child(UId).child("manag");
-                                    String a=reference.getDatabase().toString();
-                                    String as=reference.toString();
-                                    Log.d("TAG", "onSuccess: "+a);
-                                    Query akunfirebase= reference.orderByChild(UId);
-                                    Log.d("TAG", "checkuserAccesLevel: "+reference);
-                                    databaseReference1=FirebaseDatabase.getInstance().getReference().child("Akuns").child(UId);
+                                    UId = authResult.getUser().getUid();
+                                    Log.d("TAG", "onCreateaaaa: " + UId);
+                                    DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference();
+                                    DatabaseReference reference = databaseReference.child("Akuns").child(UId).child("manag");
+                                    String a = reference.getDatabase().toString();
+                                    String as = reference.toString();
+                                    Log.d("TAG", "onSuccess: " + a);
+                                    Query akunfirebase = reference.orderByChild(UId);
+                                    Log.d("TAG", "checkuserAccesLevel: " + reference);
+                                    databaseReference1 = FirebaseDatabase.getInstance().getReference().child("Akuns").child(UId);
                                     databaseReference1.addValueEventListener(new ValueEventListener() {
                                         @Override
                                         public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -164,37 +178,40 @@ public class LoginAuth extends AppCompatActivity {
 //                                            Log.d("TAG", "onDataChange: "+l);
 
 
-                                            String l=snapshot.child("manag").getValue(String.class);
-                                            String key= snapshot.child("uid").getValue(String.class);
-                                            String nama=snapshot.child("nama").getValue(String.class);
-                                            String email=snapshot.child("email").getValue(String.class);
-                                            String password=snapshot.child("password").getValue(String.class);
-                                            Log.d("TAG", "onDataChangess: "+key);
-                                            Log.d("TAG", "onDataChangess: "+nama);
-                                            Log.d("TAG", "onDataChangess: "+email);
-                                            Log.d("TAG", "onDataChangess: "+password);
+                                            String l = snapshot.child("manag").getValue(String.class);
+                                            String key = snapshot.child("uid").getValue(String.class);
+                                            String nama = snapshot.child("nama").getValue(String.class);
+                                            String email = snapshot.child("email").getValue(String.class);
+                                            String password = snapshot.child("password").getValue(String.class);
+                                            Log.d("TAG", "onDataChangess: " + key);
+                                            Log.d("TAG", "onDataChangess: " + nama);
+                                            Log.d("TAG", "onDataChangess: " + email);
+                                            Log.d("TAG", "onDataChangess: " + password);
 
 
-
-
-                                            if (l.equals("1"))
-                                            {
+                                            if (l.equals("1")) {
                                                 Toast.makeText(LoginAuth.this, "User", Toast.LENGTH_LONG).show();
 
                                                 Intent intent = new Intent(LoginAuth.this, DashUser.class);
-                                                intent.putExtra("idkey",key);
-                                                intent.putExtra("idemail",email);
-                                                intent.putExtra("idpass",password);
-                                                intent.putExtra("idnama",nama);
+                                                intent.putExtra("idkey", key);
+                                                intent.putExtra("idemail", email);
+                                                intent.putExtra("idpass", password);
+                                                intent.putExtra("idnama", nama);
                                                 startActivity(intent);
                                                 finish();
 
-                                            }
-                                            else if (l.equals("0")){
+                                            } else if (l.equals("0")) {
                                                 Toast.makeText(LoginAuth.this, "ADM", Toast.LENGTH_LONG).show();
 
-                                                Intent intents = new Intent(LoginAuth.this, DashAdmin.class);
-                                                startActivity(intents);
+                                                Intent intent = new Intent(LoginAuth.this, DashAdmin.class);
+                                                intent.putExtra("idkeys", key);
+                                                intent.putExtra("idemails", email);
+                                                intent.putExtra("idpasss", password);
+                                                intent.putExtra("idnamas", nama);
+                                                Log.d("TAG", "onClick: " + email);
+                                                Log.d("TAG", "onClick: " + password);
+
+                                                startActivity(intent);
                                                 finish();
 
                                             }
@@ -270,7 +287,6 @@ public class LoginAuth extends AppCompatActivity {
 //                                    });
 
 
-
 //                                    Intent intent = new Intent(LoginAuth.this, DashUser.class);
 //                                    startActivity(intent);
 
@@ -283,6 +299,24 @@ public class LoginAuth extends AppCompatActivity {
                         }
                     });
                 }
+                else if (email.getText().toString().isEmpty()==false && password.getText().toString().isEmpty()==true) {
+                    password.setError("Password Tidak Boleh Kosong");
+                    Toast.makeText(LoginAuth.this, "Password Tidak Boleh Kosong", Toast.LENGTH_LONG).show();
+
+                }
+                else if (email.getText().toString().isEmpty()==true && password.getText().toString().isEmpty()==false) {
+                    email.setError("Email Tidak Boleh Kosong");
+                    Toast.makeText(LoginAuth.this, "Email Tidak Boleh Kosong", Toast.LENGTH_LONG).show();
+
+                }
+                else if (email.getText().toString().isEmpty()==true && password.getText().toString().isEmpty()==true) {
+                    email.setError("Email Tidak Boleh Kosong");
+                    password.setError("Password Tidak Boleh Kosong");
+                    Toast.makeText(LoginAuth.this, "Email dan Password Tidak Boleh Kosong", Toast.LENGTH_LONG).show();
+
+                }
+
+//                }
             }
         });
 
@@ -503,7 +537,7 @@ public class LoginAuth extends AppCompatActivity {
 
     private boolean checkField(EditText textField) {
         if (textField.getText().toString().isEmpty()){
-            textField.setError("ERROR");
+            textField.setError("Data Tidak Boleh Kosong");
             valid=false;
         }
         else{
