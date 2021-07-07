@@ -14,8 +14,8 @@
 
         <ImageView
             android:id="@+id/idIVGambarGame"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
             android:gravity="center"
             android:scaleType="fitXY"
             android:background="@drawable/ic_gallery"

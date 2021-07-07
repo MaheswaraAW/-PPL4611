@@ -75,7 +75,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Leaderboard"
-            android:fontFamily="@font/montserratalternates_regular"
+            android:fontFamily="@font/montserratalternates_medium"
             android:textSize="25sp"
             android:textColor="@color/text2"/>
     </LinearLayout>

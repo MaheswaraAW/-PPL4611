@@ -194,12 +194,13 @@
             <Button
                 android:id="@+id/idBLeaderboard"
                 android:layout_width="0dp"
-                android:layout_height="45dp"
+                android:layout_height="46dp"
                 android:layout_weight="1"
                 android:text="Leaderboard"
                 android:textAllCaps="false"
                 android:fontFamily="@font/montserrat_medium"
                 android:textColor="@color/white"
+                android:textSize="17sp"
                 android:background="@drawable/button_black"/>
             <View
                 android:layout_width="7dp"
@@ -207,12 +208,13 @@
             <Button
                 android:id="@+id/idBAddHistory"
                 android:layout_width="0dp"
-                android:layout_height="45dp"
+                android:layout_height="46dp"
                 android:layout_weight="1"
                 android:text="Add history"
                 android:textAllCaps="false"
                 android:fontFamily="@font/montserrat_medium"
                 android:textColor="@color/black"
+                android:textSize="17sp"
                 android:background="@drawable/button_stroke"/>
         </LinearLayout>
 

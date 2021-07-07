@@ -48,7 +48,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:text="Log in to Board Game"
-        android:fontFamily="@font/montserratalternates_regular"
+        android:fontFamily="@font/montserratalternates_medium"
         android:textColor="@color/text2"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,7 +66,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.193">
+        app:layout_constraintVertical_bias="0.148">
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -79,11 +79,10 @@
                 android:id="@+id/emailuserss"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textEmailAddress"
-
                 android:drawableStart="@drawable/custom_email_icon"
+                android:fontFamily="@font/montserrat_regular"
                 android:drawablePadding="12dp"
-                />
+                android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -98,43 +97,13 @@
                 android:id="@+id/passworduserss"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPassword"
-
                 android:drawableStart="@drawable/custom_pass_icon"
+                android:fontFamily="@font/montserrat_regular"
                 android:drawablePadding="12dp"
-                />
+                android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!--        <EditText-->
-        <!--            android:id="@+id/emailuserss"-->
-        <!--            android:layout_width="match_parent"-->
-        <!--            android:layout_height="wrap_content"-->
-        <!--            android:hint="E-Mails"-->
-        <!--            android:inputType="textEmailAddress"-->
-        <!--            android:layout_marginTop="5dp"-->
-        <!--            android:layout_marginBottom="5dp"-->
-        <!--            android:textSize="16sp" />-->
 
-        <!--        <EditText-->
-        <!--            android:id="@+id/passworduserss"-->
-        <!--            android:layout_width="match_parent"-->
-        <!--            android:layout_height="wrap_content"-->
-        <!--            android:hint="Passwords"-->
-        <!--            android:inputType="textPassword"-->
-        <!--            android:layout_marginTop="5dp"-->
-        <!--            android:layout_marginBottom="5dp"-->
-        <!--            android:textSize="16sp" />-->
-
-        <!--        <Button-->
-        <!--            android:id="@+id/fp"-->
-        <!--            android:layout_width="200dp"-->
-        <!--            android:layout_height="wrap_content"-->
-        <!--            android:layout_marginTop="5dp"-->
-        <!--            android:layout_marginBottom="5dp"-->
-        <!--            android:background="#FBFDFF"-->
-        <!--            android:layout_gravity="right"-->
-        <!--            android:text="Forgot Password?"-->
-        <!--            android:textSize="15sp"/>-->
 
         <Button
             android:id="@+id/loginsss"
@@ -143,9 +112,11 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="5dp"
             android:background="@drawable/button_black"
-            android:text="Login"
+            android:text="Log In"
+            android:fontFamily="@font/montserrat_medium"
+            android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="16sp" />
+            android:textSize="17sp" />
 
         <Button
             android:id="@+id/signupsss"
@@ -155,20 +126,12 @@
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             android:background="@color/white"
-            android:text="SIGN UP"
+            android:text="Sign Up"
+            android:fontFamily="@font/montserrat_medium"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="17sp"
             android:textStyle="bold" />
 
-        <!--        <Button-->
-        <!--            android:id="@+id/signupsss"-->
-        <!--            android:layout_width="match_parent"-->
-        <!--            android:layout_height="wrap_content"-->
-        <!--            android:layout_marginTop="10dp"-->
-        <!--            android:layout_marginBottom="5dp"-->
-        <!--            android:background="#FBFDFF"-->
-        <!--            android:text="Sign Up"-->
-        <!--            android:textSize="16sp"/>-->
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
