@@ -47,6 +47,15 @@
             android:textColor="@color/merah"/>
 
         <ImageView
+            android:id="@+id/edites"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_edit_24"
+            android:textSize="10dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"/>
+        <ImageView
             android:id="@+id/deletes"
             android:layout_width="0dp"
             android:layout_height="match_parent"

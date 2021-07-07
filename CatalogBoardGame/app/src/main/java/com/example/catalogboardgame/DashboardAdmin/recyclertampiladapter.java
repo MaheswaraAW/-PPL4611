@@ -3,12 +3,14 @@ package com.example.catalogboardgame.DashboardAdmin;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -16,7 +18,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.catalogboardgame.KonfirmasiHistory.Adapter.KonfirmasiHistoryAdapter;
 import com.example.catalogboardgame.R;
 import com.example.catalogboardgame.firebaseauth.Akunfirebase;
+import com.example.catalogboardgame.firebaseauth.LoginAuth;
 import com.example.catalogboardgame.model.History;
+import com.example.catalogboardgame.user.DashUser;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
@@ -34,6 +38,7 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class recyclertampiladapter extends RecyclerView.Adapter<recyclertampiladapter.recyclertampilViewHolder>{
 
@@ -126,6 +131,62 @@ public class recyclertampiladapter extends RecyclerView.Adapter<recyclertampilad
                 alertDialog.show();
             }
         });
+
+        holder.Edit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("Akuns");
+                databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot snapshot) {
+                        for(DataSnapshot dataSnapshot : snapshot.getChildren()){
+                            Akunfirebase akuns = dataSnapshot.getValue(Akunfirebase.class);
+                            String idakuns=dataSnapshot.getKey();
+                            if (id.equals(idakuns)) {
+//                                        databaseReference.child(FirebaseAuth.getInstance().getCurrentUser().getUid()).removeValue();
+//                                        Log.d("TAG", "onDataChange: "+databaseReference);
+                                Log.d("TAG", "onDataChangssae: "+id);
+                                Log.d("TAG", "onDataChangsase: "+idakuns);
+
+                                String key = dataSnapshot.getKey();
+                                String nama= dataSnapshot.child("nama").getValue(String.class);
+                                String email= dataSnapshot.child("email").getValue(String.class);
+                                String pass= dataSnapshot.child("password").getValue(String.class);
+                                String access= dataSnapshot.child("manag").getValue(String.class);
+
+                                Intent intent =new Intent(context, EditData.class);
+                                intent.putExtra("idkey",key);
+                                intent.putExtra("idemail",email);
+                                intent.putExtra("idpass",pass);
+                                intent.putExtra("idnama",nama);
+                                intent.putExtra("access",access);
+                                Log.d("TAG", "onDataChangse: "+nama);
+                                Log.d("TAG", "onDataChangse: "+email);
+                                Log.d("TAG", "onDataChangse: "+pass);
+                                Log.d("TAG", "onDataChangse: "+access);
+
+                                context.startActivity(intent);
+//                                dataSnapshot.getRef().removeValue();
+
+
+                            }
+
+
+
+
+
+                        }
+                    }
+
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError error) {
+
+                    }
+                });
+
+            }
+        });
     }
 
 
@@ -136,7 +197,7 @@ public class recyclertampiladapter extends RecyclerView.Adapter<recyclertampilad
 
     public class recyclertampilViewHolder extends RecyclerView.ViewHolder{
         TextView namas,emails, access;
-        ImageView Delete;
+        ImageView Delete,Edit;
 
         public recyclertampilViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -144,6 +205,7 @@ public class recyclertampiladapter extends RecyclerView.Adapter<recyclertampilad
             emails = itemView.findViewById(R.id.emails);
             access = itemView.findViewById(R.id.Access);
             Delete = itemView.findViewById(R.id.deletes);
+            Edit=itemView.findViewById(R.id.edites);
 
         }
     }

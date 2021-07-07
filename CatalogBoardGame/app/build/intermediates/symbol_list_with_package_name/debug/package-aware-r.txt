@@ -1250,6 +1250,7 @@ drawable game1
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_baseline_arrow_back_24
+drawable ic_baseline_edit_24
 drawable ic_bg_splash
 drawable ic_gallery
 drawable ic_head1
@@ -1434,13 +1435,19 @@ id easeInOut
 id easeOut
 id edit
 id edit_query
+id editaccess
 id editadm
 id editemailadmin
 id editemailusers
+id editemailuserss
+id edites
 id editnamaadmin
 id editnamausers
+id editnamauserss
 id editpasswordadmin
 id editpasswordusers
+id editpassworduserss
+id edits
 id email
 id emails
 id emailuser
@@ -1773,6 +1780,7 @@ layout activity_dash_user
 layout activity_dashboard_user
 layout activity_db_admin
 layout activity_edit_admin
+layout activity_edit_data
 layout activity_edit_user
 layout activity_export
 layout activity_konfirmasi_history
