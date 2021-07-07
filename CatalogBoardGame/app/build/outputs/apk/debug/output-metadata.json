@@ -19,12 +19,24 @@
       "filters": [
         {
           "filterType": "ABI",
-          "value": "armeabi"
+          "value": "mips64"
         }
       ],
       "versionCode": 1,
       "versionName": "1.0",
-      "outputFile": "app-armeabi-debug.apk"
+      "outputFile": "app-mips64-debug.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "armeabi-v7a"
+        }
+      ],
+      "versionCode": 1,
+      "versionName": "1.0",
+      "outputFile": "app-armeabi-v7a-debug.apk"
     },
     {
       "type": "ONE_OF_MANY",
@@ -43,18 +55,6 @@
       "filters": [
         {
           "filterType": "ABI",
-          "value": "mips64"
-        }
-      ],
-      "versionCode": 1,
-      "versionName": "1.0",
-      "outputFile": "app-mips64-debug.apk"
-    },
-    {
-      "type": "ONE_OF_MANY",
-      "filters": [
-        {
-          "filterType": "ABI",
           "value": "arm64-v8a"
         }
       ],
@@ -67,12 +67,12 @@
       "filters": [
         {
           "filterType": "ABI",
-          "value": "x86_64"
+          "value": "armeabi"
         }
       ],
       "versionCode": 1,
       "versionName": "1.0",
-      "outputFile": "app-x86_64-debug.apk"
+      "outputFile": "app-armeabi-debug.apk"
     },
     {
       "type": "ONE_OF_MANY",
@@ -91,12 +91,12 @@
       "filters": [
         {
           "filterType": "ABI",
-          "value": "armeabi-v7a"
+          "value": "x86_64"
         }
       ],
       "versionCode": 1,
       "versionName": "1.0",
-      "outputFile": "app-armeabi-v7a-debug.apk"
+      "outputFile": "app-x86_64-debug.apk"
     }
   ]
 }

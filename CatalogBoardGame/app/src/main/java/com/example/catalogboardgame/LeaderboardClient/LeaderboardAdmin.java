@@ -116,6 +116,8 @@ public class LeaderboardAdmin extends AppCompatActivity {
 
                     if(Tanggal.equals(SHariIni())&&NamaGame.equals(SNamaGame)){
                         String dat=""+namax+","+""+wins+","+""+loses+","+""+Tanggal;
+                        time="Hari";
+
 
                         datas.add(dat);
                         Log.d("TAG", "onDataChange: "+datas);
@@ -319,7 +321,7 @@ public class LeaderboardAdmin extends AppCompatActivity {
                 }
                 String asa = as.toString();
                 String ca=da+asa;
-                generateNoteOnSD(LeaderboardAdmin.this,"/"+" "+time+" "+tgl+".csv",ca);
+                generateNoteOnSD(LeaderboardAdmin.this,"/"+" "+tgl+".csv",ca);
 
             }
         });
@@ -357,8 +359,16 @@ public class LeaderboardAdmin extends AppCompatActivity {
     public void generateNoteOnSD(android.content.Context context, String sFileName, String sBody) {
         try {
             String path=context.getFilesDir().getAbsolutePath();
+            String jenis = "";
             String pth= "/storage/emulated/0/CatalogBoardGame";
-            File root = new File(pth + "/Daftar Leaderboard");
+            if (time.equals("Hari"))
+                jenis="Hari";
+            else if (time.equals("Bulan"))
+                jenis="Bulan";
+            else if (time.equals("Tahun"))
+                jenis="Tahun";
+
+            File root = new File(pth + "/Daftar Leaderboard/"+jenis);
             root.mkdir();
             //awalnya file rooth pake path
             Log.d("TAG", "generateNoteOnSD: "+root);
