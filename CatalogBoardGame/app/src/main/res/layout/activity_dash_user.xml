@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:backgroundTint="@color/white"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true"
     tools:context=".user.DashUser">
 
     <LinearLayout
@@ -180,10 +182,15 @@
 
         </GridLayout>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
         <Button
             android:onClick="LogOut"
             android:clickable="true"
             android:text="Log Out"
+            android:padding="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
