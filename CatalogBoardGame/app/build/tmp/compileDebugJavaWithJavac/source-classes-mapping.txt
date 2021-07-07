@@ -1,7 +1,9 @@
 com/example/catalogboardgame/BuildConfig.java
  com.example.catalogboardgame.BuildConfig
-com/example/catalogboardgame/DashboardAdmin/DashAdmin.java
- com.example.catalogboardgame.DashboardAdmin.DashAdmin
+com/example/catalogboardgame/DashboardAdmin/TampilUserRecycler.java
+ com.example.catalogboardgame.DashboardAdmin.TampilUserRecycler
+ com.example.catalogboardgame.DashboardAdmin.TampilUserRecycler$1
+ com.example.catalogboardgame.DashboardAdmin.TampilUserRecycler$2
 com/example/catalogboardgame/model/akn.java
  com.example.catalogboardgame.model.akn
 com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientGambarGameRecyclerAdapter.java
@@ -43,9 +45,8 @@ com/example/catalogboardgame/DaftarGameClient/DaftarGameCLientActiviti.java
  com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActiviti
  com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActiviti$1
  com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActiviti$2
-com/example/catalogboardgame/user/EditUser.java
- com.example.catalogboardgame.user.EditUser
- com.example.catalogboardgame.user.EditUser$1
+com/example/catalogboardgame/DaftarGameClient/Model/CKategori.java
+ com.example.catalogboardgame.DaftarGameClient.Model.CKategori
 com/example/catalogboardgame/BacaGameClient/BacaGameClient.java
  com.example.catalogboardgame.BacaGameClient.BacaGameClient
 com/example/catalogboardgame/DashboardAdmin/dbAdmin.java
@@ -154,12 +155,9 @@ com/example/catalogboardgame/Sign/Daftar.java
 com/example/catalogboardgame/DaftarGameClient/DaftarGameCLientActivitiAdm.java
  com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActivitiAdm
  com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActivitiAdm$1
-com/example/catalogboardgame/firebaseauth/RgisterAuth.java
- com.example.catalogboardgame.firebaseauth.RgisterAuth
- com.example.catalogboardgame.firebaseauth.RgisterAuth$1
- com.example.catalogboardgame.firebaseauth.RgisterAuth$1$1
- com.example.catalogboardgame.firebaseauth.RgisterAuth$1$2
- com.example.catalogboardgame.firebaseauth.RgisterAuth$2
+com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientAdaptersAdm.java
+ com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdaptersAdm
+ com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdaptersAdm$DaftarGameClientViewHolder
 com/example/catalogboardgame/LeaderboardClient/Adapter/LeaderboardClientAdapter.java
  com.example.catalogboardgame.LeaderboardClient.Adapter.LeaderboardClientAdapter
  com.example.catalogboardgame.LeaderboardClient.Adapter.LeaderboardClientAdapter$LeaderboardClientViewHolder
@@ -168,6 +166,13 @@ com/example/catalogboardgame/LeaderboardUser.java
 com/example/catalogboardgame/SplashScreen.java
  com.example.catalogboardgame.SplashScreen
  com.example.catalogboardgame.SplashScreen$1
+com/example/catalogboardgame/BacaGameClient/BacaGameClients.java
+ com.example.catalogboardgame.BacaGameClient.BacaGameClients
+ com.example.catalogboardgame.BacaGameClient.BacaGameClients$1
+ com.example.catalogboardgame.BacaGameClient.BacaGameClients$2
+ com.example.catalogboardgame.BacaGameClient.BacaGameClients$3
+com/example/catalogboardgame/MainActivity.java
+ com.example.catalogboardgame.MainActivity
 com/example/catalogboardgame/firebaseauth/LoginAuth.java
  com.example.catalogboardgame.firebaseauth.LoginAuth
  com.example.catalogboardgame.firebaseauth.LoginAuth$1
@@ -176,24 +181,25 @@ com/example/catalogboardgame/firebaseauth/LoginAuth.java
  com.example.catalogboardgame.firebaseauth.LoginAuth$2$2
  com.example.catalogboardgame.firebaseauth.LoginAuth$2$2$1
  com.example.catalogboardgame.firebaseauth.LoginAuth$3
-com/example/catalogboardgame/MainActivity.java
- com.example.catalogboardgame.MainActivity
-com/example/catalogboardgame/BacaGameClient/BacaGameClients.java
- com.example.catalogboardgame.BacaGameClient.BacaGameClients
- com.example.catalogboardgame.BacaGameClient.BacaGameClients$1
- com.example.catalogboardgame.BacaGameClient.BacaGameClients$2
- com.example.catalogboardgame.BacaGameClient.BacaGameClients$3
-com/example/catalogboardgame/DaftarGameClient/Adapter/DaftarGameClientAdaptersAdm.java
- com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdaptersAdm
- com.example.catalogboardgame.DaftarGameClient.Adapter.DaftarGameClientAdaptersAdm$DaftarGameClientViewHolder
-com/example/catalogboardgame/DaftarGameClient/Model/CKategori.java
- com.example.catalogboardgame.DaftarGameClient.Model.CKategori
+com/example/catalogboardgame/DashboardAdmin/DashAdmin.java
+ com.example.catalogboardgame.DashboardAdmin.DashAdmin
+com/example/catalogboardgame/firebaseauth/RgisterAuth.java
+ com.example.catalogboardgame.firebaseauth.RgisterAuth
+ com.example.catalogboardgame.firebaseauth.RgisterAuth$1
+ com.example.catalogboardgame.firebaseauth.RgisterAuth$1$1
+ com.example.catalogboardgame.firebaseauth.RgisterAuth$1$1$1
+ com.example.catalogboardgame.firebaseauth.RgisterAuth$1$1$2
+ com.example.catalogboardgame.firebaseauth.RgisterAuth$1$2
+ com.example.catalogboardgame.firebaseauth.RgisterAuth$2
+com/example/catalogboardgame/user/EditUser.java
+ com.example.catalogboardgame.user.EditUser
+ com.example.catalogboardgame.user.EditUser$1
+ com.example.catalogboardgame.user.EditUser$2
+ com.example.catalogboardgame.user.EditUser$3
 com/example/catalogboardgame/DashboardAdmin/EditAdmin.java
  com.example.catalogboardgame.DashboardAdmin.EditAdmin
  com.example.catalogboardgame.DashboardAdmin.EditAdmin$1
-com/example/catalogboardgame/DashboardAdmin/TampilUserRecycler.java
- com.example.catalogboardgame.DashboardAdmin.TampilUserRecycler
- com.example.catalogboardgame.DashboardAdmin.TampilUserRecycler$1
- com.example.catalogboardgame.DashboardAdmin.TampilUserRecycler$2
+ com.example.catalogboardgame.DashboardAdmin.EditAdmin$2
+ com.example.catalogboardgame.DashboardAdmin.EditAdmin$3
 com/example/catalogboardgame/user/DashUser.java
  com.example.catalogboardgame.user.DashUser

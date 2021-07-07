@@ -93,23 +93,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:hint="Nama">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/editnamausers"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:drawableStart="@drawable/custom_name_icon"
-
-                android:drawablePadding="12dp"
-                android:inputType="textPersonName" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
             android:hint="E-Mail">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -121,6 +104,24 @@
 
                 android:enabled="false"
                 android:inputType="textEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="Nama">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editnamausers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/custom_name_icon"
+
+                android:drawablePadding="12dp"
+                android:inputType="textPersonName" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout

@@ -87,24 +87,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:hint="Nama">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/editnamaadmin"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-
-                android:drawableStart="@drawable/custom_name_icon"
-                android:drawablePadding="12dp"
-                />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
             android:hint="E-Mail">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -115,6 +97,25 @@
                 android:inputType="textEmailAddress"
 
                 android:drawableStart="@drawable/custom_email_icon"
+                android:drawablePadding="12dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="Nama">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editnamaadmin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+
+                android:drawableStart="@drawable/custom_name_icon"
                 android:drawablePadding="12dp"
                 />
         </com.google.android.material.textfield.TextInputLayout>

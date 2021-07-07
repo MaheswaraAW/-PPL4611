@@ -2,6 +2,8 @@ package com.example.catalogboardgame.user;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -57,33 +59,52 @@ public class EditUser extends AppCompatActivity {
     }
 
     private void UpdateData() {
-        if (nama.getText().toString().isEmpty()==false && pass.getText().toString().isEmpty()==false) {
-            if (pass.getText().toString().length() <7)
-                pass.setError("Password Minimal 7 Huruf");
-            else {
-                String nam = nama.getText().toString();
-                String mail = email.getText().toString();
-                String password = pass.getText().toString();
-                HashMap hashMap = new HashMap();
-                hashMap.put("nama", nam);
-                hashMap.put("email", mail);
-                hashMap.put("password", password);
-                databaseReference.child(Skey).updateChildren(hashMap);
-                Toast.makeText(EditUser.this, "Data Tersimpan", Toast.LENGTH_SHORT).show();
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(EditUser.this);
+        builder.setTitle("Edit Akun");
+        builder.setMessage("Apakah kamu yakin akan mengedit akun?");
+        builder.setPositiveButton("Iya", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                if (nama.getText().toString().isEmpty()==false && pass.getText().toString().isEmpty()==false) {
+                    if (pass.getText().toString().length() <7)
+                        pass.setError("Password Minimal 7 Huruf");
+                    else {
+                        String nam = nama.getText().toString();
+                        String mail = email.getText().toString();
+                        String password = pass.getText().toString();
+                        HashMap hashMap = new HashMap();
+                        hashMap.put("nama", nam);
+                        hashMap.put("email", mail);
+                        hashMap.put("password", password);
+                        databaseReference.child(Skey).updateChildren(hashMap);
+                        Toast.makeText(EditUser.this, "Data Tersimpan", Toast.LENGTH_SHORT).show();
+                    }
+                }
+                else if (nama.getText().toString().isEmpty()==false && pass.getText().toString().isEmpty()== true){
+                    pass.setError("Passsword Tidak Boleh Kosong");
+
+                }
+                else if (nama.getText().toString().isEmpty()==true && pass.getText().toString().isEmpty()== false){
+                    nama.setError("Nama Tidak Boleh Kosong");
+
+                }
+                else if (nama.getText().toString().isEmpty()==true && pass.getText().toString().isEmpty()== true){
+                    nama.setError("Nama Tidak Boleh Kosong");
+                    pass.setError("Password Tidak Boleh Kosong");
+
+                }
+
             }
-        }
-        else if (nama.getText().toString().isEmpty()==false && pass.getText().toString().isEmpty()== true){
-            pass.setError("Passsword Tidak Boleh Kosong");
+        });
+        builder.setNegativeButton("Tidak", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
 
-        }
-        else if (nama.getText().toString().isEmpty()==true && pass.getText().toString().isEmpty()== false){
-            nama.setError("Nama Tidak Boleh Kosong");
+            }
+        });
+        AlertDialog alertDialog=builder.create();
+        alertDialog.show();
 
-        }
-        else if (nama.getText().toString().isEmpty()==true && pass.getText().toString().isEmpty()== true){
-            nama.setError("Nama Tidak Boleh Kosong");
-            pass.setError("Password Tidak Boleh Kosong");
-
-        }
     }
 }
