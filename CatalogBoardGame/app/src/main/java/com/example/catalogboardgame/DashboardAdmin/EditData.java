@@ -84,10 +84,11 @@ public class EditData extends AppCompatActivity {
                         String nam = nama.getText().toString();
                         String mail = email.getText().toString();
                         String password = pass.getText().toString();
-                        String manag = access.getText().toString();
 
-                        if (manag.equals("Admin") || manag.equals("User"))
+                        if (access.getText().toString().equals("Admin") || access.getText().toString().equals("User"))
                         {
+                            String manag = access.getText().toString();
+
                             if (manag.equals("Admin"))
                                 manag="0";
                             else if (manag.equals("User"))
@@ -101,7 +102,7 @@ public class EditData extends AppCompatActivity {
                             Toast.makeText(EditData.this, "Data Tersimpan", Toast.LENGTH_SHORT).show();
 
                         }
-                        else 
+                        else
                         {
                             access.setError("Isi Access Dengan “Admin” atau “User”");
                         }
