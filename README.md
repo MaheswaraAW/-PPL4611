@@ -18,3 +18,29 @@ Catalog Board Game adalah aplikasi yang dibuat untuk melakukan pendataan hasil p
 ## Penugasan
 ![Penugasan2](https://user-images.githubusercontent.com/80021275/115653228-ff439200-a358-11eb-84f0-2a0cc069aea9.PNG)
 
+
+## Fitur Aplikasi
+- Sign Up
+- Login
+- Auto Login
+- Admin
+  - Dashboard
+  - Edit Profil
+  - Daftar User
+  - Daftar Game
+  - Detail Game
+  - LeaderBoard
+  - Konfirmasi History
+  - Tambah Game
+  - Log Out
+  - Export Daftar User
+  - Export Leaderboard
+  - Delete User
+  - Edit Access Level dan Nama User
+- User
+  - Daftar Game
+  - Edit Profil
+  - Log out
+  - Detail Game
+  - Tambah History
+  - Leaderboard
