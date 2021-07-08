@@ -24,7 +24,7 @@ Catalog Board Game adalah aplikasi yang dibuat untuk melakukan pendataan hasil p
 - Login
 - Auto Login
 - Admin
-  - Dashboard
+  - Dashboard Admin
   - Edit Profil
   - Daftar User
   - Daftar Game
@@ -38,6 +38,7 @@ Catalog Board Game adalah aplikasi yang dibuat untuk melakukan pendataan hasil p
   - Delete User
   - Edit Access Level dan Nama User
 - User
+  - Dashboard User
   - Daftar Game
   - Edit Profil
   - Log out
