@@ -4,24 +4,24 @@
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\activity_dashboard_user.xml"
     },
     {
-        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_recyclerview_konfirmasi_history.xml.flat",
-        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\recyclerview_konfirmasi_history.xml"
+        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_rgister_auth.xml.flat",
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\activity_rgister_auth.xml"
     },
     {
-        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_kembali.png.flat",
-        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\kembali.png"
+        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_recyclerview_konfirmasi_history.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\recyclerview_konfirmasi_history.xml"
     },
     {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_cakonfirm.png.flat",
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\cakonfirm.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_kembali.png.flat",
+        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\kembali.png"
     },
     {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_cakonfirm.png.flat",
@@ -60,12 +60,12 @@
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\password_fokus.png"
     },
     {
-        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_border_kategori.xml.flat",
-        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\drawable-v24\\border_kategori.xml"
-    },
-    {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_name_fokus.png.flat",
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\name_fokus.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_border_kategori.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\drawable-v24\\border_kategori.xml"
     },
     {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_password_fokus.png.flat",
@@ -100,12 +100,12 @@
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\lihat_game_client_recycler_row_gambar_game.xml"
     },
     {
-        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_kembali.png.flat",
-        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\kembali.png"
-    },
-    {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_password.png.flat",
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\password.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_kembali.png.flat",
+        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\kembali.png"
     },
     {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_delete.png.flat",
@@ -156,12 +156,12 @@
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\font\\montserratalternates_medium.ttf"
     },
     {
-        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
-    },
-    {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_name.png.flat",
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\name.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
@@ -176,12 +176,12 @@
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\password_fokus.png"
     },
     {
-        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_daftar_game_client.xml.flat",
-        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\activity_daftar_game_client.xml"
-    },
-    {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_password_fokus.png.flat",
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\password_fokus.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_daftar_game_client.xml.flat",
+        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\activity_daftar_game_client.xml"
     },
     {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_password.xml.flat",
@@ -252,12 +252,12 @@
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\layout\\activity_daftar.xml"
     },
     {
-        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon.png.flat",
-        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\drawable\\icon.png"
-    },
-    {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_name_icon.xml.flat",
         "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\drawable\\custom_name_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon.png.flat",
+        "source": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\src\\main\\res\\drawable\\icon.png"
     },
     {
         "merged": "C:\\Users\\Lenovo\\Documents\\GitHub\\PPL4611\\CatalogBoardGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_password.png.flat",

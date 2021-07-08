@@ -132,7 +132,7 @@
                     android:gravity="center"
                     android:textStyle="bold"
                     android:textSize="14sp"
-                    android:textColor="@color/blue"/>
+                    android:textColor="@color/merah"/>
 
                 <TextView
                     android:layout_width="0dp"
@@ -144,7 +144,7 @@
                     android:textStyle="bold"
                     android:textSize="14sp"
                     android:layout_marginRight="5dp"
-                    android:textColor="@color/merah"/>
+                    android:textColor="@color/blue"/>
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
