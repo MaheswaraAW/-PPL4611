@@ -85,17 +85,27 @@ public class EditData extends AppCompatActivity {
                         String mail = email.getText().toString();
                         String password = pass.getText().toString();
                         String manag = access.getText().toString();
-                        if (manag.equals("Admin"))
-                            manag="0";
-                        else if (manag.equals("User"))
-                            manag="1";
-                        HashMap hashMap = new HashMap();
-                        hashMap.put("nama", nam);
-                        hashMap.put("email", mail);
-                        hashMap.put("manag", manag);
-                        hashMap.put("password", password);
-                        databaseReference.child(Skey).updateChildren(hashMap);
-                        Toast.makeText(EditData.this, "Data Tersimpan", Toast.LENGTH_SHORT).show();
+
+                        if (manag.equals("Admin") || manag.equals("User"))
+                        {
+                            if (manag.equals("Admin"))
+                                manag="0";
+                            else if (manag.equals("User"))
+                                manag="1";
+                            HashMap hashMap = new HashMap();
+                            hashMap.put("nama", nam);
+                            hashMap.put("email", mail);
+                            hashMap.put("manag", manag);
+                            hashMap.put("password", password);
+                            databaseReference.child(Skey).updateChildren(hashMap);
+                            Toast.makeText(EditData.this, "Data Tersimpan", Toast.LENGTH_SHORT).show();
+
+                        }
+                        else 
+                        {
+                            access.setError("Isi Access Dengan “Admin” atau “User”");
+                        }
+
                     }
                 }
 //                else if (nama.getText().toString().isEmpty()==false && access.getText().toString().isEmpty()==false) {
